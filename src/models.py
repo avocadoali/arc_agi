@@ -48,6 +48,10 @@ class Model(str, Enum):
     openrouter_o1_mini = "openai/o1-mini-preview"
     # gemini_1_5_pro = "gemini-1.5-pro"
     gemini_1_5_pro = "gemini-1.5-pro-002"
+    
+
+    # TODO: add llama 3.1 8b instruct
+    llama_3_1_8b_instruct = "meta-llama/llama-3.1-8b-instruct"
 
 
 class ModelPrice(BaseModel):
@@ -410,6 +414,7 @@ class Attempt(BaseModel):
         from src.llms import get_next_messages
 
         try:
+            # breakpoint()
             next_messages = await get_next_messages(
                 messages=deepcopy(messages),
                 model=attempt_config.llm_config.model,

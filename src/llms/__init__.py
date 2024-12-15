@@ -149,6 +149,55 @@ async def get_next_message_openai(
             await asyncio.sleep(retry_secs)
     return message.choices[0].message.content, usage
 
+# for llama
+async def get_next_message_llama(
+    llama_client: AsyncOpenAI,
+    messages: list[dict[str, T.Any]],
+    model: Model,
+    temperature: float,
+    retry_secs: int = 15,
+    max_retries: int = 200,
+) -> tuple[str, ModelUsage] | None:
+    retry_count = 0
+    params = {
+        "temperature": temperature,
+        "max_tokens": 30_000,
+        "messages": messages,
+        "model": model.value,
+        "timeout": 120,
+    }
+    while True:
+        try:
+            request_id = random_string()
+            start = time.time()
+            logfire.debug(f"[{request_id}] calling llama")
+            message = await llama_client.chat.completions.create(**params)    
+            took_ms = (time.time() - start) * 1000
+            
+            # TODO: see if parama are correct 
+            usage = ModelUsage(
+                cache_creation_input_tokens=0,
+                cache_read_input_tokens=0,
+                input_tokens=message.usage.prompt_tokens,
+                output_tokens=message.usage.completion_tokens,
+            )
+            logfire.debug(
+                f"[{request_id}] got back llama, took {took_ms:.2f}, {usage}"
+            )
+            break  # Success, exit the loop
+
+        except Exception as e:
+            logfire.debug(
+                f"Other llama error: {str(e)}, retrying in {retry_count} seconds ({retry_count}/{max_retries})..."
+            )
+            retry_count += 1
+            if retry_count >= max_retries:
+                return None
+            await asyncio.sleep(retry_secs)
+    return message.choices[0].message.content, usage
+
+
+
 
 async def get_next_message_gemini(
     cache: gemini_caching.CachedContent,
@@ -211,6 +260,8 @@ async def get_next_messages(
 ) -> list[tuple[str, ModelUsage]] | None:
     if n_times <= 0:
         return []
+    
+
     if model in [Model.claude_3_5_sonnet, Model.claude_3_5_haiku]:
         if model == Model.claude_3_5_haiku:
             messages = text_only_messages(messages)
@@ -270,6 +321,12 @@ async def get_next_messages(
         ]
         # filter out the Nones
         return [m for m in n_messages if m]
+    
+
+
+
+
+
     elif model in [Model.gpt_4o, Model.gpt_4o_mini, Model.o1_mini, Model.o1_preview]:
         openai_client = AsyncOpenAI(api_key=os.environ["OPENAI_API_KEY"])
         if model in [Model.o1_mini, Model.o1_preview]:
@@ -297,6 +354,8 @@ async def get_next_messages(
         ]
         # filter out the Nones
         return [m for m in n_messages if m]
+    
+
     elif model in [Model.gemini_1_5_pro]:
         if messages[0]["role"] == "system":
             system_messages = messages[0]["content"]
@@ -318,21 +377,23 @@ async def get_next_messages(
                 for c in message["content"]:
                     if c["type"] == "text":
                         parts.append(genai.types.PartDict(text=c["text"]))
-                    elif c["type"] == "image_url":
-                        image = PIL.Image.open(
-                            io.BytesIO(
-                                base64.b64decode(
-                                    c["image_url"]["url"].replace(
-                                        "data:image/png;base64,", ""
-                                    )
-                                )
-                            )
-                        )
-                        if image.mode == "RGBA":
-                            image = image.convert("RGB")
-                        parts.append(image)
+                    # elif c["type"] == "image_url":
+                    #     image = PIL.Image.open(
+                    #         io.BytesIO(
+                    #             base64.b64decode(
+                    #                 c["image_url"]["url"].replace(
+                    #                     "data:image/png;base64,", ""
+                    #                 )
+                    #             )
+                    #         )
+                    #     )
+                    #     if image.mode == "RGBA":
+                    #         image = image.convert("RGB")
+                    #     parts.append(image)
+
             gemini_contents.append(genai.types.ContentDict(role=role, parts=parts))
 
+        breakpoint()
         cache = gemini_caching.CachedContent.create(
             model=model.value,
             display_name=f"{random_string(10)}-{n_times}",  # used to identify the cache
@@ -340,6 +401,8 @@ async def get_next_messages(
             contents=gemini_contents,
             ttl=timedelta(minutes=5),
         )
+
+        breakpoint()
 
         n_messages = [
             *await asyncio.gather(
@@ -353,8 +416,35 @@ async def get_next_messages(
         ]
         # filter out the Nones
         return [m for m in n_messages if m]
+    elif model == Model.llama_3_1_8b_instruct:
+        llama_client = AsyncOpenAI(api_key=os.environ["LLAMA_API_KEY"])
+        n_messages = [
+            await get_next_message_llama(
+                llama_client=llama_client,
+                messages=messages,
+                model=model,
+                temperature=temperature,
+            ),
+            *await asyncio.gather(
+                *[
+                    get_next_message_llama(
+                        llama_client=llama_client,
+                        messages=messages,
+                        model=model,
+                        temperature=temperature,
+                    )
+                    for _ in range(n_times - 1)
+                ]
+            ),
+        ]
+        return n_messages
+
     else:
         raise ValueError(f"Invalid model: {model}")
+
+
+
+
 
 
 async def get_next_message(
