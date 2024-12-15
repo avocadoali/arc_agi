@@ -172,6 +172,7 @@ async def get_next_message_llama(
             start = time.time()
             logfire.debug(f"[{request_id}] calling llama")
             message = await llama_client.chat.completions.create(**params)    
+            
             took_ms = (time.time() - start) * 1000
             
             # TODO: see if parama are correct 
@@ -181,9 +182,11 @@ async def get_next_message_llama(
                 input_tokens=message.usage.prompt_tokens,
                 output_tokens=message.usage.completion_tokens,
             )
+
             logfire.debug(
-                f"[{request_id}] got back llama, took {took_ms:.2f}, {usage}"
+                f"[{request_id}] got back llama, took {took_ms:.2f}, {usage}, cost_cents={Attempt.cost_cents_from_usage(model=model, usage=usage)}"
             )
+
             break  # Success, exit the loop
 
         except Exception as e:
@@ -417,7 +420,16 @@ async def get_next_messages(
         # filter out the Nones
         return [m for m in n_messages if m]
     elif model == Model.llama_3_1_8b_instruct:
-        llama_client = AsyncOpenAI(api_key=os.environ["LLAMA_API_KEY"])
+        
+    
+        logfire.debug(f"calling llama {model.value}")
+
+        llama_client = AsyncOpenAI(
+            base_url="http://localhost:8000/v1",
+            api_key="token-abc123"
+        )
+
+
         n_messages = [
             await get_next_message_llama(
                 llama_client=llama_client,
