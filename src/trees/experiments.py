@@ -12,7 +12,9 @@ from src.models import (
 )
 
 # TODO: Change model here
-model = Model.llama_3_1_8b_instruct
+# model = Model.llama_3_1_8b_instruct
+model = Model.qwen2_5_14b
+# model = Model.qwen2_5_code_32b
 
 # model = Model.claude_3_5_sonnet
 # model = Model.gpt_4o

@@ -623,8 +623,12 @@ async def solve_challenge(
                 )
                 j = r.json()
             print(f"[{challenge.id}] solved")
+
             return j
         except Exception as e:
+
+            breakpoint()
+            logfire.debug(f"In run logic")
             logfire.debug(f"ERROR RUNNING PYTHON: {e}")
             pass
 

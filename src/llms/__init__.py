@@ -149,9 +149,9 @@ async def get_next_message_openai(
             await asyncio.sleep(retry_secs)
     return message.choices[0].message.content, usage
 
-# for llama
-async def get_next_message_llama(
-    llama_client: AsyncOpenAI,
+# get next message for llama
+async def get_next_message_vllm(
+    vllm_client: AsyncOpenAI,
     messages: list[dict[str, T.Any]],
     model: Model,
     temperature: float,
@@ -159,23 +159,47 @@ async def get_next_message_llama(
     max_retries: int = 200,
 ) -> tuple[str, ModelUsage] | None:
     retry_count = 0
+
+
+
+    messages = text_only_messages(messages)
+
     params = {
-        "temperature": temperature,
-        "max_tokens": 30_000,
+        # "temperature": temperature,
+        # "max_tokens": 30_000,
         "messages": messages,
         "model": model.value,
-        "timeout": 120,
+        # "timeout": 120,
     }
+    # breakpoint()
+
     while True:
         try:
             request_id = random_string()
             start = time.time()
-            logfire.debug(f"[{request_id}] calling llama")
-            message = await llama_client.chat.completions.create(**params)    
+            logfire.debug(f"[{request_id}] calling vllm model")
+            # message = await llama_client.chat.completions.create(**params)    
+
+            # breakpoint()
+
+            # logfire.debug(f"Messages: {messages}")
+
+
+            # message = await llama_client.chat.completions.create(
+            #     model="meta-llama/Llama-3.1-8B-Instruct",
+            #     # messages=[{"role": "user", "content": 'write a 100 word long story'}],
+            #     messages= messages
+            # )
             
+            message = await vllm_client.chat.completions.create(**params)
+
+            # logfire.debug('getting message done')
+            # breakpoint()
+
             took_ms = (time.time() - start) * 1000
             
-            # TODO: see if parama are correct 
+            # logfire.debug('get model usage')
+            # breakpoint()
             usage = ModelUsage(
                 cache_creation_input_tokens=0,
                 cache_read_input_tokens=0,
@@ -183,15 +207,23 @@ async def get_next_message_llama(
                 output_tokens=message.usage.completion_tokens,
             )
 
-            logfire.debug(
-                f"[{request_id}] got back llama, took {took_ms:.2f}, {usage}, cost_cents={Attempt.cost_cents_from_usage(model=model, usage=usage)}"
-            )
+            # logfire.debug('get model usage done')
+
+
+            logfire.debug(f"Model name is: {model}, usage is {usage}")
+            # Attempt.cost_cents_from_usage(model=model, usage=usage)
+
+
+            # logfire.debug(
+            #     f"[{request_id}] got back llama, took {took_ms:.2f}, {usage}, cost_cents={Attempt.cost_cents_from_usage(model=model, usage=usage)}"
+            # )
+
 
             break  # Success, exit the loop
 
         except Exception as e:
             logfire.debug(
-                f"Other llama error: {str(e)}, retrying in {retry_count} seconds ({retry_count}/{max_retries})..."
+                f"Other vllm error: {str(e)}, retrying in {retry_count} seconds ({retry_count}/{max_retries})..."
             )
             retry_count += 1
             if retry_count >= max_retries:
@@ -396,7 +428,7 @@ async def get_next_messages(
 
             gemini_contents.append(genai.types.ContentDict(role=role, parts=parts))
 
-        breakpoint()
+        # breakpoint()
         cache = gemini_caching.CachedContent.create(
             model=model.value,
             display_name=f"{random_string(10)}-{n_times}",  # used to identify the cache
@@ -405,7 +437,7 @@ async def get_next_messages(
             ttl=timedelta(minutes=5),
         )
 
-        breakpoint()
+        # breakpoint()
 
         n_messages = [
             *await asyncio.gather(
@@ -419,28 +451,27 @@ async def get_next_messages(
         ]
         # filter out the Nones
         return [m for m in n_messages if m]
-    elif model == Model.llama_3_1_8b_instruct:
+    else:
         
     
-        logfire.debug(f"calling llama {model.value}")
-
-        llama_client = AsyncOpenAI(
+        vllm_client = AsyncOpenAI(
             base_url="http://localhost:8000/v1",
             api_key="token-abc123"
         )
 
+        logfire.debug('Creating vllm client done ')
 
         n_messages = [
-            await get_next_message_llama(
-                llama_client=llama_client,
+            await get_next_message_vllm(
+                vllm_client=vllm_client,
                 messages=messages,
                 model=model,
                 temperature=temperature,
             ),
             *await asyncio.gather(
                 *[
-                    get_next_message_llama(
-                        llama_client=llama_client,
+                    get_next_message_vllm(
+                        vllm_client=vllm_client,
                         messages=messages,
                         model=model,
                         temperature=temperature,
@@ -451,8 +482,8 @@ async def get_next_messages(
         ]
         return n_messages
 
-    else:
-        raise ValueError(f"Invalid model: {model}")
+    # else:
+    #     raise ValueError(f"Invalid model: {model}")
 
 
 
@@ -743,7 +774,14 @@ def parse_python_backticks(s: str) -> str:
 
     assert s.count("```python") == 1
 
+
+
+
     attempted_search = re.search(r"```python\n(.*)\n```", s, re.DOTALL | re.MULTILINE)
+
+    # breakpoint()
+    # logfire.debug(f"Code strings: {s}")
+
     if attempted_search is not None:
         return clean_code(attempted_search.group(1))
 
@@ -754,7 +792,12 @@ def parse_python_backticks(s: str) -> str:
     else:
         logfire.debug("PARSE ERROR CASE (2!)")
 
-    return clean_code(s.partition("```python")[2])
+    code_sol = clean_code(s.partition("```python")[2])
+    # code_string = re.sub(r'```$', '', code_sol)
+
+    # breakpoint()
+    # logfire.debug(f"code sol: {code_sol}")
+    return code_sol
 
 
 def parse_2d_arrays_from_string(s: str) -> list[list[list[int]]]:
