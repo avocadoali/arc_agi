@@ -480,6 +480,8 @@ async def get_next_messages(
                 ]
             ),
         ]
+
+        logfire.debug('Got the n_messages')
         return n_messages
 
     # else:
@@ -796,7 +798,7 @@ def parse_python_backticks(s: str) -> str:
     # code_string = re.sub(r'```$', '', code_sol)
 
     # breakpoint()
-    # logfire.debug(f"code sol: {code_sol}")
+    logfire.debug(f"code sol: {code_sol}")
     return code_sol
 
 

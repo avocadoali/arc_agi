@@ -536,6 +536,9 @@ async def run_tree(
         message = f"[{challenge.id}] running root node with {root_attempt_config.attempts} attempts."
         print(message)
         logfire.debug(message)
+
+        logfire.debug('strarting attempt run')
+
         local_attempts = await Attempt.run_many(
             challenge=challenge,
             attempt_config=root_attempt_config,
@@ -545,6 +548,9 @@ async def run_tree(
         )
         start_eval = time.time()
         took_level = time.time() - start_level
+
+        logfire.debug('startgin eval attempts')
+
         eval_attempts(
             attempts=local_attempts,
             config=root_attempt_config,
@@ -555,9 +561,15 @@ async def run_tree(
         all_attempts.extend(local_attempts)
         all_attempts = dedup_attempts(all_attempts)
 
+
+        logfire.debug('try for perfect attemtps')
+
         # now see if you have a solution
         if has_perfect_attempts(all_attempts):
             return all_attempts
+        
+
+        logfire.debug('run fixes')
 
         # now run the fixes
         if root_attempt_config.include_all_attempts_in_fixes:
@@ -571,7 +583,13 @@ async def run_tree(
                 warm_cache=warm_cache_fix,
             )
         )
+
+
         all_attempts = dedup_attempts(all_attempts)
+
+
+
+        logfire.debug('checkt attempts again')
 
         # now see if you have a solution
         if has_perfect_attempts(all_attempts):

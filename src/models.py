@@ -351,6 +351,8 @@ class Attempt(BaseModel):
         from src.llms import parse_2d_arrays_from_string, parse_python_backticks
         from src.run_python import run_python_transform_async
 
+        logfire.debug(f"LLM RESPONSE: {llm_response}")
+
         if returns_python:
             python_str = parse_python_backticks(llm_response)
             # debug(python_str)

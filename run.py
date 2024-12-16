@@ -149,6 +149,9 @@ async def run_from_json(
     solutions_dir = Path(temp_solutions_dir_path)
     solutions_dir.mkdir(exist_ok=True)
 
+
+    logfire.debug('process challenges w limit')
+
     await process_challenges_with_limit(
         challenges=list(challenges.values()),
         solutions_d=solutions_d,
@@ -173,6 +176,7 @@ async def run() -> None:
     challenges_path = "arc-prize-2024/arc-agi_training_challenges.json"
     truth_solutions_path = "arc-prize-2024/arc-agi_training_solutions.json"
     attempts_solutions_path = "test_data/training_solutions.json"
+    logfire.debug('run from json')
     await run_from_json(
         challenges_path=challenges_path,
         solutions_path=attempts_solutions_path,
@@ -189,6 +193,8 @@ async def run() -> None:
         max_concurrent=20,
         # only_run_ids={"045e512c"},
     )
+
+    logfire.debug('eval solutions')
     evaluate_solutions(
         attempts_solutions_path=attempts_solutions_path,
         truth_solutions_path=truth_solutions_path,
