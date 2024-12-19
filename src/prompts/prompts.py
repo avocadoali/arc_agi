@@ -24,7 +24,7 @@ Note that in each of these cases, you would need to find the rule by carefully e
 
 You'll need to carefully reason in order to determine the transformation rule. Start your response by carefully reasoning in <reasoning></reasoning> tags. Then, implement the transformation in code.
 
-After your reasoning, write code in triple backticks (```python and then ```). You should write a function called `transform` which takes a single argument, the input grid as `list[list[int]]`, and returns the transformed grid (also as `list[list[int]]`). You should make sure that you implement a version of the transformation which works in general (for inputs which have the same properties as the example inputs and the additional input(s)).
+After your reasoning, write code in triple backticks (```python and then \n```). You should write a function called `transform` which takes a single argument, the input grid as `list[list[int]]`, and returns the transformed grid (also as `list[list[int]]`). You should make sure that you implement a version of the transformation which works in general (for inputs which have the same properties as the example inputs and the additional input(s)).
 
 Don't write tests in your python code, just output the `transform` function.
 
@@ -36,7 +36,7 @@ You are creative and accomplished at solving puzzles.
 """
 
 PYTHON_PART = """
-After your reasoning, write code in triple backticks (```python and then ```).
+After your reasoning, write code in triple backticks (```python and then \n```).
 You should write a function called `transform` which takes a single argument, the input grid as `list[list[int]]`, and returns the transformed grid (also as `list[list[int]]`).
 Your python code should not use libraries outside of the standard python libraries besides numpy.You can create helper functions.
 You should make sure that you implement a version of the transformation which works in general (for inputs which have the same properties as the example inputs and the additional input(s)).

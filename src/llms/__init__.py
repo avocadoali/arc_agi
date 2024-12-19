@@ -165,11 +165,11 @@ async def get_next_message_vllm(
     messages = text_only_messages(messages)
 
     params = {
-        # "temperature": temperature,
-        # "max_tokens": 30_000,
+        "temperature": temperature,
+        "max_tokens": 8_192,
         "messages": messages,
         "model": model.value,
-        # "timeout": 120,
+        "timeout": 120,
     }
     # breakpoint()
 
@@ -797,8 +797,6 @@ def parse_python_backticks(s: str) -> str:
     code_sol = clean_code(s.partition("```python")[2])
     # code_string = re.sub(r'```$', '', code_sol)
 
-    # breakpoint()
-    logfire.debug(f"code sol: {code_sol}")
     return code_sol
 
 

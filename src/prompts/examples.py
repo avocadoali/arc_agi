@@ -101,7 +101,8 @@ def transform(grid_lst: list[list[int]]) -> list[list[int]]:
                     elif col > max_col:
                         grid[row, max_col] = color
 
-    return grid.tolist()```
+    return grid.tolist()
+```
 """.strip()
 
 GRID_SAME_PROMPT_EXAMPLE_1 = [
@@ -237,7 +238,7 @@ GRID_SAME_PROMPT_EXAMPLE_1 = [
         "4. If the colored cell is above/below the central shape, replace the top/bottom (respectively) cell "
         "in the same column on the central shape with the colored cell.\n5. If the colored cell is to the left/right "
         "of the central shape, replace the left/right cell in the same row on the central shape with the colored cell.\n\n"
-        "Now let's implement this in the code.\n</reasoning>\n\n```python\nimport numpy as np\n\ndef transform(grid_lst: list[list[int]]) -> list[list[int]]:\n    grid = np.array(grid_lst)\n    purple_color = 8\n\n    # Find the bounding box of the purple rectangle\n    purple_shape = np.argwhere(grid == purple_color)\n    min_row, min_col = np.min(purple_shape, axis=0)\n    max_row, max_col = np.max(purple_shape, axis=0)\n\n    # Iterate over the grid to find colored cells around the purple rectangle\n    rows, cols = grid.shape\n    for row in range(rows):\n        for col in range(cols):\n            color = grid[row, col]\n            if color != 0 and color != purple_color:\n                # If the colored cell is above/below the central shape\n                if col >= min_col and col <= max_col:\n                    if row < min_row:\n                        grid[min_row, col] = color\n                    elif row > max_row:\n                        grid[max_row, col] = color\n                # If the colored cell is to the left/right of the central shape\n                if row >= min_row and row <= max_row:\n                    if col < min_col:\n                        grid[row, min_col] = color\n                    elif col > max_col:\n                        grid[row, max_col] = color\n\n    return grid.tolist()\n```",
+        "Now let's implement this in the code.\n</reasoning>\n\n```python\nimport numpy as np\n\ndef transform(grid_lst: list[list[int]]) -> list[list[int]]:\n    grid = np.array(grid_lst)\n    purple_color = 8\n\n    # Find the bounding box of the purple rectangle\n    purple_shape = np.argwhere(grid == purple_color)\n    min_row, min_col = np.min(purple_shape, axis=0)\n    max_row, max_col = np.max(purple_shape, axis=0)\n\n    # Iterate over the grid to find colored cells around the purple rectangle\n    rows, cols = grid.shape\n    for row in range(rows):\n        for col in range(cols):\n            color = grid[row, col]\n            if color != 0 and color != purple_color:\n                # If the colored cell is above/below the central shape\n                if col >= min_col and col <= max_col:\n                    if row < min_row:\n                        grid[min_row, col] = color\n                    elif row > max_row:\n                        grid[max_row, col] = color\n                # If the colored cell is to the left/right of the central shape\n                if row >= min_row and row <= max_row:\n                    if col < min_col:\n                        grid[row, min_col] = color\n                    elif col > max_col:\n                        grid[row, max_col] = color\n\n    return grid.tolist()\n\n```",
     },
 ]
 

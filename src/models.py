@@ -351,7 +351,8 @@ class Attempt(BaseModel):
         from src.llms import parse_2d_arrays_from_string, parse_python_backticks
         from src.run_python import run_python_transform_async
 
-        logfire.debug(f"LLM RESPONSE: {llm_response}")
+        logfire.debug(f"Challenge: {challenge}")
+        logfire.debug(f"LLM RESPONSE to result grids: {llm_response}")
 
         if returns_python:
             python_str = parse_python_backticks(llm_response)
@@ -374,7 +375,7 @@ class Attempt(BaseModel):
             python_str = None
             lists = parse_2d_arrays_from_string(s=llm_response)
             if not lists:
-                logfire.debug(f"LLM RESPONSE: {llm_response}")
+                logfire.debug(f"LLM RESPONSE not python: {llm_response}")
                 raise ValueError("No arrays found in output")
             test_grid = lists[-1]
             train_grids = [[[-1, -1], [-1, -1]]] * len(challenge.train)
@@ -626,7 +627,7 @@ Here are the examples that have failed:
 
 Recall that you should start by reasoning to determine what the issue is in {reasoning_tag_str} tags. Also recall that the problem could be a bug in the code and/or an issue with your previous understanding of the transformation rule.{typical_issue_text}
 
-Once you are done reasoning, rewrite the code to fix the issue. Return the code in triple backticks (```python and then ```).{if_fix_fail_line}
+Once you are done reasoning, rewrite the code to fix the issue. Return the code in triple backticks (```python and then \n```).{if_fix_fail_line}
         """.strip()
 
         messages = challenge_to_messages(
@@ -779,7 +780,7 @@ Ok, that is all of the actual and expected outputs.
 
 Recall that you should start by reasoning to determine what the issue is in {reasoning_tag_str} tags. Also recall that the problem could be a bug in the code and/or an issue with your previous understanding of the transformation rule.{typical_issue_text}
 
-Once you are done reasoning, rewrite the code to fix the issue. Return the code in triple backticks (```python and then ```).{if_fix_fail_line}
+Once you are done reasoning, rewrite the code to fix the issue. Return the code in triple backticks (```python and then \n```).{if_fix_fail_line}
             """.strip()
 
         messages = deepcopy(self.messages)
