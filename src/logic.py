@@ -558,7 +558,7 @@ async def run_tree(
 
         logfire.debug('startgin eval attempts')
         
-        breakpoint()
+        # breakpoint()
         eval_attempts(
             attempts=local_attempts,
             config=root_attempt_config,
@@ -658,7 +658,7 @@ async def solve_challenge(
             return j
         except Exception as e:
 
-            breakpoint()
+            # breakpoint()
             logfire.debug(f"In run logic")
             logfire.debug(f"ERROR RUNNING PYTHON: {e}")
             pass
