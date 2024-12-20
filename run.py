@@ -99,7 +99,7 @@ async def process_challenges_with_limit(
                     solutions_path=solutions_path,
                 )
             except Exception as e:
-                logfire.debug(f"Error processing challenge: {e}")
+                logfire.debug(f"Error processing challenge process solve: {e}")
                 raise
 
     # Create tasks for all challenges
@@ -185,8 +185,8 @@ async def run() -> None:
         # tree=experiments.sonnet_writeup_deep,
         # tree=experiments.sonnet_writeup_shallow,
         # tree=experiments.sonnet_writeup_med,
-        # tree=experiments.sonnet_pooling_example,
-        tree=experiments.fast_test,
+        tree=experiments.sonnet_pooling_example,
+        # tree=experiments.fast_test,
         # limit=10,
         # offset=50,
         limit=1,

@@ -275,11 +275,18 @@ def eval_attempts(
     plot: bool,
     time_took_ms: float,
 ) -> None:
+
+
+
+    logfire.debug(f"Attempts: {attempts}")
+
     if not attempts:
         return None
 
+    logfire.debug(f"Iterate over Attempts")
+
     for attempt in attempts:
-        # debug(attempt.train_accuracy, attempt.test_accuracy)
+        debug(attempt.train_accuracy, attempt.test_accuracy)
         if plot:
             try:
                 start = time.time()
@@ -550,13 +557,19 @@ async def run_tree(
         took_level = time.time() - start_level
 
         logfire.debug('startgin eval attempts')
-
+        
+        breakpoint()
         eval_attempts(
             attempts=local_attempts,
             config=root_attempt_config,
             plot=PLOT,
             time_took_ms=(took_level * 1000),
         )
+
+        logfire.debug('done eval attempts')
+
+
+
         logfire.debug(f"[{challenge.id}] eval took {(time.time() - start_eval)} secs")
         all_attempts.extend(local_attempts)
         all_attempts = dedup_attempts(all_attempts)

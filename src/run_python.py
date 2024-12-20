@@ -82,7 +82,7 @@ except Exception as e:
 """
 
 
-    logfire.debug(f"get wrapped code: {wrapped_code}")
+    # logfire.debug(f"get wrapped code: {wrapped_code}")
 
     start = time.time()
 

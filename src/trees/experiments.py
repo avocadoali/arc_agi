@@ -14,7 +14,8 @@ from src.models import (
 # TODO: Change model here
 # model = Model.llama_3_1_8b_instruct
 # model = Model.qwen2_5_14b
-model = Model.qwen2_5_code_32b
+# model = Model.qwen2_5_code_32b
+model = Model.qwen2_5_72b
 
 # model = Model.claude_3_5_sonnet
 # model = Model.gpt_4o
@@ -24,76 +25,78 @@ model = Model.qwen2_5_code_32b
 # model = Model.gemini_1_5_pro
 
 
-fast_test: list[RootAttemptConfig] = [
-    RootAttemptConfig(
-        include_all_attempts_in_fixes=True,
-        attempts=3,  # Reduced to just 3 attempts
-        llm_config=LLMConfig(
-            model=model,
-            temperature=0.95,
-        ),
-        prompt_config=RootPromptConfig(
-            base_prompt=Prompt.REASONING,
-            use_examples=True,
-            use_diffs=True,
-            use_images=False,
-            use_ascii=True,
-            use_array=True,
-        ),
-        fixes=[],  # No fix level - just one level of attempts
-    ),
-]
+# fast_test: list[RootAttemptConfig] = [
+#     RootAttemptConfig(
+#         include_all_attempts_in_fixes=True,
+#         attempts=3,  # Reduced to just 3 attempts
+#         llm_config=LLMConfig(
+#             model=model,
+#             temperature=0.95,
+#         ),
+#         prompt_config=RootPromptConfig(
+#             base_prompt=Prompt.REASONING,
+#             use_examples=True,
+#             use_diffs=True,
+#             use_images=False,
+#             use_ascii=True,
+#             use_array=True,
+#         ),
+#         fixes=[],  # No fix level - just one level of attempts
+#     ),
+# ]
 
 
-fast_test_with_fix: list[RootAttemptConfig] = [
-    RootAttemptConfig(
-        include_all_attempts_in_fixes=True,
-        attempts=3,  # 3 initial attempts
-        llm_config=LLMConfig(
-            model=model,
-            temperature=0.95,
-        ),
-        prompt_config=RootPromptConfig(
-            base_prompt=Prompt.REASONING,
-            use_examples=True,
-            use_diffs=True,
-            use_images=True,
-            use_ascii=True,
-            use_array=True,
-            use_image=True,
-        ),
-        fixes=[
-            AttemptEdge(
-                k_top_config=KTopConfig(
-                    k_top=2,  # Take top 2 attempts from initial level
-                    unique_code=False,
-                    unique_output=False
-                ),
-                configs=[
-                    FixAttemptConfig(
-                        attempts=2,  # 2 fix attempts for each selected solution
-                        llm_config=LLMConfig(
-                            model=model,
-                            temperature=0.95,
-                        ),
-                        prompt_config=FixPromptConfig(
-                            base_prompt=Prompt.REASONING,
-                            use_ascii=True,
-                            use_array=True,
-                            use_image=True,
-                            use_fix_reasoning_tags=True,
-                            use_fix_fail_line=True,
-                            use_typical_issue_text=True,
-                            include_diffs=True,
-                        ),
-                        fixes=[],  # No more fixes after this level
-                    )
-                ],
-            ),
-        ],
-    ),
-]
-1
+# fast_test_with_fix: list[RootAttemptConfig] = [
+#     RootAttemptConfig(
+#         include_all_attempts_in_fixes=True,
+#         attempts=3,  # 3 initial attempts
+#         llm_config=LLMConfig(
+#             model=model,
+#             temperature=0.95,
+#         ),
+#         prompt_config=RootPromptConfig(
+#             base_prompt=Prompt.REASONING,
+#             use_examples=True,
+#             use_diffs=True,
+#             use_images=True,
+#             use_ascii=True,
+#             use_array=True,
+#             use_image=True,
+#         ),
+#         fixes=[
+#             AttemptEdge(
+#                 k_top_config=KTopConfig(
+#                     k_top=2,  # Take top 2 attempts from initial level
+#                     unique_code=False,
+#                     unique_output=False
+#                 ),
+#                 configs=[
+#                     FixAttemptConfig(
+#                         attempts=2,  # 2 fix attempts for each selected solution
+#                         llm_config=LLMConfig(
+#                             model=model,
+#                             temperature=0.95,
+#                         ),
+#                         prompt_config=FixPromptConfig(
+#                             base_prompt=Prompt.REASONING,
+#                             use_ascii=True,
+#                             use_array=True,
+#                             use_image=True,
+#                             use_fix_reasoning_tags=True,
+#                             use_fix_fail_line=True,
+#                             use_typical_issue_text=True,
+#                             include_diffs=True,
+#                         ),
+#                         fixes=[],  # No more fixes after this level
+#                     )
+#                 ],
+#             ),
+#         ],
+#     ),
+# ]
+
+
+
 small_deep: list[RootAttemptConfig] = [
     RootAttemptConfig(
         include_all_attempts_in_fixes=True,

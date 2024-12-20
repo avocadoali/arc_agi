@@ -54,6 +54,7 @@ class Model(str, Enum):
     llama_3_1_8b_instruct = "meta-llama/llama-3.1-8b-instruct"
     qwen2_5_14b = "Qwen/Qwen2.5-14B"
     qwen2_5_code_32b = "Qwen/Qwen2.5-Coder-32B-Instruct"
+    qwen2_5_72b = "rombodawg/Rombos-LLM-V2.5-Qwen-72b"
 
 class ModelPrice(BaseModel):
     cache_create_per_million_cents: float
