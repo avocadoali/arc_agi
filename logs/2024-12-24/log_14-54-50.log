@@ -1,0 +1,7 @@
+2024-12-24 02:54:54 PM EST: run from json
+2024-12-24 02:54:54 PM EST: process challenges w limit
+2024-12-24 02:54:54 PM EST: [00d62c1b] running root node with 5 attempts.
+2024-12-24 02:54:54 PM EST: strarting attempt run
+2024-12-24 02:54:59 PM EST: Creating vllm client done 
+2024-12-24 02:54:59 PM EST: [3RD5MIHU] calling vllm model
+2024-12-24 02:54:59 PM EST: Other vllm error: Error code: 400 - {'object': 'error', 'message': 'As of transformers v4.44, default chat template is no longer allowed, so you must provide a chat template if the tokenizer does not define one.', 'type': 'BadRequestError', 'param': None, 'code': 400}, retrying in 0 seconds (0/200)...

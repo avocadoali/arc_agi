@@ -1,0 +1,13 @@
+2024-12-20 09:26:55 PM EST: run from json
+2024-12-20 09:26:55 PM EST: process challenges w limit
+2024-12-20 09:26:55 PM EST: [00d62c1b] running root node with 5 attempts.
+2024-12-20 09:26:55 PM EST: strarting attempt run
+2024-12-20 09:26:56 PM EST: Creating vllm client done 
+2024-12-20 09:26:56 PM EST: [4LGQPYTR] calling vllm model
+2024-12-20 09:26:56 PM EST: Other vllm error: Error code: 400 - {'object': 'error', 'message': "This model's maximum context length is 4096 tokens. However, you requested 24374 tokens (20374 in the messages, 4000 in the completion). Please reduce the length of the messages or completion.", 'type': 'BadRequestError', 'param': None, 'code': 400}, retrying in 0 seconds (0/200)...
+2024-12-20 09:27:11 PM EST: [KROD4EJM] calling vllm model
+2024-12-20 09:27:11 PM EST: Other vllm error: Error code: 400 - {'object': 'error', 'message': "This model's maximum context length is 4096 tokens. However, you requested 24374 tokens (20374 in the messages, 4000 in the completion). Please reduce the length of the messages or completion.", 'type': 'BadRequestError', 'param': None, 'code': 400}, retrying in 1 seconds (1/200)...
+2024-12-20 09:27:26 PM EST: [93Q1VOOJ] calling vllm model
+2024-12-20 09:27:26 PM EST: Other vllm error: Error code: 400 - {'object': 'error', 'message': "This model's maximum context length is 4096 tokens. However, you requested 24374 tokens (20374 in the messages, 4000 in the completion). Please reduce the length of the messages or completion.", 'type': 'BadRequestError', 'param': None, 'code': 400}, retrying in 2 seconds (2/200)...
+2024-12-20 09:27:41 PM EST: [EKTP2455] calling vllm model
+2024-12-20 09:27:41 PM EST: Other vllm error: Error code: 400 - {'object': 'error', 'message': "This model's maximum context length is 4096 tokens. However, you requested 24374 tokens (20374 in the messages, 4000 in the completion). Please reduce the length of the messages or completion.", 'type': 'BadRequestError', 'param': None, 'code': 400}, retrying in 3 seconds (3/200)...

@@ -85,6 +85,10 @@ async def process_challenges_with_limit(
     # Create a semaphore to limit concurrent tasks
     semaphore = asyncio.Semaphore(max_concurrent)
 
+    
+    logfire.debug('Processing challenges with limit')
+
+
     async def bounded_solve_and_write(challenge: Challenge) -> None:
         """
         Wrapper for solve_and_write that respects the semaphore limit
@@ -135,6 +139,9 @@ async def run_from_json(
         challenges_path=Path(challenges_path),
         solutions_path=Path(truth_solutions_path) if truth_solutions_path else None,
     )
+    
+    logfire.debug('Run from json')
+
     if only_run_ids:
         challenges = {k: challenges[k] for k in only_run_ids}
     if offset:
@@ -176,7 +183,7 @@ async def run() -> None:
     challenges_path = "arc-prize-2024/arc-agi_training_challenges.json"
     truth_solutions_path = "arc-prize-2024/arc-agi_training_solutions.json"
     attempts_solutions_path = "test_data/training_solutions.json"
-    logfire.debug('run from json')
+    logfire.debug('run from json runner')
     await run_from_json(
         challenges_path=challenges_path,
         solutions_path=attempts_solutions_path,

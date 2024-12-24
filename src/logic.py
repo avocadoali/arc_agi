@@ -277,7 +277,6 @@ def eval_attempts(
 ) -> None:
 
 
-
     logfire.debug(f"Attempts: {attempts}")
 
     if not attempts:
@@ -546,6 +545,9 @@ async def run_tree(
 
         logfire.debug('strarting attempt run')
 
+
+
+
         local_attempts = await Attempt.run_many(
             challenge=challenge,
             attempt_config=root_attempt_config,
@@ -556,9 +558,12 @@ async def run_tree(
         start_eval = time.time()
         took_level = time.time() - start_level
 
-        logfire.debug('startgin eval attempts')
+        logfire.debug('starting eval attempts')
         
-        # breakpoint()
+
+        logfire.debug(f"Attempts: {local_attempts}")
+
+
         eval_attempts(
             attempts=local_attempts,
             config=root_attempt_config,

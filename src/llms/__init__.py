@@ -166,7 +166,7 @@ async def get_next_message_vllm(
 
     params = {
         "temperature": temperature,
-        "max_tokens": 8_192,
+        "max_tokens": 4000,
         "messages": messages,
         "model": model.value,
         "timeout": 120,
@@ -177,7 +177,6 @@ async def get_next_message_vllm(
         try:
             request_id = random_string()
             start = time.time()
-            logfire.debug(f"[{request_id}] calling vllm model")
             # message = await llama_client.chat.completions.create(**params)    
 
             # breakpoint()
@@ -191,7 +190,10 @@ async def get_next_message_vllm(
             #     messages= messages
             # )
             
+            logfire.debug(f"[{request_id}] calling vllm model")
             message = await vllm_client.chat.completions.create(**params)
+
+            logfire.debug(f"Message: {message}")
 
             # logfire.debug('getting message done')
             # breakpoint()

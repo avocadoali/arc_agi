@@ -82,8 +82,18 @@ except Exception as e:
 """
 
 
-    # logfire.debug(f"get wrapped code: {wrapped_code}")
+    logfire.debug(f"get wrapped code: {wrapped_code}")
+    
+    # name of file is based on timestamp based on seconds   
+    # give it some unique name
+    dir = f"{logfire.log_dir}/wrapped_code"
+    os.makedirs(dir, exist_ok=True)
+    with open(f"{dir}/code_{time.time()}.py", "w") as f:
+        f.write(wrapped_code)   
 
+
+
+    logfire.debug(f"running code")
     start = time.time()
 
     # Create a temporary file to store the code
@@ -100,8 +110,12 @@ except Exception as e:
             text=True,
         )
 
+        logfire.debug(f"running code done")
+
+
         transform_results = None
         timed_out = False
+
 
         try:
             stdout, stderr = process.communicate(timeout=timeout)
@@ -119,6 +133,9 @@ except Exception as e:
                             stderr = "Error: Could not parse transform result"
                             return_code = 1
 
+
+            logfire.debug(f"results: {transform_results}")
+
         except subprocess.TimeoutExpired:
             process.kill()
             stdout, stderr = process.communicate()
@@ -129,6 +146,7 @@ except Exception as e:
         latency_ms = (time.time() - start) * 1000
 
         if not transform_results and raise_exception:
+            logfire.debug(f"some other python error ")
             raise PythonException(stderr)
 
         return PythonResult(
@@ -148,6 +166,7 @@ except Exception as e:
 async def run_python_transform_async(
     code: str, grid_lists: list[GRID], timeout: int, raise_exception: bool
 ) -> PythonResult | None:
+    
     try:
         result = await asyncify(run_python_transform_sync)(
             code=code,

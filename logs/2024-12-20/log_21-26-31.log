@@ -1,0 +1,7 @@
+2024-12-20 09:26:32 PM EST: run from json
+2024-12-20 09:26:32 PM EST: process challenges w limit
+2024-12-20 09:26:32 PM EST: [00d62c1b] running root node with 5 attempts.
+2024-12-20 09:26:32 PM EST: strarting attempt run
+2024-12-20 09:26:33 PM EST: Creating vllm client done 
+2024-12-20 09:26:33 PM EST: [BUW2DUAX] calling vllm model
+2024-12-20 09:26:33 PM EST: Other vllm error: Error code: 400 - {'object': 'error', 'message': "This model's maximum context length is 4096 tokens. However, you requested 24470 tokens (20374 in the messages, 4096 in the completion). Please reduce the length of the messages or completion.", 'type': 'BadRequestError', 'param': None, 'code': 400}, retrying in 0 seconds (0/200)...

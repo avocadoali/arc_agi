@@ -55,6 +55,8 @@ class Model(str, Enum):
     qwen2_5_14b = "Qwen/Qwen2.5-14B"
     qwen2_5_code_32b = "Qwen/Qwen2.5-Coder-32B-Instruct"
     qwen2_5_72b = "rombodawg/Rombos-LLM-V2.5-Qwen-72b"
+    qwen2_5_72b_int4 = "Qwen/Qwen2.5-72B-Instruct-GPTQ-Int4",
+    code_lamma = "TheBloke/CodeLlama-70B-Instruct-AWQ" # Some quantization so its smaller
 
 class ModelPrice(BaseModel):
     cache_create_per_million_cents: float
