@@ -6,15 +6,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-
 if not os.getenv("PRINT_LOGS") or os.environ["PRINT_LOGS"] == "0":
-    print("not printing logs")
     PRINT_LOGS = False
 else:
-    print("printing logs")
     PRINT_LOGS = True
-
-
 
 
 class LogfireDummy:

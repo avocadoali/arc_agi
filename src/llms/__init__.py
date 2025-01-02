@@ -293,10 +293,9 @@ async def get_next_message_gemini(
 async def get_next_messages(
     *, messages: list[dict[str, T.Any]], model: Model, temperature: float, n_times: int
 ) -> list[tuple[str, ModelUsage]] | None:
+    logfire.debug(f"get_next_messages: {messages}, {model}, {temperature}, {n_times}")
     if n_times <= 0:
         return []
-    
-
     if model in [Model.claude_3_5_sonnet, Model.claude_3_5_haiku]:
         if model == Model.claude_3_5_haiku:
             messages = text_only_messages(messages)
@@ -356,12 +355,6 @@ async def get_next_messages(
         ]
         # filter out the Nones
         return [m for m in n_messages if m]
-    
-
-
-
-
-
     elif model in [Model.gpt_4o, Model.gpt_4o_mini, Model.o1_mini, Model.o1_preview]:
         openai_client = AsyncOpenAI(api_key=os.environ["OPENAI_API_KEY"])
         if model in [Model.o1_mini, Model.o1_preview]:
@@ -389,8 +382,6 @@ async def get_next_messages(
         ]
         # filter out the Nones
         return [m for m in n_messages if m]
-    
-
     elif model in [Model.gemini_1_5_pro]:
         if messages[0]["role"] == "system":
             system_messages = messages[0]["content"]
@@ -412,20 +403,19 @@ async def get_next_messages(
                 for c in message["content"]:
                     if c["type"] == "text":
                         parts.append(genai.types.PartDict(text=c["text"]))
-                    # elif c["type"] == "image_url":
-                    #     image = PIL.Image.open(
-                    #         io.BytesIO(
-                    #             base64.b64decode(
-                    #                 c["image_url"]["url"].replace(
-                    #                     "data:image/png;base64,", ""
-                    #                 )
-                    #             )
-                    #         )
-                    #     )
-                    #     if image.mode == "RGBA":
-                    #         image = image.convert("RGB")
-                    #     parts.append(image)
-
+                    elif c["type"] == "image_url":
+                        image = PIL.Image.open(
+                            io.BytesIO(
+                                base64.b64decode(
+                                    c["image_url"]["url"].replace(
+                                        "data:image/png;base64,", ""
+                                    )
+                                )
+                            )
+                        )
+                        if image.mode == "RGBA":
+                            image = image.convert("RGB")
+                        parts.append(image)
             gemini_contents.append(genai.types.ContentDict(role=role, parts=parts))
 
         # breakpoint()
@@ -775,9 +765,6 @@ def parse_python_backticks(s: str) -> str:
                 break
 
     assert s.count("```python") == 1
-
-
-
 
     attempted_search = re.search(r"```python\n(.*)\n```", s, re.DOTALL | re.MULTILINE)
 

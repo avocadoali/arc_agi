@@ -81,9 +81,6 @@ except Exception as e:
     sys.exit(1)
 """
 
-
-    logfire.debug(f"get wrapped code: {wrapped_code}")
-
     start = time.time()
 
     # Create a temporary file to store the code
@@ -157,8 +154,6 @@ async def run_python_transform_async(
         )
         return result
     except Exception as e:
-        
-        logfire.debug(f"in run python ")
         logfire.debug(f"ERROR RUNNING PYTHON: {e}")
         return None
 

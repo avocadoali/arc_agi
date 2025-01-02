@@ -583,8 +583,6 @@ async def run_tree(
                 warm_cache=warm_cache_fix,
             )
         )
-
-
         all_attempts = dedup_attempts(all_attempts)
 
 
@@ -641,11 +639,9 @@ async def solve_challenge(
                 )
                 j = r.json()
             print(f"[{challenge.id}] solved")
-
             return j
         except Exception as e:
 
-            breakpoint()
             logfire.debug(f"In run logic")
             logfire.debug(f"ERROR RUNNING PYTHON: {e}")
             pass
