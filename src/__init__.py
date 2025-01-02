@@ -1,7 +1,7 @@
 import logging
 import os
 import typing as T
-
+from datetime import datetime
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -21,12 +21,21 @@ class LogfireDummy:
     def __init__(self):
         self.logger = logging.getLogger("LogfireDummy")
         self.logger.setLevel(logging.DEBUG)
-        handler = logging.FileHandler("logs.txt")
+        
+        # Store the timestamp when the logger is initialized
+        self.start_time = datetime.now()
+
+        self.start_date = self.start_time.strftime("%Y-%m-%d")
+
+        os.makedirs(f"logs/{self.start_date}", exist_ok=True)
+        self.file_handler = logging.FileHandler(f"logs/{self.start_date}/{datetime.now().strftime('%H-%M-%S.%f')}.log")
+        self.file_handler.setLevel(logging.DEBUG)
         formatter = logging.Formatter(
-            "%(asctime)s EST: %(message)s", datefmt="%Y-%m-%d %I:%M:%S %p"
+            "%(asctime)s - %(levelname)s - %(message)s"
         )
-        handler.setFormatter(formatter)
-        self.logger.addHandler(handler)
+        self.file_handler.setFormatter(formatter)
+        self.logger.addHandler(self.file_handler)
+
 
     def debug(
         self,
@@ -39,7 +48,10 @@ class LogfireDummy:
             if attributes:
                 s = f"{s}\n**{attributes}**\n"
             if PRINT_LOGS:
-                print(f"LOGGER: {s}")
+                msg = f"LOGGER: {s}"
+                print(msg)
+                self.logger.debug(s)
+
             else:
                 if "KAGGLE" not in os.environ:
                     self.logger.debug(s)
