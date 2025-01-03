@@ -64,6 +64,12 @@ class ModelPrice(BaseModel):
 
 
 model_price_map: dict[Model, ModelPrice] = {
+    Model.qwen2_5_72b_instruct: ModelPrice(
+        cache_create_per_million_cents=375,
+        cache_read_per_million_cents=0.30,
+        input_tokens_per_million_cents=300,
+        output_tokens_per_million_cents=1_500,
+    ),
     Model.claude_3_5_sonnet: ModelPrice(
         cache_create_per_million_cents=375,
         cache_read_per_million_cents=0.30,
@@ -366,9 +372,10 @@ class Attempt(BaseModel):
                 timeout=7,
                 raise_exception=True,
             )
-            logfire.debug(
-                f"Transform results took {transform_results.latency_ms:.2f} ms"
-            )
+
+            logfire.debug(f"Transform results took {transform_results.latency_ms:.2f} ms")
+            logfire.debug(f"Transform results: {transform_results.transform_results[0]}")
+
             test_grid = transform_results.transform_results[0]
             train_grids = transform_results.transform_results[1:]
         else:
@@ -417,6 +424,7 @@ class Attempt(BaseModel):
     ) -> list["Attempt"]:
         from src.llms import get_next_messages
 
+        # Get responses from LLM
         try:
             # breakpoint()
             next_messages = await get_next_messages(
@@ -432,9 +440,14 @@ class Attempt(BaseModel):
                 f"[{challenge.id}] BIG PROBLEM***** Error getting next messages: {e}"
             )
             return []
+        
+        # Process the llm responses into the grid lists
         start_grid = time.time()
         llm_responses = [m[0] for m in next_messages]
         grid_lists = None
+        
+        logfire.debug(f"[{challenge.id}] all llm responses: {llm_responses}")
+
         if USE_GRID_URL and os.environ.get("GRID_URL"):
             try:
                 async with httpx.AsyncClient(timeout=120) as client:
@@ -456,36 +469,51 @@ class Attempt(BaseModel):
                 logfire.debug(f"ERROR RUNNING GRIDLISTS SERVER: {e}")
                 grid_lists = None
 
+        # If the grid list server fails, use the llm responses to get the grid lists
         if grid_lists is None:
             grid_lists = await cls.llm_responses_to_result_grids_list(
                 llm_responses=llm_responses,
                 challenge=challenge,
                 returns_python=attempt_config.prompt_config.returns_python,
             )
+
         logfire.debug(f"[{challenge.id}] grids took {time.time() - start_grid} secs")
+
         attempts: list[Attempt] = []
         for next_message, grid_list in zip(next_messages, grid_lists, strict=True):
+
+            logfire.debug(f"[{challenge.id}] grid list: {grid_list}")
+            logfire.debug(f"[{challenge.id}] next message: {next_message}")
+
             if grid_list:
                 python_str, test_grid, train_grids = grid_list
                 llm_response, usage = next_message
-                attempts.append(
-                    Attempt(
-                        id=f"{challenge.id}-{random_string()}",
-                        challenge=challenge,
-                        messages=[
-                            *messages,
+                logfire.debug(f"start creating attempt:")
+                # breakpoint()
+                attempt = Attempt(
+                    id=f"{challenge.id}-{random_string()}",
+                    challenge=challenge,
+                    messages=[
+                        *messages,
                             {
                                 "role": "assistant",
                                 "content": [{"type": "text", "text": llm_response}],
                             },
                         ],
                         python_code_str=python_str,
-                        train_attempts=train_grids,
-                        test_attempt=test_grid,
-                        config=attempt_config,
-                        usage=usage,
-                    )
+                    train_attempts=train_grids,
+                    test_attempt=test_grid,
+                    config=attempt_config,
+                    usage=usage,
                 )
+                logfire.debug(f"[{challenge.id}] attempt created")
+                
+
+                attempts.append(attempt)
+
+        
+        logfire.debug(f"[{challenge.id}] attempts are: {attempts}")
+
         return attempts
 
     @classmethod

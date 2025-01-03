@@ -275,7 +275,11 @@ def eval_attempts(
     plot: bool,
     time_took_ms: float,
 ) -> None:
+    
+    logfire.debug(f"eval the attempts: {attempts}")
+
     if not attempts:
+        logfire.debug("no attempts")
         return None
 
     for attempt in attempts:
@@ -557,6 +561,7 @@ async def run_tree(
             plot=PLOT,
             time_took_ms=(took_level * 1000),
         )
+        
         logfire.debug(f"[{challenge.id}] eval took {(time.time() - start_eval)} secs")
         all_attempts.extend(local_attempts)
         all_attempts = dedup_attempts(all_attempts)
