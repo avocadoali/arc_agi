@@ -358,7 +358,7 @@ class Attempt(BaseModel):
         from src.llms import parse_2d_arrays_from_string, parse_python_backticks
         from src.run_python import run_python_transform_async
 
-        logfire.debug(f"LLM RESPONSE: {llm_response}")
+        # logfire.debug(f"LLM RESPONSE: {llm_response}")
 
         if returns_python:
             python_str = parse_python_backticks(llm_response)
@@ -373,8 +373,8 @@ class Attempt(BaseModel):
                 raise_exception=True,
             )
 
-            logfire.debug(f"Transform results took {transform_results.latency_ms:.2f} ms")
-            logfire.debug(f"Transform results: {transform_results.transform_results[0]}")
+            # logfire.debug(f"Transform results took {transform_results.latency_ms:.2f} ms")
+            # logfire.debug(f"Transform results: {transform_results.transform_results[0]}")
 
             test_grid = transform_results.transform_results[0]
             train_grids = transform_results.transform_results[1:]
@@ -382,7 +382,7 @@ class Attempt(BaseModel):
             python_str = None
             lists = parse_2d_arrays_from_string(s=llm_response)
             if not lists:
-                logfire.debug(f"LLM RESPONSE: {llm_response}")
+                # logfire.debug(f"LLM RESPONSE: {llm_response}")
                 raise ValueError("No arrays found in output")
             test_grid = lists[-1]
             train_grids = [[[-1, -1], [-1, -1]]] * len(challenge.train)
@@ -482,13 +482,13 @@ class Attempt(BaseModel):
         attempts: list[Attempt] = []
         for next_message, grid_list in zip(next_messages, grid_lists, strict=True):
 
-            logfire.debug(f"[{challenge.id}] grid list: {grid_list}")
-            logfire.debug(f"[{challenge.id}] next message: {next_message}")
+            # logfire.debug(f"[{challenge.id}] grid list: {grid_list}")
+            # logfire.debug(f"[{challenge.id}] next message: {next_message}")
 
             if grid_list:
                 python_str, test_grid, train_grids = grid_list
                 llm_response, usage = next_message
-                logfire.debug(f"start creating attempt:")
+                # logfire.debug(f"start creating attempt:")
                 # breakpoint()
                 attempt = Attempt(
                     id=f"{challenge.id}-{random_string()}",
@@ -506,7 +506,7 @@ class Attempt(BaseModel):
                     config=attempt_config,
                     usage=usage,
                 )
-                logfire.debug(f"[{challenge.id}] attempt created")
+                # logfire.debug(f"[{challenge.id}] attempt created")
                 
 
                 attempts.append(attempt)

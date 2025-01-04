@@ -210,7 +210,7 @@ async def get_next_message_vllm(
             # logfire.debug('get model usage done')
 
 
-            logfire.debug(f"Model name is: {model}, usage is {usage}")
+            # logfire.debug(f"Model name is: {model}, usage is {usage}")
             # Attempt.cost_cents_from_usage(model=model, usage=usage)
 
 
@@ -293,7 +293,7 @@ async def get_next_message_gemini(
 async def get_next_messages(
     *, messages: list[dict[str, T.Any]], model: Model, temperature: float, n_times: int
 ) -> list[tuple[str, ModelUsage]] | None:
-    logfire.debug(f"get_next_messages: {messages}, {model}, {temperature}, {n_times}")
+    # logfire.debug(f"get_next_messages: {messages}, {model}, {temperature}, {n_times}")
     if n_times <= 0:
         return []
     if model in [Model.claude_3_5_sonnet, Model.claude_3_5_haiku]:
