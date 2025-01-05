@@ -275,11 +275,11 @@ def eval_attempts(
     plot: bool,
     time_took_ms: float,
 ) -> None:
-
-
-    logfire.debug(f"Attempts: {attempts}")
+    
+    logfire.debug(f"eval the attempts: {attempts}")
 
     if not attempts:
+        logfire.debug("no attempts")
         return None
 
     logfire.debug(f"Iterate over Attempts")
@@ -570,11 +570,7 @@ async def run_tree(
             plot=PLOT,
             time_took_ms=(took_level * 1000),
         )
-
-        logfire.debug('done eval attempts')
-
-
-
+        
         logfire.debug(f"[{challenge.id}] eval took {(time.time() - start_eval)} secs")
         all_attempts.extend(local_attempts)
         all_attempts = dedup_attempts(all_attempts)
@@ -601,8 +597,6 @@ async def run_tree(
                 warm_cache=warm_cache_fix,
             )
         )
-
-
         all_attempts = dedup_attempts(all_attempts)
 
 
@@ -659,11 +653,9 @@ async def solve_challenge(
                 )
                 j = r.json()
             print(f"[{challenge.id}] solved")
-
             return j
         except Exception as e:
 
-            # breakpoint()
             logfire.debug(f"In run logic")
             logfire.debug(f"ERROR RUNNING PYTHON: {e}")
             pass

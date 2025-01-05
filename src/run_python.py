@@ -81,19 +81,6 @@ except Exception as e:
     sys.exit(1)
 """
 
-
-    logfire.debug(f"get wrapped code: {wrapped_code}")
-    
-    # name of file is based on timestamp based on seconds   
-    # give it some unique name
-    dir = f"{logfire.log_dir}/wrapped_code"
-    os.makedirs(dir, exist_ok=True)
-    with open(f"{dir}/code_{time.time()}.py", "w") as f:
-        f.write(wrapped_code)   
-
-
-
-    logfire.debug(f"running code")
     start = time.time()
 
     # Create a temporary file to store the code
@@ -176,8 +163,6 @@ async def run_python_transform_async(
         )
         return result
     except Exception as e:
-        
-        logfire.debug(f"in run python ")
         logfire.debug(f"ERROR RUNNING PYTHON: {e}")
         return None
 

@@ -135,6 +135,9 @@ async def run_from_json(
     truth_solutions_path: str | None = None,
 ) -> None:
     start = time.time()
+    
+    logfire.debug(f"[{start}] starting run from json")
+
     challenges = build_challenges(
         challenges_path=Path(challenges_path),
         solutions_path=Path(truth_solutions_path) if truth_solutions_path else None,

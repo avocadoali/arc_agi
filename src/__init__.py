@@ -2,8 +2,6 @@ import logging
 import os
 import typing as T
 from datetime import datetime
-from pathlib import Path
-
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -24,28 +22,20 @@ class LogfireDummy:
         self.logger = logging.getLogger("LogfireDummy")
         self.logger.setLevel(logging.DEBUG)
         
-        # Create logs directory with date
-        current_date = datetime.now().strftime("%Y-%m-%d")
-        self.log_dir = Path("./logs") / current_date
-        self.log_dir.mkdir(parents=True, exist_ok=True)
-        
-        # Create log file with timestamp
-        timestamp = datetime.now().strftime("%H-%M-%S")
-        log_filename = f"log_{timestamp}.log"
-        log_path = self.log_dir / log_filename
-        
-        # Ensure the logger doesn't already have handlers
-        if not self.logger.handlers:
-            handler = logging.FileHandler(log_path, mode='a')
-            formatter = logging.Formatter(
-                "%(asctime)s EST: %(message)s", 
-                datefmt="%Y-%m-%d %I:%M:%S %p"
-            )
-            handler.setFormatter(formatter)
-            self.logger.addHandler(handler)
-            
-            # Print where logs will be saved
-            print(f"Logs will be saved to: {log_path}")
+        # Store the timestamp when the logger is initialized
+        self.start_time = datetime.now()
+
+        self.start_date = self.start_time.strftime("%Y-%m-%d")
+
+        os.makedirs(f"logs/{self.start_date}", exist_ok=True)
+        self.file_handler = logging.FileHandler(f"logs/{self.start_date}/{datetime.now().strftime('%H-%M-%S.%f')}.log")
+        self.file_handler.setLevel(logging.DEBUG)
+        formatter = logging.Formatter(
+            "%(asctime)s - %(levelname)s - %(message)s"
+        )
+        self.file_handler.setFormatter(formatter)
+        self.logger.addHandler(self.file_handler)
+
 
     def debug(
         self,
@@ -62,10 +52,19 @@ class LogfireDummy:
             self.logger.debug(s)
             
             if PRINT_LOGS:
-                print(f"LOGGER: {s}")
-                
-        except Exception as e:
-            print(f"Logging error: {e}")
+                msg = f"LOGGER: {s}"
+                print(msg)
+                self.logger.debug(s)
+
+            else:
+                if "KAGGLE" not in os.environ:
+                    self.logger.debug(s)
+                else:
+                    # make sure no non-sdk logs are recorded
+                    if "anthropic" in s or "Transform" in s or "limit" in s:
+                        self.logger.debug(s)
+        except Exception:
+            pass
 
 
 if os.getenv("LOGFIRE_TOKEN"):
