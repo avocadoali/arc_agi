@@ -211,11 +211,11 @@ async def get_next_message_vllm(
 
 
             # logfire.debug(f"Model name is: {model}, usage is {usage}")
-            # Attempt.cost_cents_from_usage(model=model, usage=usage)
+            Attempt.cost_cents_from_usage(model=model, usage=usage)
 
 
-            # logfire.debug(
-            #     f"[{request_id}] got back llama, took {took_ms:.2f}, {usage}, cost_cents={Attempt.cost_cents_from_usage(model=model, usage=usage)}"
+            logfire.debug(
+                f"[{request_id}] took {took_ms:.2f}, {usage}, cost_cents={Attempt.cost_cents_from_usage(model=model, usage=usage)}"
             # )
 
 

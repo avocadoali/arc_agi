@@ -320,5 +320,5 @@ if __name__ == "__main__":
         ]
     )
     print(grid_to_ascii(g, spreadsheet_ascii=False))
-    # print(spreadsheet_ascii_grid_by_color_diffs(grid_input=g, grid_output=out))
+    print(spreadsheet_ascii_grid_by_color_diffs(grid_input=g, grid_output=out))
     print(grid_diffs_to_ascii(grid_input=g, grid_output=out))
