@@ -1,0 +1,36 @@
+2025-01-05 14:52:10,350 - DEBUG - run from json
+2025-01-05 14:52:10,399 - DEBUG - [1736085130.3996956] starting run from json
+2025-01-05 14:52:10,507 - DEBUG - process challenges w limit
+2025-01-05 14:52:10,508 - DEBUG - [25d487eb] running root node with 5 attempts.
+2025-01-05 14:52:10,508 - DEBUG - strarting attempt run
+2025-01-05 14:52:10,717 - DEBUG - Error processing challenge: '(' was never closed (__init__.py, line 217)
+2025-01-05 14:52:10,717 - DEBUG - [25d8a9c8] running root node with 5 attempts.
+2025-01-05 14:52:10,717 - DEBUG - strarting attempt run
+2025-01-05 14:52:10,840 - DEBUG - Error processing challenge: '(' was never closed (__init__.py, line 217)
+2025-01-05 14:52:10,840 - DEBUG - [25ff71a9] running root node with 5 attempts.
+2025-01-05 14:52:10,840 - DEBUG - strarting attempt run
+2025-01-05 14:52:10,962 - DEBUG - Error processing challenge: '(' was never closed (__init__.py, line 217)
+2025-01-05 14:52:10,962 - DEBUG - [264363fd] running root node with 5 attempts.
+2025-01-05 14:52:10,962 - DEBUG - strarting attempt run
+2025-01-05 14:52:11,480 - DEBUG - Error processing challenge: '(' was never closed (__init__.py, line 217)
+2025-01-05 14:52:11,480 - DEBUG - [272f95fa] running root node with 5 attempts.
+2025-01-05 14:52:11,480 - DEBUG - strarting attempt run
+2025-01-05 14:52:11,680 - DEBUG - Error processing challenge: '(' was never closed (__init__.py, line 217)
+2025-01-05 14:52:11,680 - DEBUG - [27a28665] running root node with 5 attempts.
+2025-01-05 14:52:11,680 - DEBUG - strarting attempt run
+2025-01-05 14:52:11,793 - DEBUG - Error processing challenge: '(' was never closed (__init__.py, line 217)
+2025-01-05 14:52:11,793 - DEBUG - [28bf18c6] running root node with 5 attempts.
+2025-01-05 14:52:11,793 - DEBUG - strarting attempt run
+2025-01-05 14:52:11,920 - DEBUG - Error processing challenge: '(' was never closed (__init__.py, line 217)
+2025-01-05 14:52:11,920 - DEBUG - [28e73c20] running root node with 5 attempts.
+2025-01-05 14:52:11,920 - DEBUG - strarting attempt run
+2025-01-05 14:52:12,134 - DEBUG - Error processing challenge: '(' was never closed (__init__.py, line 217)
+2025-01-05 14:52:12,134 - DEBUG - [29623171] running root node with 5 attempts.
+2025-01-05 14:52:12,135 - DEBUG - strarting attempt run
+2025-01-05 14:52:12,307 - DEBUG - Error processing challenge: '(' was never closed (__init__.py, line 217)
+2025-01-05 14:52:12,307 - DEBUG - [29c11459] running root node with 5 attempts.
+2025-01-05 14:52:12,307 - DEBUG - strarting attempt run
+2025-01-05 14:52:12,443 - DEBUG - Error processing challenge: '(' was never closed (__init__.py, line 217)
+2025-01-05 14:52:12,443 - DEBUG - Encountered 10 errors during processing
+2025-01-05 14:52:12,444 - DEBUG - FINAL: took 2.04 secs to run 10 challenges
+2025-01-05 14:52:12,444 - DEBUG - eval solutions

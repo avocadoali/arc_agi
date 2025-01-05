@@ -1,0 +1,22 @@
+2025-01-05 14:50:00,623 - DEBUG - run from json runner
+2025-01-05 14:50:00,623 - DEBUG - run from json runner
+2025-01-05 14:50:00,625 - DEBUG - [1736085000.625986] starting run from json
+2025-01-05 14:50:00,626 - DEBUG - [1736085000.625986] starting run from json
+2025-01-05 14:50:00,732 - DEBUG - Run from json
+2025-01-05 14:50:00,733 - DEBUG - Run from json
+2025-01-05 14:50:00,735 - DEBUG - process challenges w limit
+2025-01-05 14:50:00,736 - DEBUG - process challenges w limit
+2025-01-05 14:50:00,736 - DEBUG - Processing challenges with limit
+2025-01-05 14:50:00,736 - DEBUG - Processing challenges with limit
+2025-01-05 14:50:00,736 - DEBUG - [00d62c1b] running root node with 5 attempts.
+2025-01-05 14:50:00,736 - DEBUG - [00d62c1b] running root node with 5 attempts.
+2025-01-05 14:50:00,736 - DEBUG - strarting attempt run
+2025-01-05 14:50:00,736 - DEBUG - strarting attempt run
+2025-01-05 14:50:01,116 - DEBUG - Error processing challenge process solve: '(' was never closed (__init__.py, line 219)
+2025-01-05 14:50:01,116 - DEBUG - Error processing challenge process solve: '(' was never closed (__init__.py, line 219)
+2025-01-05 14:50:01,116 - DEBUG - Encountered 1 errors during processing
+2025-01-05 14:50:01,116 - DEBUG - Encountered 1 errors during processing
+2025-01-05 14:50:01,136 - DEBUG - FINAL: took 0.51 secs to run 1 challenges
+2025-01-05 14:50:01,136 - DEBUG - FINAL: took 0.51 secs to run 1 challenges
+2025-01-05 14:50:01,136 - DEBUG - eval solutions
+2025-01-05 14:50:01,136 - DEBUG - eval solutions

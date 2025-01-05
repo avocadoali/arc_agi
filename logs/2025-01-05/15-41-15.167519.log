@@ -1,0 +1,143 @@
+2025-01-05 15:41:16,573 - DEBUG - run from json
+2025-01-05 15:41:16,574 - DEBUG - [1736088076.5741036] starting run from json
+2025-01-05 15:41:16,683 - DEBUG - process challenges w limit
+2025-01-05 15:41:16,684 - DEBUG - [25d487eb] running root node with 50 attempts.
+2025-01-05 15:41:16,684 - DEBUG - strarting attempt run
+2025-01-05 15:41:18,498 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:18,498 - DEBUG - [BJC3A5HG] calling vllm model
+2025-01-05 15:41:18,498 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 0 seconds (0/200)...
+2025-01-05 15:41:18,498 - DEBUG - [25d8a9c8] running root node with 50 attempts.
+2025-01-05 15:41:18,498 - DEBUG - strarting attempt run
+2025-01-05 15:41:18,629 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:18,629 - DEBUG - [S19UT4SJ] calling vllm model
+2025-01-05 15:41:18,629 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 0 seconds (0/200)...
+2025-01-05 15:41:18,629 - DEBUG - [25ff71a9] running root node with 50 attempts.
+2025-01-05 15:41:18,629 - DEBUG - strarting attempt run
+2025-01-05 15:41:18,760 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:18,760 - DEBUG - [79TMGWDT] calling vllm model
+2025-01-05 15:41:18,760 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 0 seconds (0/200)...
+2025-01-05 15:41:18,760 - DEBUG - [264363fd] running root node with 50 attempts.
+2025-01-05 15:41:18,760 - DEBUG - strarting attempt run
+2025-01-05 15:41:19,282 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:19,283 - DEBUG - [6KOYQLWI] calling vllm model
+2025-01-05 15:41:19,283 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 0 seconds (0/200)...
+2025-01-05 15:41:19,283 - DEBUG - [272f95fa] running root node with 50 attempts.
+2025-01-05 15:41:19,283 - DEBUG - strarting attempt run
+2025-01-05 15:41:19,486 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:19,486 - DEBUG - [EAX38K8F] calling vllm model
+2025-01-05 15:41:19,487 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 0 seconds (0/200)...
+2025-01-05 15:41:19,487 - DEBUG - [27a28665] running root node with 50 attempts.
+2025-01-05 15:41:19,487 - DEBUG - strarting attempt run
+2025-01-05 15:41:19,608 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:19,608 - DEBUG - [2N3OS0TP] calling vllm model
+2025-01-05 15:41:19,608 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 0 seconds (0/200)...
+2025-01-05 15:41:19,608 - DEBUG - [28bf18c6] running root node with 50 attempts.
+2025-01-05 15:41:19,608 - DEBUG - strarting attempt run
+2025-01-05 15:41:19,741 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:19,741 - DEBUG - [L1CK4Y93] calling vllm model
+2025-01-05 15:41:19,741 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 0 seconds (0/200)...
+2025-01-05 15:41:19,741 - DEBUG - [28e73c20] running root node with 50 attempts.
+2025-01-05 15:41:19,741 - DEBUG - strarting attempt run
+2025-01-05 15:41:19,963 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:19,963 - DEBUG - [RDJMZKI9] calling vllm model
+2025-01-05 15:41:19,963 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 0 seconds (0/200)...
+2025-01-05 15:41:19,964 - DEBUG - [29623171] running root node with 50 attempts.
+2025-01-05 15:41:19,964 - DEBUG - strarting attempt run
+2025-01-05 15:41:20,140 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:20,140 - DEBUG - [JS6I5O3P] calling vllm model
+2025-01-05 15:41:20,140 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 0 seconds (0/200)...
+2025-01-05 15:41:20,141 - DEBUG - [29c11459] running root node with 50 attempts.
+2025-01-05 15:41:20,141 - DEBUG - strarting attempt run
+2025-01-05 15:41:20,282 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:20,282 - DEBUG - [D3P3L97Y] calling vllm model
+2025-01-05 15:41:20,282 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 0 seconds (0/200)...
+2025-01-05 15:41:20,282 - DEBUG - [29ec7d0e] running root node with 50 attempts.
+2025-01-05 15:41:20,282 - DEBUG - strarting attempt run
+2025-01-05 15:41:20,595 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:20,595 - DEBUG - [V9PSZ1MO] calling vllm model
+2025-01-05 15:41:20,595 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 0 seconds (0/200)...
+2025-01-05 15:41:20,595 - DEBUG - [2bcee788] running root node with 50 attempts.
+2025-01-05 15:41:20,595 - DEBUG - strarting attempt run
+2025-01-05 15:41:20,776 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:20,776 - DEBUG - [UT75WRXO] calling vllm model
+2025-01-05 15:41:20,776 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 0 seconds (0/200)...
+2025-01-05 15:41:20,776 - DEBUG - [2bee17df] running root node with 50 attempts.
+2025-01-05 15:41:20,776 - DEBUG - strarting attempt run
+2025-01-05 15:41:20,961 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:20,961 - DEBUG - [E7QXW4R1] calling vllm model
+2025-01-05 15:41:20,962 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 0 seconds (0/200)...
+2025-01-05 15:41:20,962 - DEBUG - [2c608aff] running root node with 50 attempts.
+2025-01-05 15:41:20,962 - DEBUG - strarting attempt run
+2025-01-05 15:41:21,193 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:21,203 - DEBUG - [MTPF7JVW] calling vllm model
+2025-01-05 15:41:21,203 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 0 seconds (0/200)...
+2025-01-05 15:41:21,203 - DEBUG - [2dc579da] running root node with 50 attempts.
+2025-01-05 15:41:21,203 - DEBUG - strarting attempt run
+2025-01-05 15:41:21,346 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:21,346 - DEBUG - [JI3160EM] calling vllm model
+2025-01-05 15:41:21,346 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 0 seconds (0/200)...
+2025-01-05 15:41:21,347 - DEBUG - [2dd70a9a] running root node with 50 attempts.
+2025-01-05 15:41:21,347 - DEBUG - strarting attempt run
+2025-01-05 15:41:21,573 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:21,573 - DEBUG - [5YVBKKYB] calling vllm model
+2025-01-05 15:41:21,573 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 0 seconds (0/200)...
+2025-01-05 15:41:21,573 - DEBUG - [2dee498d] running root node with 50 attempts.
+2025-01-05 15:41:21,573 - DEBUG - strarting attempt run
+2025-01-05 15:41:21,699 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:21,699 - DEBUG - [56T5GT8V] calling vllm model
+2025-01-05 15:41:21,699 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 0 seconds (0/200)...
+2025-01-05 15:41:21,699 - DEBUG - [31aa019c] running root node with 50 attempts.
+2025-01-05 15:41:21,699 - DEBUG - strarting attempt run
+2025-01-05 15:41:21,867 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:21,867 - DEBUG - [KKJ5WT1X] calling vllm model
+2025-01-05 15:41:21,867 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 0 seconds (0/200)...
+2025-01-05 15:41:21,867 - DEBUG - [321b1fc6] running root node with 50 attempts.
+2025-01-05 15:41:21,867 - DEBUG - strarting attempt run
+2025-01-05 15:41:22,021 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:22,022 - DEBUG - [8DIAE1VZ] calling vllm model
+2025-01-05 15:41:22,022 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 0 seconds (0/200)...
+2025-01-05 15:41:22,022 - DEBUG - [32597951] running root node with 50 attempts.
+2025-01-05 15:41:22,022 - DEBUG - strarting attempt run
+2025-01-05 15:41:22,271 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:22,271 - DEBUG - [5M7I3UCI] calling vllm model
+2025-01-05 15:41:22,272 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 0 seconds (0/200)...
+2025-01-05 15:41:33,510 - DEBUG - [U8YCF92W] calling vllm model
+2025-01-05 15:41:33,510 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 1 seconds (1/200)...
+2025-01-05 15:41:33,630 - DEBUG - [P6L7QVTG] calling vllm model
+2025-01-05 15:41:33,630 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 1 seconds (1/200)...
+2025-01-05 15:41:33,761 - DEBUG - [31EHHD5C] calling vllm model
+2025-01-05 15:41:33,761 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 1 seconds (1/200)...
+2025-01-05 15:41:34,284 - DEBUG - [OH6FLA2Z] calling vllm model
+2025-01-05 15:41:34,284 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 1 seconds (1/200)...
+2025-01-05 15:41:34,487 - DEBUG - [T62DI07G] calling vllm model
+2025-01-05 15:41:34,487 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 1 seconds (1/200)...
+2025-01-05 15:41:34,609 - DEBUG - [10MXX1OS] calling vllm model
+2025-01-05 15:41:34,609 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 1 seconds (1/200)...
+2025-01-05 15:41:34,742 - DEBUG - [RKDVG1ZC] calling vllm model
+2025-01-05 15:41:34,742 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 1 seconds (1/200)...
+2025-01-05 15:41:34,965 - DEBUG - [1BNJLQFQ] calling vllm model
+2025-01-05 15:41:34,965 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 1 seconds (1/200)...
+2025-01-05 15:41:35,142 - DEBUG - [OCV10BME] calling vllm model
+2025-01-05 15:41:35,142 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 1 seconds (1/200)...
+2025-01-05 15:41:35,283 - DEBUG - [EWGEFMPA] calling vllm model
+2025-01-05 15:41:35,283 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 1 seconds (1/200)...
+2025-01-05 15:41:35,596 - DEBUG - [7AR4LJOQ] calling vllm model
+2025-01-05 15:41:35,597 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 1 seconds (1/200)...
+2025-01-05 15:41:35,777 - DEBUG - [06VQ9Z5L] calling vllm model
+2025-01-05 15:41:35,777 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 1 seconds (1/200)...
+2025-01-05 15:41:35,963 - DEBUG - [J33AKC6Y] calling vllm model
+2025-01-05 15:41:35,963 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 1 seconds (1/200)...
+2025-01-05 15:41:36,204 - DEBUG - [NTTD5K7V] calling vllm model
+2025-01-05 15:41:36,204 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 1 seconds (1/200)...
+2025-01-05 15:41:36,349 - DEBUG - [C6IW1U7Y] calling vllm model
+2025-01-05 15:41:36,349 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 1 seconds (1/200)...
+2025-01-05 15:41:36,574 - DEBUG - [HYB9FEI0] calling vllm model
+2025-01-05 15:41:36,574 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 1 seconds (1/200)...
+2025-01-05 15:41:36,700 - DEBUG - [OO8U702R] calling vllm model
+2025-01-05 15:41:36,700 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 1 seconds (1/200)...
+2025-01-05 15:41:36,867 - DEBUG - [5A7A0HCH] calling vllm model
+2025-01-05 15:41:36,867 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 1 seconds (1/200)...
+2025-01-05 15:41:37,023 - DEBUG - [3WN114GW] calling vllm model
+2025-01-05 15:41:37,023 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 1 seconds (1/200)...
+2025-01-05 15:41:37,272 - DEBUG - [559G7UKL] calling vllm model
+2025-01-05 15:41:37,272 - DEBUG - Other vllm error: AsyncCompletions.create() got an unexpected keyword argument 'enable_prefix_caching', retrying in 1 seconds (1/200)...

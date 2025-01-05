@@ -4,7 +4,7 @@ import os
 import time
 import typing as T
 from pathlib import Path
-
+from datetime import datetime
 from pydantic import BaseModel, TypeAdapter
 
 from src import logfire
@@ -180,16 +180,19 @@ async def run() -> None:
     truth_solutions_path = "arc-prize-2024/arc-agi_training_solutions.json"
     attempts_solutions_path = "test_data/training_solutions.json"
     logfire.debug('run from json')
+    
+
+
     await run_from_json(
         challenges_path=challenges_path,
         solutions_path=attempts_solutions_path,
         truth_solutions_path=truth_solutions_path,
-        temp_solutions_dir_path="test_data/tmp_solutions",
-        # tree=experiments.sonnet_writeup_deep,
+        temp_solutions_dir_path="test_data_mine/tmp_solutions/",
+        tree=experiments.sonnet_writeup_deep,
         # tree=experiments.sonnet_writeup_shallow,
         # tree=experiments.sonnet_writeup_med,
-        tree=experiments.sonnet_pooling_example,
-        limit=10,
+        # tree=experiments.sonnet_pooling_example,
+        limit=20,
         offset=50,
         # limit=1,
         # offset=1,

@@ -276,7 +276,8 @@ def eval_attempts(
     time_took_ms: float,
 ) -> None:
     
-    logfire.debug(f"eval the attempts: {attempts}")
+    # logfire.debug(f"eval the attempts: {attempts}")
+    logfire.debug(f"eval the attempts")
 
     if not attempts:
         logfire.debug("no attempts")

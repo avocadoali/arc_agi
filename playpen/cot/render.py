@@ -203,9 +203,9 @@ def show_grid(
 
 
 # # Example usage
-# initial_values = np.array([[1, 1, 2], [2, 3, 5], [0, 2, 1]])
+initial_values = np.array([[1, 1, 2], [2, 3, 5], [0, 2, 1]])
 
-# rgb_grid = create_rgb_grid(initial_values, cell_size=10)
+rgb_grid = create_rgb_grid(initial_values, cell_size=10)
 
-# image = Image.fromarray(rgb_grid, "RGB")
-# image.show()
+image = Image.fromarray(rgb_grid, "RGB")
+image.show()

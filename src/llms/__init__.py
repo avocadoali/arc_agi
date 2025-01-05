@@ -165,10 +165,11 @@ async def get_next_message_vllm(
     messages = text_only_messages(messages)
 
     params = {
-        # "temperature": temperature,
+        "temperature": temperature,
         # "max_tokens": 30_000,
         "messages": messages,
         "model": model.value,
+        # "enable_prefix_caching": True,
         # "timeout": 120,
     }
     # breakpoint()
@@ -216,7 +217,7 @@ async def get_next_message_vllm(
 
             logfire.debug(
                 f"[{request_id}] took {took_ms:.2f}, {usage}, cost_cents={Attempt.cost_cents_from_usage(model=model, usage=usage)}"
-            # )
+            )
 
 
             break  # Success, exit the loop

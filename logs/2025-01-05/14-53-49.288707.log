@@ -1,0 +1,43 @@
+2025-01-05 14:53:50,338 - DEBUG - run from json
+2025-01-05 14:53:50,338 - DEBUG - [1736085230.3387558] starting run from json
+2025-01-05 14:53:50,450 - DEBUG - process challenges w limit
+2025-01-05 14:53:50,451 - DEBUG - [25d487eb] running root node with 5 attempts.
+2025-01-05 14:53:50,451 - DEBUG - strarting attempt run
+2025-01-05 14:53:51,747 - DEBUG - Creating vllm client done 
+2025-01-05 14:53:51,747 - DEBUG - [EGPJ7BTO] calling vllm model
+2025-01-05 14:53:51,759 - DEBUG - [25d8a9c8] running root node with 5 attempts.
+2025-01-05 14:53:51,759 - DEBUG - strarting attempt run
+2025-01-05 14:53:51,889 - DEBUG - Creating vllm client done 
+2025-01-05 14:53:51,889 - DEBUG - [WBU6FE1N] calling vllm model
+2025-01-05 14:53:51,896 - DEBUG - [25ff71a9] running root node with 5 attempts.
+2025-01-05 14:53:51,896 - DEBUG - strarting attempt run
+2025-01-05 14:53:52,023 - DEBUG - Creating vllm client done 
+2025-01-05 14:53:52,023 - DEBUG - [VV0OABCN] calling vllm model
+2025-01-05 14:53:52,029 - DEBUG - [264363fd] running root node with 5 attempts.
+2025-01-05 14:53:52,029 - DEBUG - strarting attempt run
+2025-01-05 14:53:52,546 - DEBUG - Creating vllm client done 
+2025-01-05 14:53:52,546 - DEBUG - [T7E7DE67] calling vllm model
+2025-01-05 14:53:52,553 - DEBUG - [272f95fa] running root node with 5 attempts.
+2025-01-05 14:53:52,553 - DEBUG - strarting attempt run
+2025-01-05 14:53:52,754 - DEBUG - Creating vllm client done 
+2025-01-05 14:53:52,754 - DEBUG - [DET61HE1] calling vllm model
+2025-01-05 14:53:52,760 - DEBUG - [27a28665] running root node with 5 attempts.
+2025-01-05 14:53:52,760 - DEBUG - strarting attempt run
+2025-01-05 14:53:52,876 - DEBUG - Creating vllm client done 
+2025-01-05 14:53:52,876 - DEBUG - [SLCPSBBC] calling vllm model
+2025-01-05 14:53:52,882 - DEBUG - [28bf18c6] running root node with 5 attempts.
+2025-01-05 14:53:52,882 - DEBUG - strarting attempt run
+2025-01-05 14:53:53,013 - DEBUG - Creating vllm client done 
+2025-01-05 14:53:53,013 - DEBUG - [GGTELQB4] calling vllm model
+2025-01-05 14:53:53,020 - DEBUG - [28e73c20] running root node with 5 attempts.
+2025-01-05 14:53:53,020 - DEBUG - strarting attempt run
+2025-01-05 14:53:53,240 - DEBUG - Creating vllm client done 
+2025-01-05 14:53:53,240 - DEBUG - [9TEGQAQI] calling vllm model
+2025-01-05 14:53:53,246 - DEBUG - [29623171] running root node with 5 attempts.
+2025-01-05 14:53:53,246 - DEBUG - strarting attempt run
+2025-01-05 14:53:53,425 - DEBUG - Creating vllm client done 
+2025-01-05 14:53:53,425 - DEBUG - [9DB6TELP] calling vllm model
+2025-01-05 14:53:53,431 - DEBUG - [29c11459] running root node with 5 attempts.
+2025-01-05 14:53:53,431 - DEBUG - strarting attempt run
+2025-01-05 14:53:53,571 - DEBUG - Creating vllm client done 
+2025-01-05 14:53:53,571 - DEBUG - [BY8UH8JU] calling vllm model

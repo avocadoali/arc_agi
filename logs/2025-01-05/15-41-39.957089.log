@@ -1,0 +1,1161 @@
+2025-01-05 15:41:40,980 - DEBUG - run from json
+2025-01-05 15:41:40,980 - DEBUG - [1736088100.9804475] starting run from json
+2025-01-05 15:41:41,090 - DEBUG - process challenges w limit
+2025-01-05 15:41:41,090 - DEBUG - [25d487eb] running root node with 50 attempts.
+2025-01-05 15:41:41,090 - DEBUG - strarting attempt run
+2025-01-05 15:41:42,375 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:42,375 - DEBUG - [CPZ1PYCS] calling vllm model
+2025-01-05 15:41:42,388 - DEBUG - [25d8a9c8] running root node with 50 attempts.
+2025-01-05 15:41:42,388 - DEBUG - strarting attempt run
+2025-01-05 15:41:42,517 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:42,517 - DEBUG - [RSJF6QZG] calling vllm model
+2025-01-05 15:41:42,524 - DEBUG - [25ff71a9] running root node with 50 attempts.
+2025-01-05 15:41:42,524 - DEBUG - strarting attempt run
+2025-01-05 15:41:42,653 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:42,653 - DEBUG - [M8N3ZB36] calling vllm model
+2025-01-05 15:41:42,659 - DEBUG - [264363fd] running root node with 50 attempts.
+2025-01-05 15:41:42,659 - DEBUG - strarting attempt run
+2025-01-05 15:41:43,174 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:43,174 - DEBUG - [6LWB0L00] calling vllm model
+2025-01-05 15:41:43,181 - DEBUG - [272f95fa] running root node with 50 attempts.
+2025-01-05 15:41:43,181 - DEBUG - strarting attempt run
+2025-01-05 15:41:43,383 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:43,383 - DEBUG - [S145WE3B] calling vllm model
+2025-01-05 15:41:43,389 - DEBUG - [27a28665] running root node with 50 attempts.
+2025-01-05 15:41:43,389 - DEBUG - strarting attempt run
+2025-01-05 15:41:43,507 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:43,507 - DEBUG - [QZXZPKOA] calling vllm model
+2025-01-05 15:41:43,513 - DEBUG - [28bf18c6] running root node with 50 attempts.
+2025-01-05 15:41:43,513 - DEBUG - strarting attempt run
+2025-01-05 15:41:43,644 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:43,644 - DEBUG - [541L7MW1] calling vllm model
+2025-01-05 15:41:43,650 - DEBUG - [28e73c20] running root node with 50 attempts.
+2025-01-05 15:41:43,650 - DEBUG - strarting attempt run
+2025-01-05 15:41:43,870 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:43,870 - DEBUG - [LFAFGW7S] calling vllm model
+2025-01-05 15:41:43,876 - DEBUG - [29623171] running root node with 50 attempts.
+2025-01-05 15:41:43,876 - DEBUG - strarting attempt run
+2025-01-05 15:41:44,054 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:44,054 - DEBUG - [Y1P2NAZF] calling vllm model
+2025-01-05 15:41:44,060 - DEBUG - [29c11459] running root node with 50 attempts.
+2025-01-05 15:41:44,060 - DEBUG - strarting attempt run
+2025-01-05 15:41:44,199 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:44,199 - DEBUG - [Z65WTYB5] calling vllm model
+2025-01-05 15:41:44,206 - DEBUG - [29ec7d0e] running root node with 50 attempts.
+2025-01-05 15:41:44,206 - DEBUG - strarting attempt run
+2025-01-05 15:41:44,512 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:44,512 - DEBUG - [VQS3SOAY] calling vllm model
+2025-01-05 15:41:44,518 - DEBUG - [2bcee788] running root node with 50 attempts.
+2025-01-05 15:41:44,518 - DEBUG - strarting attempt run
+2025-01-05 15:41:44,699 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:44,699 - DEBUG - [PMY4P7WC] calling vllm model
+2025-01-05 15:41:44,705 - DEBUG - [2bee17df] running root node with 50 attempts.
+2025-01-05 15:41:44,705 - DEBUG - strarting attempt run
+2025-01-05 15:41:44,891 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:44,891 - DEBUG - [98OEMWUJ] calling vllm model
+2025-01-05 15:41:44,897 - DEBUG - [2c608aff] running root node with 50 attempts.
+2025-01-05 15:41:44,897 - DEBUG - strarting attempt run
+2025-01-05 15:41:45,128 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:45,128 - DEBUG - [QNJD6M4U] calling vllm model
+2025-01-05 15:41:45,134 - DEBUG - [2dc579da] running root node with 50 attempts.
+2025-01-05 15:41:45,134 - DEBUG - strarting attempt run
+2025-01-05 15:41:45,276 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:45,276 - DEBUG - [4YQS5JL8] calling vllm model
+2025-01-05 15:41:45,283 - DEBUG - [2dd70a9a] running root node with 50 attempts.
+2025-01-05 15:41:45,283 - DEBUG - strarting attempt run
+2025-01-05 15:41:45,508 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:45,508 - DEBUG - [5H30FIP0] calling vllm model
+2025-01-05 15:41:45,514 - DEBUG - [2dee498d] running root node with 50 attempts.
+2025-01-05 15:41:45,514 - DEBUG - strarting attempt run
+2025-01-05 15:41:45,638 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:45,638 - DEBUG - [28PUQV9P] calling vllm model
+2025-01-05 15:41:45,644 - DEBUG - [31aa019c] running root node with 50 attempts.
+2025-01-05 15:41:45,644 - DEBUG - strarting attempt run
+2025-01-05 15:41:45,812 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:45,812 - DEBUG - [ETDXSRFX] calling vllm model
+2025-01-05 15:41:45,818 - DEBUG - [321b1fc6] running root node with 50 attempts.
+2025-01-05 15:41:45,818 - DEBUG - strarting attempt run
+2025-01-05 15:41:45,974 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:45,974 - DEBUG - [K0F6N6SW] calling vllm model
+2025-01-05 15:41:45,980 - DEBUG - [32597951] running root node with 50 attempts.
+2025-01-05 15:41:45,980 - DEBUG - strarting attempt run
+2025-01-05 15:41:46,229 - DEBUG - Creating vllm client done 
+2025-01-05 15:41:46,230 - DEBUG - [S9CDJK5L] calling vllm model
+2025-01-05 15:43:37,214 - DEBUG - [LFAFGW7S] took 113343.69, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=311, cost_cents=5.7816
+2025-01-05 15:43:37,215 - DEBUG - [P55H1523] calling vllm model
+2025-01-05 15:43:37,221 - DEBUG - [COBA1E1M] calling vllm model
+2025-01-05 15:43:37,228 - DEBUG - [RVH6GZY7] calling vllm model
+2025-01-05 15:43:37,234 - DEBUG - [SMNBKXIT] calling vllm model
+2025-01-05 15:43:37,241 - DEBUG - [9OOSFZ0R] calling vllm model
+2025-01-05 15:43:37,247 - DEBUG - [Z2VJLN46] calling vllm model
+2025-01-05 15:43:37,254 - DEBUG - [XG06NJNN] calling vllm model
+2025-01-05 15:43:37,260 - DEBUG - [E4FA0WUG] calling vllm model
+2025-01-05 15:43:37,267 - DEBUG - [5GNLVLQ8] calling vllm model
+2025-01-05 15:43:37,273 - DEBUG - [NADMFDU7] calling vllm model
+2025-01-05 15:43:37,280 - DEBUG - [DXBPZPDR] calling vllm model
+2025-01-05 15:43:37,286 - DEBUG - [EUHSY38Q] calling vllm model
+2025-01-05 15:43:37,293 - DEBUG - [T3WDINFZ] calling vllm model
+2025-01-05 15:43:37,299 - DEBUG - [V0D9HJB7] calling vllm model
+2025-01-05 15:43:37,305 - DEBUG - [UUODPO6U] calling vllm model
+2025-01-05 15:43:37,312 - DEBUG - [ZYTFIEGG] calling vllm model
+2025-01-05 15:43:37,318 - DEBUG - [2S6H5SLT] calling vllm model
+2025-01-05 15:43:37,325 - DEBUG - [EORPGNOA] calling vllm model
+2025-01-05 15:43:37,331 - DEBUG - [PPVIWJ89] calling vllm model
+2025-01-05 15:43:37,338 - DEBUG - [138NBV4Q] calling vllm model
+2025-01-05 15:43:37,344 - DEBUG - [CHXYMCJJ] calling vllm model
+2025-01-05 15:43:37,351 - DEBUG - [QKKMGYSV] calling vllm model
+2025-01-05 15:43:37,357 - DEBUG - [AR5508ZC] calling vllm model
+2025-01-05 15:43:37,364 - DEBUG - [8XFGI5YY] calling vllm model
+2025-01-05 15:43:37,370 - DEBUG - [WLHHS2OT] calling vllm model
+2025-01-05 15:43:37,377 - DEBUG - [VTP9KL9K] calling vllm model
+2025-01-05 15:43:37,383 - DEBUG - [G6E4X8WF] calling vllm model
+2025-01-05 15:43:37,390 - DEBUG - [YRO23PG4] calling vllm model
+2025-01-05 15:43:37,396 - DEBUG - [XSJB6XX8] calling vllm model
+2025-01-05 15:43:37,403 - DEBUG - [BURQFWMI] calling vllm model
+2025-01-05 15:43:37,409 - DEBUG - [GU8U3690] calling vllm model
+2025-01-05 15:43:37,416 - DEBUG - [AKTICG64] calling vllm model
+2025-01-05 15:43:37,422 - DEBUG - [TQJERQTI] calling vllm model
+2025-01-05 15:43:37,429 - DEBUG - [H25OODLV] calling vllm model
+2025-01-05 15:43:37,435 - DEBUG - [067ARWPI] calling vllm model
+2025-01-05 15:43:37,442 - DEBUG - [C0V28AB6] calling vllm model
+2025-01-05 15:43:37,448 - DEBUG - [12PGNMIQ] calling vllm model
+2025-01-05 15:43:37,454 - DEBUG - [A3CMGE0N] calling vllm model
+2025-01-05 15:43:37,461 - DEBUG - [47T2T89O] calling vllm model
+2025-01-05 15:43:37,467 - DEBUG - [PSI2FFTY] calling vllm model
+2025-01-05 15:43:37,473 - DEBUG - [L5PVVYWM] calling vllm model
+2025-01-05 15:43:37,480 - DEBUG - [GZFUQSLX] calling vllm model
+2025-01-05 15:43:37,486 - DEBUG - [YBJX8TTE] calling vllm model
+2025-01-05 15:43:37,493 - DEBUG - [VZKY70ML] calling vllm model
+2025-01-05 15:43:37,499 - DEBUG - [GMDOZXEF] calling vllm model
+2025-01-05 15:43:37,506 - DEBUG - [6G6DE1AT] calling vllm model
+2025-01-05 15:43:37,512 - DEBUG - [Q5FN4GX6] calling vllm model
+2025-01-05 15:43:37,518 - DEBUG - [X4B2VWYI] calling vllm model
+2025-01-05 15:43:37,525 - DEBUG - [E03CL2DS] calling vllm model
+2025-01-05 15:43:51,678 - DEBUG - [M8N3ZB36] took 129025.58, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=8027 output_tokens=674, cost_cents=3.4191
+2025-01-05 15:43:51,681 - DEBUG - [K1QP7D7J] calling vllm model
+2025-01-05 15:43:51,688 - DEBUG - [SOEAUONO] calling vllm model
+2025-01-05 15:43:51,694 - DEBUG - [YM3UVGB2] calling vllm model
+2025-01-05 15:43:51,701 - DEBUG - [F0WU3VSS] calling vllm model
+2025-01-05 15:43:51,707 - DEBUG - [CY8JK300] calling vllm model
+2025-01-05 15:43:51,713 - DEBUG - [B5C87J2B] calling vllm model
+2025-01-05 15:43:51,720 - DEBUG - [7NT9COJ9] calling vllm model
+2025-01-05 15:43:51,727 - DEBUG - [U1MYWNQK] calling vllm model
+2025-01-05 15:43:51,733 - DEBUG - [ZL5UW6MP] calling vllm model
+2025-01-05 15:43:51,739 - DEBUG - [XW0MT4DE] calling vllm model
+2025-01-05 15:43:51,848 - DEBUG - [BFJUJSLL] calling vllm model
+2025-01-05 15:43:51,854 - DEBUG - [XIN4ZW7U] calling vllm model
+2025-01-05 15:43:51,861 - DEBUG - [AEJ0PZGP] calling vllm model
+2025-01-05 15:43:51,867 - DEBUG - [ZUON00L3] calling vllm model
+2025-01-05 15:43:51,873 - DEBUG - [T748UVWO] calling vllm model
+2025-01-05 15:43:51,880 - DEBUG - [2XAZN6NG] calling vllm model
+2025-01-05 15:43:51,886 - DEBUG - [X11MI0CX] calling vllm model
+2025-01-05 15:43:51,893 - DEBUG - [WY587962] calling vllm model
+2025-01-05 15:43:51,899 - DEBUG - [SZCSGXF9] calling vllm model
+2025-01-05 15:43:51,906 - DEBUG - [Q2KHKU94] calling vllm model
+2025-01-05 15:43:51,912 - DEBUG - [81QOEAJF] calling vllm model
+2025-01-05 15:43:51,918 - DEBUG - [9BU9RYZR] calling vllm model
+2025-01-05 15:43:51,925 - DEBUG - [3B4LIWXV] calling vllm model
+2025-01-05 15:43:51,931 - DEBUG - [G24IDHM3] calling vllm model
+2025-01-05 15:43:51,938 - DEBUG - [X1OBS0DN] calling vllm model
+2025-01-05 15:43:51,944 - DEBUG - [KOEIR68E] calling vllm model
+2025-01-05 15:43:51,951 - DEBUG - [3O5GZCH7] calling vllm model
+2025-01-05 15:43:51,957 - DEBUG - [UADIC0W5] calling vllm model
+2025-01-05 15:43:51,963 - DEBUG - [0ZDGB4NO] calling vllm model
+2025-01-05 15:43:51,970 - DEBUG - [0MM7ENNB] calling vllm model
+2025-01-05 15:43:51,976 - DEBUG - [Z48BU601] calling vllm model
+2025-01-05 15:43:51,983 - DEBUG - [LW07MRYV] calling vllm model
+2025-01-05 15:43:51,989 - DEBUG - [D5XR8OWE] calling vllm model
+2025-01-05 15:43:51,995 - DEBUG - [GAEIH85B] calling vllm model
+2025-01-05 15:43:52,002 - DEBUG - [60W5Y0G2] calling vllm model
+2025-01-05 15:43:52,008 - DEBUG - [3DOV18I9] calling vllm model
+2025-01-05 15:43:52,015 - DEBUG - [7J2X6F1F] calling vllm model
+2025-01-05 15:43:52,021 - DEBUG - [GVM2Q9AG] calling vllm model
+2025-01-05 15:43:52,028 - DEBUG - [K2L5YDSS] calling vllm model
+2025-01-05 15:43:52,034 - DEBUG - [AV3IDKSR] calling vllm model
+2025-01-05 15:43:52,040 - DEBUG - [53AS0NT1] calling vllm model
+2025-01-05 15:43:52,047 - DEBUG - [CDFD4P88] calling vllm model
+2025-01-05 15:43:52,053 - DEBUG - [IQ5HAFXA] calling vllm model
+2025-01-05 15:43:52,059 - DEBUG - [TCLGI1D2] calling vllm model
+2025-01-05 15:43:52,066 - DEBUG - [3S9KGVIP] calling vllm model
+2025-01-05 15:43:52,072 - DEBUG - [XNSTQOU0] calling vllm model
+2025-01-05 15:43:52,078 - DEBUG - [T98U7UYE] calling vllm model
+2025-01-05 15:43:52,085 - DEBUG - [JDETF4EW] calling vllm model
+2025-01-05 15:43:52,091 - DEBUG - [LFAQ2HKR] calling vllm model
+2025-01-05 15:44:11,020 - DEBUG - [6LWB0L00] took 147845.26, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=49694 output_tokens=705, cost_cents=15.9657
+2025-01-05 15:44:11,020 - DEBUG - [JA1HWTS8] calling vllm model
+2025-01-05 15:44:11,027 - DEBUG - [IVFCIU6L] calling vllm model
+2025-01-05 15:44:11,034 - DEBUG - [F3VP36M8] calling vllm model
+2025-01-05 15:44:11,041 - DEBUG - [LKSTZXN9] calling vllm model
+2025-01-05 15:44:11,047 - DEBUG - [N4S7X2SQ] calling vllm model
+2025-01-05 15:44:11,054 - DEBUG - [7R9NUVPX] calling vllm model
+2025-01-05 15:44:11,061 - DEBUG - [HYRML6CJ] calling vllm model
+2025-01-05 15:44:11,067 - DEBUG - [2QDF1QKM] calling vllm model
+2025-01-05 15:44:11,074 - DEBUG - [3BQ19EEF] calling vllm model
+2025-01-05 15:44:11,081 - DEBUG - [44VLTX0W] calling vllm model
+2025-01-05 15:44:11,087 - DEBUG - [S94XOXGT] calling vllm model
+2025-01-05 15:44:11,095 - DEBUG - [PBPWPP8Y] calling vllm model
+2025-01-05 15:44:11,101 - DEBUG - [44BWWL3M] calling vllm model
+2025-01-05 15:44:11,108 - DEBUG - [X8KCUYCP] calling vllm model
+2025-01-05 15:44:11,115 - DEBUG - [0KUQSAJU] calling vllm model
+2025-01-05 15:44:11,121 - DEBUG - [CR7YMIGQ] calling vllm model
+2025-01-05 15:44:11,128 - DEBUG - [T23EU282] calling vllm model
+2025-01-05 15:44:11,134 - DEBUG - [FU3DPL79] calling vllm model
+2025-01-05 15:44:11,141 - DEBUG - [NXS7HOFF] calling vllm model
+2025-01-05 15:44:11,147 - DEBUG - [JW2CQAOJ] calling vllm model
+2025-01-05 15:44:11,154 - DEBUG - [972JB3ZU] calling vllm model
+2025-01-05 15:44:11,161 - DEBUG - [IKWKJB62] calling vllm model
+2025-01-05 15:44:11,167 - DEBUG - [5BS01AHO] calling vllm model
+2025-01-05 15:44:11,174 - DEBUG - [5UUFIID0] calling vllm model
+2025-01-05 15:44:11,181 - DEBUG - [1VF93G9Q] calling vllm model
+2025-01-05 15:44:11,187 - DEBUG - [CBU6P959] calling vllm model
+2025-01-05 15:44:11,194 - DEBUG - [O7I508SZ] calling vllm model
+2025-01-05 15:44:11,200 - DEBUG - [DO4FBLJ0] calling vllm model
+2025-01-05 15:44:11,207 - DEBUG - [CUTDHGYL] calling vllm model
+2025-01-05 15:44:11,214 - DEBUG - [9EA4B0HZ] calling vllm model
+2025-01-05 15:44:11,220 - DEBUG - [FTS3GQIR] calling vllm model
+2025-01-05 15:44:11,227 - DEBUG - [DTKKBLGY] calling vllm model
+2025-01-05 15:44:11,233 - DEBUG - [96ACMZJ8] calling vllm model
+2025-01-05 15:44:11,240 - DEBUG - [31XXWASK] calling vllm model
+2025-01-05 15:44:11,247 - DEBUG - [FULCE40R] calling vllm model
+2025-01-05 15:44:11,253 - DEBUG - [54ZJK4LU] calling vllm model
+2025-01-05 15:44:11,260 - DEBUG - [97JXE3E8] calling vllm model
+2025-01-05 15:44:11,266 - DEBUG - [KM4N6QDD] calling vllm model
+2025-01-05 15:44:11,273 - DEBUG - [DLWOI2ND] calling vllm model
+2025-01-05 15:44:11,280 - DEBUG - [OYOQTM6V] calling vllm model
+2025-01-05 15:44:11,286 - DEBUG - [R7U7OTWZ] calling vllm model
+2025-01-05 15:44:11,293 - DEBUG - [ZMLWLOQ1] calling vllm model
+2025-01-05 15:44:11,299 - DEBUG - [U67GGFPS] calling vllm model
+2025-01-05 15:44:11,306 - DEBUG - [1NT3HZFA] calling vllm model
+2025-01-05 15:44:11,313 - DEBUG - [J41V4XUU] calling vllm model
+2025-01-05 15:44:11,319 - DEBUG - [ZQ1CYB80] calling vllm model
+2025-01-05 15:44:11,326 - DEBUG - [I4HGEKB1] calling vllm model
+2025-01-05 15:44:11,333 - DEBUG - [LVKRTHU2] calling vllm model
+2025-01-05 15:44:11,339 - DEBUG - [UN96CBMV] calling vllm model
+2025-01-05 15:44:14,851 - DEBUG - [QZXZPKOA] took 151344.08, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=5983 output_tokens=878, cost_cents=3.1119
+2025-01-05 15:44:14,851 - DEBUG - [VYLG5CHJ] calling vllm model
+2025-01-05 15:44:14,858 - DEBUG - [G2ZBWOAX] calling vllm model
+2025-01-05 15:44:14,864 - DEBUG - [URZTER4W] calling vllm model
+2025-01-05 15:44:14,871 - DEBUG - [LD3RK2UZ] calling vllm model
+2025-01-05 15:44:14,877 - DEBUG - [MOUPJVBT] calling vllm model
+2025-01-05 15:44:14,884 - DEBUG - [FRGF0DRF] calling vllm model
+2025-01-05 15:44:14,890 - DEBUG - [SNS4JM87] calling vllm model
+2025-01-05 15:44:14,897 - DEBUG - [2229KUIC] calling vllm model
+2025-01-05 15:44:14,903 - DEBUG - [1BVII5J2] calling vllm model
+2025-01-05 15:44:14,909 - DEBUG - [J35XNBF3] calling vllm model
+2025-01-05 15:44:14,916 - DEBUG - [5A6SIHWV] calling vllm model
+2025-01-05 15:44:14,922 - DEBUG - [3G8EX2AJ] calling vllm model
+2025-01-05 15:44:14,928 - DEBUG - [ZAPGX4YX] calling vllm model
+2025-01-05 15:44:14,934 - DEBUG - [U37P438V] calling vllm model
+2025-01-05 15:44:14,941 - DEBUG - [6V4QIKV1] calling vllm model
+2025-01-05 15:44:14,948 - DEBUG - [063AFUT2] calling vllm model
+2025-01-05 15:44:14,954 - DEBUG - [P97V49PA] calling vllm model
+2025-01-05 15:44:14,960 - DEBUG - [3L5LGVW1] calling vllm model
+2025-01-05 15:44:14,966 - DEBUG - [U7ZYTK4L] calling vllm model
+2025-01-05 15:44:14,973 - DEBUG - [W0TU8YP9] calling vllm model
+2025-01-05 15:44:14,979 - DEBUG - [D3B8ZU27] calling vllm model
+2025-01-05 15:44:14,985 - DEBUG - [T6665MN6] calling vllm model
+2025-01-05 15:44:14,992 - DEBUG - [327H9UUG] calling vllm model
+2025-01-05 15:44:14,998 - DEBUG - [PQT6ZBGM] calling vllm model
+2025-01-05 15:44:15,004 - DEBUG - [E1XFEZX1] calling vllm model
+2025-01-05 15:44:15,011 - DEBUG - [DY2O6ZPM] calling vllm model
+2025-01-05 15:44:15,017 - DEBUG - [FZY61DIM] calling vllm model
+2025-01-05 15:44:15,023 - DEBUG - [81LCSIAC] calling vllm model
+2025-01-05 15:44:15,030 - DEBUG - [09K40YGT] calling vllm model
+2025-01-05 15:44:15,036 - DEBUG - [QGCANQTN] calling vllm model
+2025-01-05 15:44:15,042 - DEBUG - [50F85TE9] calling vllm model
+2025-01-05 15:44:15,049 - DEBUG - [FQC7H13R] calling vllm model
+2025-01-05 15:44:15,055 - DEBUG - [V9OXCV99] calling vllm model
+2025-01-05 15:44:15,061 - DEBUG - [KO1KR40T] calling vllm model
+2025-01-05 15:44:15,068 - DEBUG - [SU0UP145] calling vllm model
+2025-01-05 15:44:15,074 - DEBUG - [1WQA43FQ] calling vllm model
+2025-01-05 15:44:15,080 - DEBUG - [AQWG638H] calling vllm model
+2025-01-05 15:44:15,087 - DEBUG - [VZWLZK8G] calling vllm model
+2025-01-05 15:44:15,094 - DEBUG - [Q2CNLBI6] calling vllm model
+2025-01-05 15:44:15,100 - DEBUG - [KE24VW5Z] calling vllm model
+2025-01-05 15:44:15,106 - DEBUG - [PV6S1A42] calling vllm model
+2025-01-05 15:44:15,113 - DEBUG - [74L6JU1C] calling vllm model
+2025-01-05 15:44:15,119 - DEBUG - [IFP64AKC] calling vllm model
+2025-01-05 15:44:15,126 - DEBUG - [LNER7W2U] calling vllm model
+2025-01-05 15:44:15,132 - DEBUG - [FULAFH7J] calling vllm model
+2025-01-05 15:44:15,138 - DEBUG - [CD4AH92R] calling vllm model
+2025-01-05 15:44:15,145 - DEBUG - [30YAH177] calling vllm model
+2025-01-05 15:44:15,151 - DEBUG - [I1OQLXRX] calling vllm model
+2025-01-05 15:44:15,158 - DEBUG - [T7TMM49S] calling vllm model
+2025-01-05 15:44:17,913 - DEBUG - [CPZ1PYCS] took 155537.98, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=14869 output_tokens=925, cost_cents=5.8482
+2025-01-05 15:44:17,913 - DEBUG - [XIYX3KOF] calling vllm model
+2025-01-05 15:44:17,920 - DEBUG - [BZZSHU48] calling vllm model
+2025-01-05 15:44:17,927 - DEBUG - [MZ6ZZ02A] calling vllm model
+2025-01-05 15:44:17,933 - DEBUG - [Y0R8XUSD] calling vllm model
+2025-01-05 15:44:17,940 - DEBUG - [PXEB62NR] calling vllm model
+2025-01-05 15:44:17,946 - DEBUG - [PI05GSGD] calling vllm model
+2025-01-05 15:44:17,953 - DEBUG - [ZSXYAG9S] calling vllm model
+2025-01-05 15:44:17,960 - DEBUG - [L5SFH6Q1] calling vllm model
+2025-01-05 15:44:17,966 - DEBUG - [T0JH05UA] calling vllm model
+2025-01-05 15:44:17,972 - DEBUG - [DS2EVZE3] calling vllm model
+2025-01-05 15:44:17,979 - DEBUG - [3F8G6HTJ] calling vllm model
+2025-01-05 15:44:17,985 - DEBUG - [K9VTEYOF] calling vllm model
+2025-01-05 15:44:17,992 - DEBUG - [OTMHO4YU] calling vllm model
+2025-01-05 15:44:17,999 - DEBUG - [J0KXAJ6H] calling vllm model
+2025-01-05 15:44:18,005 - DEBUG - [FKG56RIX] calling vllm model
+2025-01-05 15:44:18,011 - DEBUG - [RU02H32M] calling vllm model
+2025-01-05 15:44:18,018 - DEBUG - [WRB7ZKGJ] calling vllm model
+2025-01-05 15:44:18,024 - DEBUG - [SWP4VTM0] calling vllm model
+2025-01-05 15:44:18,031 - DEBUG - [4LNX3K94] calling vllm model
+2025-01-05 15:44:18,037 - DEBUG - [P7QENWE7] calling vllm model
+2025-01-05 15:44:18,043 - DEBUG - [15SWE8R6] calling vllm model
+2025-01-05 15:44:18,050 - DEBUG - [0OU02F8K] calling vllm model
+2025-01-05 15:44:18,056 - DEBUG - [IYMNTASE] calling vllm model
+2025-01-05 15:44:18,063 - DEBUG - [BYQVR4IQ] calling vllm model
+2025-01-05 15:44:18,069 - DEBUG - [D0DTEPV2] calling vllm model
+2025-01-05 15:44:18,075 - DEBUG - [DXKMHU9L] calling vllm model
+2025-01-05 15:44:18,082 - DEBUG - [GUB9HC6D] calling vllm model
+2025-01-05 15:44:18,089 - DEBUG - [RB8B12AX] calling vllm model
+2025-01-05 15:44:18,095 - DEBUG - [7N4684K1] calling vllm model
+2025-01-05 15:44:18,102 - DEBUG - [A2K40E65] calling vllm model
+2025-01-05 15:44:18,108 - DEBUG - [PGVWUFH7] calling vllm model
+2025-01-05 15:44:18,115 - DEBUG - [073WHRWW] calling vllm model
+2025-01-05 15:44:18,121 - DEBUG - [XL3OZBGG] calling vllm model
+2025-01-05 15:44:18,127 - DEBUG - [AZMZUI72] calling vllm model
+2025-01-05 15:44:18,134 - DEBUG - [FZPMQUUB] calling vllm model
+2025-01-05 15:44:18,140 - DEBUG - [OHW3WIUP] calling vllm model
+2025-01-05 15:44:18,147 - DEBUG - [KE8XEXL0] calling vllm model
+2025-01-05 15:44:18,153 - DEBUG - [3JP1HN4K] calling vllm model
+2025-01-05 15:44:18,160 - DEBUG - [5FJA1ICE] calling vllm model
+2025-01-05 15:44:18,166 - DEBUG - [1615JMD5] calling vllm model
+2025-01-05 15:44:18,172 - DEBUG - [HY4ZH86N] calling vllm model
+2025-01-05 15:44:18,179 - DEBUG - [7XJSY5N5] calling vllm model
+2025-01-05 15:44:18,185 - DEBUG - [CZ9H3I01] calling vllm model
+2025-01-05 15:44:18,192 - DEBUG - [95WT6A3D] calling vllm model
+2025-01-05 15:44:18,198 - DEBUG - [ERFJVL87] calling vllm model
+2025-01-05 15:44:18,205 - DEBUG - [KXVXNNL7] calling vllm model
+2025-01-05 15:44:18,211 - DEBUG - [ZN4M8S9O] calling vllm model
+2025-01-05 15:44:18,217 - DEBUG - [OU33H1OU] calling vllm model
+2025-01-05 15:44:18,224 - DEBUG - [Y2YXQXP3] calling vllm model
+2025-01-05 15:44:31,367 - DEBUG - [RSJF6QZG] took 168849.96, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=8049 output_tokens=977, cost_cents=3.8802
+2025-01-05 15:44:31,368 - DEBUG - [YANS6JS2] calling vllm model
+2025-01-05 15:44:31,374 - DEBUG - [6JCCN5J1] calling vllm model
+2025-01-05 15:44:31,381 - DEBUG - [77GGSHZ9] calling vllm model
+2025-01-05 15:44:31,387 - DEBUG - [1BCDLCCG] calling vllm model
+2025-01-05 15:44:31,394 - DEBUG - [PVM81HFN] calling vllm model
+2025-01-05 15:44:31,400 - DEBUG - [ATCRS6V8] calling vllm model
+2025-01-05 15:44:31,407 - DEBUG - [KGYM2NWQ] calling vllm model
+2025-01-05 15:44:31,413 - DEBUG - [EY1O6SNL] calling vllm model
+2025-01-05 15:44:31,420 - DEBUG - [1Z9V99M7] calling vllm model
+2025-01-05 15:44:31,426 - DEBUG - [10M99MAB] calling vllm model
+2025-01-05 15:44:31,433 - DEBUG - [7ZV0GG1L] calling vllm model
+2025-01-05 15:44:31,439 - DEBUG - [UC1FMYFI] calling vllm model
+2025-01-05 15:44:31,446 - DEBUG - [JMQGJWO1] calling vllm model
+2025-01-05 15:44:31,452 - DEBUG - [QUR9G0QA] calling vllm model
+2025-01-05 15:44:31,459 - DEBUG - [XOEX67WG] calling vllm model
+2025-01-05 15:44:31,465 - DEBUG - [7W4KWWDM] calling vllm model
+2025-01-05 15:44:31,471 - DEBUG - [RCI1A97V] calling vllm model
+2025-01-05 15:44:31,478 - DEBUG - [DMVKX9CJ] calling vllm model
+2025-01-05 15:44:31,484 - DEBUG - [PI404UCM] calling vllm model
+2025-01-05 15:44:31,490 - DEBUG - [ZUPJPA5A] calling vllm model
+2025-01-05 15:44:31,497 - DEBUG - [4TOI1CBL] calling vllm model
+2025-01-05 15:44:31,503 - DEBUG - [5GW9H3OX] calling vllm model
+2025-01-05 15:44:31,510 - DEBUG - [4H785I8L] calling vllm model
+2025-01-05 15:44:31,516 - DEBUG - [0WIG8VEY] calling vllm model
+2025-01-05 15:44:31,523 - DEBUG - [SV6XDUYY] calling vllm model
+2025-01-05 15:44:31,529 - DEBUG - [7BHJN8H3] calling vllm model
+2025-01-05 15:44:31,536 - DEBUG - [1AK1UIUV] calling vllm model
+2025-01-05 15:44:31,542 - DEBUG - [7PQXEYNF] calling vllm model
+2025-01-05 15:44:31,549 - DEBUG - [GKHHWA3G] calling vllm model
+2025-01-05 15:44:31,555 - DEBUG - [KKO5QIYZ] calling vllm model
+2025-01-05 15:44:31,561 - DEBUG - [TRJCC0DS] calling vllm model
+2025-01-05 15:44:31,568 - DEBUG - [Y772O57L] calling vllm model
+2025-01-05 15:44:31,574 - DEBUG - [8YZDH2OI] calling vllm model
+2025-01-05 15:44:31,581 - DEBUG - [J0YXFFLT] calling vllm model
+2025-01-05 15:44:31,588 - DEBUG - [1T7E7OF1] calling vllm model
+2025-01-05 15:44:31,594 - DEBUG - [Q479HKV1] calling vllm model
+2025-01-05 15:44:31,601 - DEBUG - [SDEZH0XZ] calling vllm model
+2025-01-05 15:44:31,607 - DEBUG - [RBB9SFBI] calling vllm model
+2025-01-05 15:44:31,614 - DEBUG - [9YDUXNVV] calling vllm model
+2025-01-05 15:44:31,620 - DEBUG - [UYSYJIDK] calling vllm model
+2025-01-05 15:44:31,627 - DEBUG - [OW9U9BIL] calling vllm model
+2025-01-05 15:44:31,633 - DEBUG - [57S9HCB3] calling vllm model
+2025-01-05 15:44:31,640 - DEBUG - [W47VKGEX] calling vllm model
+2025-01-05 15:44:31,646 - DEBUG - [JW6TW30R] calling vllm model
+2025-01-05 15:44:31,653 - DEBUG - [B0WN4MIA] calling vllm model
+2025-01-05 15:44:31,659 - DEBUG - [E2OO7I2Q] calling vllm model
+2025-01-05 15:44:31,666 - DEBUG - [9TX6IVB9] calling vllm model
+2025-01-05 15:44:31,672 - DEBUG - [PJSKNCUC] calling vllm model
+2025-01-05 15:44:31,679 - DEBUG - [P657D7IA] calling vllm model
+2025-01-05 15:44:46,195 - DEBUG - [98OEMWUJ] took 181304.11, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=13873 output_tokens=740, cost_cents=5.2719
+2025-01-05 15:44:46,195 - DEBUG - [FKCO16AB] calling vllm model
+2025-01-05 15:44:46,202 - DEBUG - [J4N7WNMR] calling vllm model
+2025-01-05 15:44:46,209 - DEBUG - [CWVJHJNN] calling vllm model
+2025-01-05 15:44:46,215 - DEBUG - [GGJBLR3F] calling vllm model
+2025-01-05 15:44:46,222 - DEBUG - [DYOFNERW] calling vllm model
+2025-01-05 15:44:46,228 - DEBUG - [214G4P7D] calling vllm model
+2025-01-05 15:44:46,235 - DEBUG - [YBQ31V0P] calling vllm model
+2025-01-05 15:44:46,241 - DEBUG - [H53G2B1I] calling vllm model
+2025-01-05 15:44:46,248 - DEBUG - [AGR8AQ4D] calling vllm model
+2025-01-05 15:44:46,254 - DEBUG - [CBV5OXPJ] calling vllm model
+2025-01-05 15:44:46,261 - DEBUG - [61V89RCQ] calling vllm model
+2025-01-05 15:44:46,267 - DEBUG - [M9ZDETZE] calling vllm model
+2025-01-05 15:44:46,274 - DEBUG - [CWW8958Z] calling vllm model
+2025-01-05 15:44:46,280 - DEBUG - [9979V5CN] calling vllm model
+2025-01-05 15:44:46,287 - DEBUG - [P436LATP] calling vllm model
+2025-01-05 15:44:46,293 - DEBUG - [DUAX31O1] calling vllm model
+2025-01-05 15:44:46,300 - DEBUG - [0BPRMC64] calling vllm model
+2025-01-05 15:44:46,306 - DEBUG - [GM0XRMMC] calling vllm model
+2025-01-05 15:44:46,313 - DEBUG - [FEORR0DA] calling vllm model
+2025-01-05 15:44:46,319 - DEBUG - [MV8S3C4Y] calling vllm model
+2025-01-05 15:44:46,326 - DEBUG - [I3LJOS6S] calling vllm model
+2025-01-05 15:44:46,332 - DEBUG - [EHGMONMQ] calling vllm model
+2025-01-05 15:44:46,339 - DEBUG - [GVS6DJ39] calling vllm model
+2025-01-05 15:44:46,345 - DEBUG - [KKH6VEL5] calling vllm model
+2025-01-05 15:44:46,352 - DEBUG - [PG4RTH3C] calling vllm model
+2025-01-05 15:44:46,359 - DEBUG - [2E2YS15O] calling vllm model
+2025-01-05 15:44:46,366 - DEBUG - [AOT5W2NR] calling vllm model
+2025-01-05 15:44:46,372 - DEBUG - [KHD5EXSQ] calling vllm model
+2025-01-05 15:44:46,379 - DEBUG - [G5O5QYNB] calling vllm model
+2025-01-05 15:44:46,385 - DEBUG - [CH1PW4TO] calling vllm model
+2025-01-05 15:44:46,391 - DEBUG - [GF6U3K0C] calling vllm model
+2025-01-05 15:44:46,401 - DEBUG - [5KGZK25Q] calling vllm model
+2025-01-05 15:44:46,407 - DEBUG - [RDAEOJOS] calling vllm model
+2025-01-05 15:44:46,414 - DEBUG - [XN0FG26Y] calling vllm model
+2025-01-05 15:44:46,421 - DEBUG - [E7A7D1V4] calling vllm model
+2025-01-05 15:44:46,427 - DEBUG - [7PS84XW6] calling vllm model
+2025-01-05 15:44:46,434 - DEBUG - [Z8FJVWQ0] calling vllm model
+2025-01-05 15:44:46,440 - DEBUG - [W0KDMUP8] calling vllm model
+2025-01-05 15:44:46,446 - DEBUG - [FVRQT77H] calling vllm model
+2025-01-05 15:44:46,453 - DEBUG - [DFX53HKK] calling vllm model
+2025-01-05 15:44:46,459 - DEBUG - [Z51M2784] calling vllm model
+2025-01-05 15:44:46,466 - DEBUG - [XW9JSW2N] calling vllm model
+2025-01-05 15:44:46,472 - DEBUG - [XBTEX4WK] calling vllm model
+2025-01-05 15:44:46,479 - DEBUG - [40MBUUMV] calling vllm model
+2025-01-05 15:44:46,485 - DEBUG - [2BL4IYQK] calling vllm model
+2025-01-05 15:44:46,492 - DEBUG - [H8Y2F9XI] calling vllm model
+2025-01-05 15:44:46,498 - DEBUG - [D250Z6CP] calling vllm model
+2025-01-05 15:44:46,505 - DEBUG - [BOMKHN3Q] calling vllm model
+2025-01-05 15:44:46,511 - DEBUG - [TBCHGJS7] calling vllm model
+2025-01-05 15:44:55,250 - DEBUG - [VQS3SOAY] took 190737.39, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=27200 output_tokens=855, cost_cents=9.4425
+2025-01-05 15:44:55,251 - DEBUG - [O1Z4CFB7] calling vllm model
+2025-01-05 15:44:55,258 - DEBUG - [IDQKSX5U] calling vllm model
+2025-01-05 15:44:55,265 - DEBUG - [F2TOGZ80] calling vllm model
+2025-01-05 15:44:55,271 - DEBUG - [9FQK10HK] calling vllm model
+2025-01-05 15:44:55,278 - DEBUG - [W0QGGUTQ] calling vllm model
+2025-01-05 15:44:55,284 - DEBUG - [W4CUN1M2] calling vllm model
+2025-01-05 15:44:55,291 - DEBUG - [3TJKQ8C4] calling vllm model
+2025-01-05 15:44:55,297 - DEBUG - [YIROEH2Y] calling vllm model
+2025-01-05 15:44:55,304 - DEBUG - [05DJEXVH] calling vllm model
+2025-01-05 15:44:55,311 - DEBUG - [YJKX5OG1] calling vllm model
+2025-01-05 15:44:55,317 - DEBUG - [IOM0ETXB] calling vllm model
+2025-01-05 15:44:55,324 - DEBUG - [WLJXLOT9] calling vllm model
+2025-01-05 15:44:55,330 - DEBUG - [BZDDD43R] calling vllm model
+2025-01-05 15:44:55,337 - DEBUG - [OXG3T0LZ] calling vllm model
+2025-01-05 15:44:55,343 - DEBUG - [761C0G6N] calling vllm model
+2025-01-05 15:44:55,350 - DEBUG - [J71OS9KT] calling vllm model
+2025-01-05 15:44:55,357 - DEBUG - [EH3GWZJ5] calling vllm model
+2025-01-05 15:44:55,363 - DEBUG - [0XO6ZPEQ] calling vllm model
+2025-01-05 15:44:55,370 - DEBUG - [7O23DA15] calling vllm model
+2025-01-05 15:44:55,376 - DEBUG - [NPPFOQ9D] calling vllm model
+2025-01-05 15:44:55,383 - DEBUG - [O56NCIUB] calling vllm model
+2025-01-05 15:44:55,389 - DEBUG - [YE6R0AG0] calling vllm model
+2025-01-05 15:44:55,396 - DEBUG - [YTTPT9O0] calling vllm model
+2025-01-05 15:44:55,402 - DEBUG - [26FG63PF] calling vllm model
+2025-01-05 15:44:55,409 - DEBUG - [5FZGU7Y0] calling vllm model
+2025-01-05 15:44:55,415 - DEBUG - [VGKOI09I] calling vllm model
+2025-01-05 15:44:55,422 - DEBUG - [S7FQEA8S] calling vllm model
+2025-01-05 15:44:55,428 - DEBUG - [AUAG7RP7] calling vllm model
+2025-01-05 15:44:55,435 - DEBUG - [P79PSUFM] calling vllm model
+2025-01-05 15:44:55,441 - DEBUG - [IYVT0HG9] calling vllm model
+2025-01-05 15:44:55,448 - DEBUG - [5PUCOHET] calling vllm model
+2025-01-05 15:44:55,454 - DEBUG - [Z9QNA2CM] calling vllm model
+2025-01-05 15:44:55,461 - DEBUG - [DJURY45G] calling vllm model
+2025-01-05 15:44:55,467 - DEBUG - [WD268AQX] calling vllm model
+2025-01-05 15:44:55,474 - DEBUG - [4VNGLQ41] calling vllm model
+2025-01-05 15:44:55,480 - DEBUG - [EB2QFIFS] calling vllm model
+2025-01-05 15:44:55,487 - DEBUG - [R5ZUPTE0] calling vllm model
+2025-01-05 15:44:55,493 - DEBUG - [KXC2JIET] calling vllm model
+2025-01-05 15:44:55,500 - DEBUG - [IMK34NS1] calling vllm model
+2025-01-05 15:44:55,506 - DEBUG - [JYVPRVPE] calling vllm model
+2025-01-05 15:44:55,512 - DEBUG - [2SJP0GKB] calling vllm model
+2025-01-05 15:44:55,519 - DEBUG - [EFGYJ7P9] calling vllm model
+2025-01-05 15:44:55,526 - DEBUG - [4Z88MQC0] calling vllm model
+2025-01-05 15:44:55,532 - DEBUG - [Q3KPEH1S] calling vllm model
+2025-01-05 15:44:55,539 - DEBUG - [CI1CBBOT] calling vllm model
+2025-01-05 15:44:55,545 - DEBUG - [5A4OCGMP] calling vllm model
+2025-01-05 15:44:55,552 - DEBUG - [IW36WZ2Z] calling vllm model
+2025-01-05 15:44:55,559 - DEBUG - [8W25I8X3] calling vllm model
+2025-01-05 15:44:55,565 - DEBUG - [NKE9IB7N] calling vllm model
+2025-01-05 15:44:57,628 - DEBUG - [Y1P2NAZF] took 193573.71, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=13087 output_tokens=941, cost_cents=5.3376
+2025-01-05 15:44:57,628 - DEBUG - [89PB3X5S] calling vllm model
+2025-01-05 15:44:57,635 - DEBUG - [YCYLD13V] calling vllm model
+2025-01-05 15:44:57,641 - DEBUG - [6E7LUA72] calling vllm model
+2025-01-05 15:44:57,648 - DEBUG - [THUCL4O5] calling vllm model
+2025-01-05 15:44:57,654 - DEBUG - [9HRC1C6P] calling vllm model
+2025-01-05 15:44:57,660 - DEBUG - [5AG5XIOU] calling vllm model
+2025-01-05 15:44:57,667 - DEBUG - [RNIOO6A4] calling vllm model
+2025-01-05 15:44:57,673 - DEBUG - [NH37927O] calling vllm model
+2025-01-05 15:44:57,679 - DEBUG - [LBKDAX4Z] calling vllm model
+2025-01-05 15:44:57,686 - DEBUG - [UR22G960] calling vllm model
+2025-01-05 15:44:57,692 - DEBUG - [C51KPW20] calling vllm model
+2025-01-05 15:44:57,699 - DEBUG - [UGGIOK2T] calling vllm model
+2025-01-05 15:44:57,705 - DEBUG - [AXNCTAV4] calling vllm model
+2025-01-05 15:44:57,712 - DEBUG - [PZE999E6] calling vllm model
+2025-01-05 15:44:57,718 - DEBUG - [M3X6GR0H] calling vllm model
+2025-01-05 15:44:57,725 - DEBUG - [ZVHY4FEJ] calling vllm model
+2025-01-05 15:44:57,731 - DEBUG - [0QRNFT6G] calling vllm model
+2025-01-05 15:44:57,737 - DEBUG - [E9IIOKUQ] calling vllm model
+2025-01-05 15:44:57,744 - DEBUG - [O32R5ZKP] calling vllm model
+2025-01-05 15:44:57,750 - DEBUG - [O3ODKN06] calling vllm model
+2025-01-05 15:44:57,756 - DEBUG - [X5596QZT] calling vllm model
+2025-01-05 15:44:57,763 - DEBUG - [SPOR4TDE] calling vllm model
+2025-01-05 15:44:57,769 - DEBUG - [C6VNUYGB] calling vllm model
+2025-01-05 15:44:57,776 - DEBUG - [BPCWSRFH] calling vllm model
+2025-01-05 15:44:57,782 - DEBUG - [Z9MIFVAV] calling vllm model
+2025-01-05 15:44:57,789 - DEBUG - [0OWPZHV4] calling vllm model
+2025-01-05 15:44:57,795 - DEBUG - [K8G2PTQQ] calling vllm model
+2025-01-05 15:44:57,802 - DEBUG - [4OWE86Z6] calling vllm model
+2025-01-05 15:44:57,808 - DEBUG - [IPCS0P1Q] calling vllm model
+2025-01-05 15:44:57,815 - DEBUG - [Z317G125] calling vllm model
+2025-01-05 15:44:57,821 - DEBUG - [EGP9RIYP] calling vllm model
+2025-01-05 15:44:57,828 - DEBUG - [B4KC4A74] calling vllm model
+2025-01-05 15:44:57,834 - DEBUG - [BPZKUX1S] calling vllm model
+2025-01-05 15:44:57,840 - DEBUG - [I0PTJC6M] calling vllm model
+2025-01-05 15:44:57,847 - DEBUG - [31608JU4] calling vllm model
+2025-01-05 15:44:57,853 - DEBUG - [DK1N3QWR] calling vllm model
+2025-01-05 15:44:57,860 - DEBUG - [9POK2DAH] calling vllm model
+2025-01-05 15:44:57,867 - DEBUG - [TG311YB5] calling vllm model
+2025-01-05 15:44:57,873 - DEBUG - [5RVQDGC9] calling vllm model
+2025-01-05 15:44:57,880 - DEBUG - [C8YP2IJ0] calling vllm model
+2025-01-05 15:44:57,886 - DEBUG - [9OU1K4A9] calling vllm model
+2025-01-05 15:44:57,892 - DEBUG - [3OPH936S] calling vllm model
+2025-01-05 15:44:57,899 - DEBUG - [F19GUEK9] calling vllm model
+2025-01-05 15:44:57,905 - DEBUG - [DC3CZIUU] calling vllm model
+2025-01-05 15:44:57,912 - DEBUG - [TGD2USP5] calling vllm model
+2025-01-05 15:44:57,918 - DEBUG - [PZ3NI9E1] calling vllm model
+2025-01-05 15:44:57,925 - DEBUG - [Y12OXDEW] calling vllm model
+2025-01-05 15:44:57,931 - DEBUG - [H1CGUBL4] calling vllm model
+2025-01-05 15:44:57,937 - DEBUG - [ORW5EE61] calling vllm model
+2025-01-05 15:44:59,666 - DEBUG - [Z65WTYB5] took 195466.25, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=9194 output_tokens=933, cost_cents=4.1577
+2025-01-05 15:44:59,666 - DEBUG - [UB82QLMS] calling vllm model
+2025-01-05 15:44:59,673 - DEBUG - [RPNK1C2S] calling vllm model
+2025-01-05 15:44:59,679 - DEBUG - [U0XH8JIE] calling vllm model
+2025-01-05 15:44:59,685 - DEBUG - [LENKTR19] calling vllm model
+2025-01-05 15:44:59,692 - DEBUG - [WU0WQXPP] calling vllm model
+2025-01-05 15:44:59,698 - DEBUG - [FSNXR18T] calling vllm model
+2025-01-05 15:44:59,704 - DEBUG - [0FCBNSFB] calling vllm model
+2025-01-05 15:44:59,711 - DEBUG - [8UJU208Z] calling vllm model
+2025-01-05 15:44:59,717 - DEBUG - [H7EVAYC1] calling vllm model
+2025-01-05 15:44:59,723 - DEBUG - [OEGNXH7A] calling vllm model
+2025-01-05 15:44:59,730 - DEBUG - [UD7DS3AA] calling vllm model
+2025-01-05 15:44:59,737 - DEBUG - [OIMQWLTZ] calling vllm model
+2025-01-05 15:44:59,743 - DEBUG - [W70K61WI] calling vllm model
+2025-01-05 15:44:59,749 - DEBUG - [L853GJ8B] calling vllm model
+2025-01-05 15:44:59,756 - DEBUG - [1AU4YWUO] calling vllm model
+2025-01-05 15:44:59,762 - DEBUG - [JZC4NQZO] calling vllm model
+2025-01-05 15:44:59,895 - DEBUG - [UIGL27OV] calling vllm model
+2025-01-05 15:44:59,901 - DEBUG - [JGWDO42G] calling vllm model
+2025-01-05 15:44:59,907 - DEBUG - [FS0GJNZ0] calling vllm model
+2025-01-05 15:44:59,914 - DEBUG - [EK3PWQAK] calling vllm model
+2025-01-05 15:44:59,920 - DEBUG - [VATQ4N06] calling vllm model
+2025-01-05 15:44:59,927 - DEBUG - [DF6GOH6V] calling vllm model
+2025-01-05 15:44:59,933 - DEBUG - [4NY04NJV] calling vllm model
+2025-01-05 15:44:59,939 - DEBUG - [MDMJ390F] calling vllm model
+2025-01-05 15:44:59,946 - DEBUG - [NYYRAMMY] calling vllm model
+2025-01-05 15:44:59,953 - DEBUG - [EY2RBR3N] calling vllm model
+2025-01-05 15:44:59,959 - DEBUG - [WMQXBSLM] calling vllm model
+2025-01-05 15:44:59,965 - DEBUG - [C88S2WDF] calling vllm model
+2025-01-05 15:44:59,972 - DEBUG - [ESH11OUX] calling vllm model
+2025-01-05 15:44:59,978 - DEBUG - [4V05D7C9] calling vllm model
+2025-01-05 15:44:59,985 - DEBUG - [7S77CDHX] calling vllm model
+2025-01-05 15:44:59,991 - DEBUG - [USZWS28W] calling vllm model
+2025-01-05 15:44:59,997 - DEBUG - [GZHDDGS9] calling vllm model
+2025-01-05 15:45:00,004 - DEBUG - [EUFUOIZT] calling vllm model
+2025-01-05 15:45:00,010 - DEBUG - [1KUOHG9D] calling vllm model
+2025-01-05 15:45:00,017 - DEBUG - [7V5RWKUL] calling vllm model
+2025-01-05 15:45:00,023 - DEBUG - [MT7GE9JO] calling vllm model
+2025-01-05 15:45:00,030 - DEBUG - [AIJDUVNH] calling vllm model
+2025-01-05 15:45:00,036 - DEBUG - [LQ5V9XAO] calling vllm model
+2025-01-05 15:45:00,043 - DEBUG - [6PP7UMRZ] calling vllm model
+2025-01-05 15:45:00,049 - DEBUG - [ULPR687C] calling vllm model
+2025-01-05 15:45:00,055 - DEBUG - [3E0EKRY1] calling vllm model
+2025-01-05 15:45:00,062 - DEBUG - [UKZ1I2BB] calling vllm model
+2025-01-05 15:45:00,069 - DEBUG - [8DWTIDHO] calling vllm model
+2025-01-05 15:45:00,075 - DEBUG - [6N1ZALG2] calling vllm model
+2025-01-05 15:45:00,081 - DEBUG - [9SUN6WI5] calling vllm model
+2025-01-05 15:45:00,087 - DEBUG - [8SJU7DAK] calling vllm model
+2025-01-05 15:45:00,094 - DEBUG - [4HJ2150C] calling vllm model
+2025-01-05 15:45:00,100 - DEBUG - [Z4ZF277B] calling vllm model
+2025-01-05 15:45:01,010 - DEBUG - [541L7MW1] took 197366.39, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=6972 output_tokens=1116, cost_cents=3.7656
+2025-01-05 15:45:01,011 - DEBUG - [O8IYHEUC] calling vllm model
+2025-01-05 15:45:01,018 - DEBUG - [7H42U671] calling vllm model
+2025-01-05 15:45:01,024 - DEBUG - [4O1O6TR4] calling vllm model
+2025-01-05 15:45:01,030 - DEBUG - [9ZBCM4OE] calling vllm model
+2025-01-05 15:45:01,037 - DEBUG - [IJ90KUDN] calling vllm model
+2025-01-05 15:45:01,043 - DEBUG - [SE074D5E] calling vllm model
+2025-01-05 15:45:01,050 - DEBUG - [B5HS7ERZ] calling vllm model
+2025-01-05 15:45:01,056 - DEBUG - [VLWKZRF5] calling vllm model
+2025-01-05 15:45:01,062 - DEBUG - [1ALYPP3R] calling vllm model
+2025-01-05 15:45:01,069 - DEBUG - [JI7N757C] calling vllm model
+2025-01-05 15:45:01,075 - DEBUG - [YYG3LDXB] calling vllm model
+2025-01-05 15:45:01,081 - DEBUG - [3B7CG2JY] calling vllm model
+2025-01-05 15:45:01,087 - DEBUG - [3ENUFADX] calling vllm model
+2025-01-05 15:45:01,094 - DEBUG - [7BYKM2BG] calling vllm model
+2025-01-05 15:45:01,100 - DEBUG - [IE8J1EJW] calling vllm model
+2025-01-05 15:45:01,106 - DEBUG - [ZOLQSKK3] calling vllm model
+2025-01-05 15:45:01,113 - DEBUG - [DDRE6IV5] calling vllm model
+2025-01-05 15:45:01,119 - DEBUG - [BEQ5CDYH] calling vllm model
+2025-01-05 15:45:01,127 - DEBUG - [WPO286RB] calling vllm model
+2025-01-05 15:45:01,133 - DEBUG - [0WE7JHZD] calling vllm model
+2025-01-05 15:45:01,139 - DEBUG - [Z321PIFV] calling vllm model
+2025-01-05 15:45:01,146 - DEBUG - [Y93MQ3LR] calling vllm model
+2025-01-05 15:45:01,152 - DEBUG - [GOIE2XFQ] calling vllm model
+2025-01-05 15:45:01,159 - DEBUG - [PS7OBKQW] calling vllm model
+2025-01-05 15:45:01,165 - DEBUG - [X55BHKRS] calling vllm model
+2025-01-05 15:45:01,172 - DEBUG - [8REM9Y4J] calling vllm model
+2025-01-05 15:45:01,178 - DEBUG - [00UA8K1I] calling vllm model
+2025-01-05 15:45:01,185 - DEBUG - [H58OSL31] calling vllm model
+2025-01-05 15:45:01,191 - DEBUG - [AGR96V1A] calling vllm model
+2025-01-05 15:45:01,197 - DEBUG - [AE9K75VH] calling vllm model
+2025-01-05 15:45:01,204 - DEBUG - [H8XX7TD5] calling vllm model
+2025-01-05 15:45:01,210 - DEBUG - [UEYE1OO3] calling vllm model
+2025-01-05 15:45:01,216 - DEBUG - [SN14BWJU] calling vllm model
+2025-01-05 15:45:01,223 - DEBUG - [BC21R2ZJ] calling vllm model
+2025-01-05 15:45:01,229 - DEBUG - [FKDMRARZ] calling vllm model
+2025-01-05 15:45:01,235 - DEBUG - [7UJNA97C] calling vllm model
+2025-01-05 15:45:01,242 - DEBUG - [S8NQH651] calling vllm model
+2025-01-05 15:45:01,249 - DEBUG - [J1MRAPBG] calling vllm model
+2025-01-05 15:45:01,255 - DEBUG - [3AS6XJW3] calling vllm model
+2025-01-05 15:45:01,261 - DEBUG - [E5LNQA38] calling vllm model
+2025-01-05 15:45:01,268 - DEBUG - [1ERSS71R] calling vllm model
+2025-01-05 15:45:01,274 - DEBUG - [521W8MUM] calling vllm model
+2025-01-05 15:45:01,281 - DEBUG - [ACG3QLM5] calling vllm model
+2025-01-05 15:45:01,287 - DEBUG - [BQ3O70MV] calling vllm model
+2025-01-05 15:45:01,293 - DEBUG - [UDQWH885] calling vllm model
+2025-01-05 15:45:01,300 - DEBUG - [7N3BA9VB] calling vllm model
+2025-01-05 15:45:01,306 - DEBUG - [2131LBUR] calling vllm model
+2025-01-05 15:45:01,313 - DEBUG - [45WNPOQI] calling vllm model
+2025-01-05 15:45:01,319 - DEBUG - [1C0B56FY] calling vllm model
+2025-01-05 15:45:03,243 - DEBUG - [P55H1523] took 86028.73, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=288, cost_cents=5.7471
+2025-01-05 15:45:11,808 - DEBUG - [QNJD6M4U] took 206679.87, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=18435 output_tokens=847, cost_cents=6.801
+2025-01-05 15:45:11,808 - DEBUG - [N9GT5MCK] calling vllm model
+2025-01-05 15:45:11,815 - DEBUG - [0M2EM8AB] calling vllm model
+2025-01-05 15:45:11,821 - DEBUG - [KMNHQ90W] calling vllm model
+2025-01-05 15:45:11,828 - DEBUG - [ORQXWU37] calling vllm model
+2025-01-05 15:45:11,836 - DEBUG - [WPHF7VFP] calling vllm model
+2025-01-05 15:45:11,842 - DEBUG - [M0EN65LX] calling vllm model
+2025-01-05 15:45:11,848 - DEBUG - [O4EPDQUB] calling vllm model
+2025-01-05 15:45:11,855 - DEBUG - [L1MUMRK0] calling vllm model
+2025-01-05 15:45:11,861 - DEBUG - [KC0UNN2B] calling vllm model
+2025-01-05 15:45:11,867 - DEBUG - [E22NRV7Y] calling vllm model
+2025-01-05 15:45:11,874 - DEBUG - [OECCSZ4O] calling vllm model
+2025-01-05 15:45:11,880 - DEBUG - [C6IX5DKN] calling vllm model
+2025-01-05 15:45:11,886 - DEBUG - [C570EGRU] calling vllm model
+2025-01-05 15:45:11,892 - DEBUG - [9SE933EE] calling vllm model
+2025-01-05 15:45:11,899 - DEBUG - [7BDX9CQ4] calling vllm model
+2025-01-05 15:45:11,905 - DEBUG - [Y79KBATP] calling vllm model
+2025-01-05 15:45:11,912 - DEBUG - [YX1GPHQ1] calling vllm model
+2025-01-05 15:45:11,918 - DEBUG - [6QPI2EXP] calling vllm model
+2025-01-05 15:45:11,924 - DEBUG - [LKEH6S80] calling vllm model
+2025-01-05 15:45:11,931 - DEBUG - [NAXP30Z8] calling vllm model
+2025-01-05 15:45:11,937 - DEBUG - [FZT7FL6J] calling vllm model
+2025-01-05 15:45:11,944 - DEBUG - [2HSFFI17] calling vllm model
+2025-01-05 15:45:11,950 - DEBUG - [R38DB83T] calling vllm model
+2025-01-05 15:45:11,956 - DEBUG - [T7BAFI7K] calling vllm model
+2025-01-05 15:45:11,963 - DEBUG - [8RURL0E4] calling vllm model
+2025-01-05 15:45:11,969 - DEBUG - [AHZBUO45] calling vllm model
+2025-01-05 15:45:11,976 - DEBUG - [ZZL41P1F] calling vllm model
+2025-01-05 15:45:11,982 - DEBUG - [2O3ESXU6] calling vllm model
+2025-01-05 15:45:11,988 - DEBUG - [VDKD05B7] calling vllm model
+2025-01-05 15:45:11,995 - DEBUG - [1YZ25U02] calling vllm model
+2025-01-05 15:45:12,001 - DEBUG - [5MN3JIYD] calling vllm model
+2025-01-05 15:45:12,008 - DEBUG - [ER2BADDM] calling vllm model
+2025-01-05 15:45:12,014 - DEBUG - [1KH4BX3P] calling vllm model
+2025-01-05 15:45:12,021 - DEBUG - [ROI5847X] calling vllm model
+2025-01-05 15:45:12,027 - DEBUG - [TINNCK5P] calling vllm model
+2025-01-05 15:45:12,033 - DEBUG - [2A8D4RJ3] calling vllm model
+2025-01-05 15:45:12,040 - DEBUG - [ML4BM47V] calling vllm model
+2025-01-05 15:45:12,046 - DEBUG - [2NXZJZL3] calling vllm model
+2025-01-05 15:45:12,053 - DEBUG - [CTQAA2UC] calling vllm model
+2025-01-05 15:45:12,059 - DEBUG - [1GPH360J] calling vllm model
+2025-01-05 15:45:12,065 - DEBUG - [EJR4J2S0] calling vllm model
+2025-01-05 15:45:12,072 - DEBUG - [YMGEDX46] calling vllm model
+2025-01-05 15:45:12,078 - DEBUG - [X01YOX1V] calling vllm model
+2025-01-05 15:45:12,085 - DEBUG - [CK8S4NTT] calling vllm model
+2025-01-05 15:45:12,091 - DEBUG - [FVIM1IGF] calling vllm model
+2025-01-05 15:45:12,098 - DEBUG - [I7OL8H9Q] calling vllm model
+2025-01-05 15:45:12,105 - DEBUG - [VLFAWX0G] calling vllm model
+2025-01-05 15:45:12,112 - DEBUG - [SFDAVFST] calling vllm model
+2025-01-05 15:45:12,118 - DEBUG - [0HLV36QK] calling vllm model
+2025-01-05 15:45:12,603 - DEBUG - [S145WE3B] took 209220.31, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=15927 output_tokens=1187, cost_cents=6.5586
+2025-01-05 15:45:12,604 - DEBUG - [08G5S4Y0] calling vllm model
+2025-01-05 15:45:12,610 - DEBUG - [Z0ZSV3ON] calling vllm model
+2025-01-05 15:45:12,617 - DEBUG - [4O7GCYFS] calling vllm model
+2025-01-05 15:45:12,623 - DEBUG - [0PEHS02X] calling vllm model
+2025-01-05 15:45:12,630 - DEBUG - [8MUJ0ADD] calling vllm model
+2025-01-05 15:45:12,636 - DEBUG - [YRLZZ8WQ] calling vllm model
+2025-01-05 15:45:12,643 - DEBUG - [31X9LJFB] calling vllm model
+2025-01-05 15:45:12,649 - DEBUG - [2VSIJRWP] calling vllm model
+2025-01-05 15:45:12,656 - DEBUG - [VQ06J1PZ] calling vllm model
+2025-01-05 15:45:12,662 - DEBUG - [YUNB5GYM] calling vllm model
+2025-01-05 15:45:12,669 - DEBUG - [AV87KE7E] calling vllm model
+2025-01-05 15:45:12,675 - DEBUG - [0U0Y3FLC] calling vllm model
+2025-01-05 15:45:12,682 - DEBUG - [0OF6THAU] calling vllm model
+2025-01-05 15:45:12,688 - DEBUG - [055ZEHZX] calling vllm model
+2025-01-05 15:45:12,694 - DEBUG - [TCY0A2XY] calling vllm model
+2025-01-05 15:45:12,701 - DEBUG - [UOU33L01] calling vllm model
+2025-01-05 15:45:12,707 - DEBUG - [6NLTV1GX] calling vllm model
+2025-01-05 15:45:12,714 - DEBUG - [9BS7XYW8] calling vllm model
+2025-01-05 15:45:12,720 - DEBUG - [9WTIW92O] calling vllm model
+2025-01-05 15:45:12,727 - DEBUG - [86IDDAHG] calling vllm model
+2025-01-05 15:45:12,733 - DEBUG - [A09IF3V6] calling vllm model
+2025-01-05 15:45:12,740 - DEBUG - [83GPZ76O] calling vllm model
+2025-01-05 15:45:12,747 - DEBUG - [DEPW71J6] calling vllm model
+2025-01-05 15:45:12,753 - DEBUG - [YL55VSXG] calling vllm model
+2025-01-05 15:45:12,759 - DEBUG - [48HTFJ8O] calling vllm model
+2025-01-05 15:45:12,766 - DEBUG - [UU5HK41R] calling vllm model
+2025-01-05 15:45:12,772 - DEBUG - [C5HLBZRW] calling vllm model
+2025-01-05 15:45:12,779 - DEBUG - [04T8811X] calling vllm model
+2025-01-05 15:45:12,785 - DEBUG - [WB1TSJB8] calling vllm model
+2025-01-05 15:45:12,792 - DEBUG - [VX2CDAXE] calling vllm model
+2025-01-05 15:45:12,798 - DEBUG - [LPS75JRE] calling vllm model
+2025-01-05 15:45:12,804 - DEBUG - [918R4Y9P] calling vllm model
+2025-01-05 15:45:12,811 - DEBUG - [PU6UCHBW] calling vllm model
+2025-01-05 15:45:12,817 - DEBUG - [8PI4EQ2F] calling vllm model
+2025-01-05 15:45:12,824 - DEBUG - [UYMAYCBO] calling vllm model
+2025-01-05 15:45:12,830 - DEBUG - [CDVTRVM6] calling vllm model
+2025-01-05 15:45:12,836 - DEBUG - [I9Q17CKD] calling vllm model
+2025-01-05 15:45:12,843 - DEBUG - [7ZYHF14N] calling vllm model
+2025-01-05 15:45:12,849 - DEBUG - [277B5L3A] calling vllm model
+2025-01-05 15:45:12,856 - DEBUG - [3EC8BKH7] calling vllm model
+2025-01-05 15:45:12,862 - DEBUG - [DPV5C7EL] calling vllm model
+2025-01-05 15:45:12,869 - DEBUG - [JMTCNUCR] calling vllm model
+2025-01-05 15:45:12,875 - DEBUG - [O3RTBJ2W] calling vllm model
+2025-01-05 15:45:12,882 - DEBUG - [XFI2EJOV] calling vllm model
+2025-01-05 15:45:12,888 - DEBUG - [VYEK2LWH] calling vllm model
+2025-01-05 15:45:12,894 - DEBUG - [46M7L33Z] calling vllm model
+2025-01-05 15:45:12,901 - DEBUG - [7WQ1PR74] calling vllm model
+2025-01-05 15:45:12,907 - DEBUG - [S84QFGGK] calling vllm model
+2025-01-05 15:45:12,914 - DEBUG - [NA3O9YEP] calling vllm model
+2025-01-05 15:45:14,400 - DEBUG - [ETDXSRFX] took 208588.24, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=12142 output_tokens=784, cost_cents=4.8186
+2025-01-05 15:45:14,401 - DEBUG - [70H8APWO] calling vllm model
+2025-01-05 15:45:14,407 - DEBUG - [5XVT7810] calling vllm model
+2025-01-05 15:45:14,414 - DEBUG - [LFH46LBG] calling vllm model
+2025-01-05 15:45:14,420 - DEBUG - [BIWXBT1D] calling vllm model
+2025-01-05 15:45:14,426 - DEBUG - [1X2JN4MP] calling vllm model
+2025-01-05 15:45:14,433 - DEBUG - [IX7PT26P] calling vllm model
+2025-01-05 15:45:14,440 - DEBUG - [C2XMXQAI] calling vllm model
+2025-01-05 15:45:14,446 - DEBUG - [51FB7WUH] calling vllm model
+2025-01-05 15:45:14,452 - DEBUG - [P73GA05P] calling vllm model
+2025-01-05 15:45:14,459 - DEBUG - [IX1S7M4G] calling vllm model
+2025-01-05 15:45:14,465 - DEBUG - [SLYHO38O] calling vllm model
+2025-01-05 15:45:14,471 - DEBUG - [KKWFY1OT] calling vllm model
+2025-01-05 15:45:14,478 - DEBUG - [KA6WR55R] calling vllm model
+2025-01-05 15:45:14,484 - DEBUG - [TIXE6KDN] calling vllm model
+2025-01-05 15:45:14,490 - DEBUG - [4BWB5B3H] calling vllm model
+2025-01-05 15:45:14,497 - DEBUG - [U9O8ZC5U] calling vllm model
+2025-01-05 15:45:14,503 - DEBUG - [M45MLAQX] calling vllm model
+2025-01-05 15:45:14,510 - DEBUG - [TRHXNGEX] calling vllm model
+2025-01-05 15:45:14,516 - DEBUG - [ZO4MNC44] calling vllm model
+2025-01-05 15:45:14,522 - DEBUG - [AMXFRXIF] calling vllm model
+2025-01-05 15:45:14,529 - DEBUG - [K7EOS4HS] calling vllm model
+2025-01-05 15:45:14,535 - DEBUG - [C24A2DX5] calling vllm model
+2025-01-05 15:45:14,541 - DEBUG - [JD3TT1N3] calling vllm model
+2025-01-05 15:45:14,548 - DEBUG - [VV0H55RQ] calling vllm model
+2025-01-05 15:45:14,554 - DEBUG - [9GQ2LDRI] calling vllm model
+2025-01-05 15:45:14,560 - DEBUG - [SQ5X5FII] calling vllm model
+2025-01-05 15:45:14,567 - DEBUG - [GWB93ZO9] calling vllm model
+2025-01-05 15:45:14,573 - DEBUG - [G3W81JJ4] calling vllm model
+2025-01-05 15:45:14,580 - DEBUG - [ZZNE2WK9] calling vllm model
+2025-01-05 15:45:14,586 - DEBUG - [CGA4D62F] calling vllm model
+2025-01-05 15:45:14,593 - DEBUG - [T8PX4VGA] calling vllm model
+2025-01-05 15:45:14,599 - DEBUG - [MFN82FBK] calling vllm model
+2025-01-05 15:45:14,606 - DEBUG - [6MZVJ370] calling vllm model
+2025-01-05 15:45:14,612 - DEBUG - [OQNDT9UR] calling vllm model
+2025-01-05 15:45:14,618 - DEBUG - [RL9EORMN] calling vllm model
+2025-01-05 15:45:14,625 - DEBUG - [NWMJO2XP] calling vllm model
+2025-01-05 15:45:14,631 - DEBUG - [9FH8DMRS] calling vllm model
+2025-01-05 15:45:14,638 - DEBUG - [7O6I3OD7] calling vllm model
+2025-01-05 15:45:14,644 - DEBUG - [5R1N2Y7U] calling vllm model
+2025-01-05 15:45:14,651 - DEBUG - [3V2HYVTR] calling vllm model
+2025-01-05 15:45:14,657 - DEBUG - [JM1NLO4F] calling vllm model
+2025-01-05 15:45:14,664 - DEBUG - [CSUWGZ26] calling vllm model
+2025-01-05 15:45:14,670 - DEBUG - [LLD3C19F] calling vllm model
+2025-01-05 15:45:14,676 - DEBUG - [5CX76TT5] calling vllm model
+2025-01-05 15:45:14,683 - DEBUG - [IOPB0RFF] calling vllm model
+2025-01-05 15:45:14,689 - DEBUG - [HT9Z030C] calling vllm model
+2025-01-05 15:45:14,696 - DEBUG - [9N2JQ1XL] calling vllm model
+2025-01-05 15:45:14,702 - DEBUG - [SKY4E2F0] calling vllm model
+2025-01-05 15:45:14,708 - DEBUG - [JDLBKU5E] calling vllm model
+2025-01-05 15:45:15,892 - DEBUG - [4YQS5JL8] took 210616.20, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=7431 output_tokens=776, cost_cents=3.3933
+2025-01-05 15:45:15,893 - DEBUG - [SHAJZBY7] calling vllm model
+2025-01-05 15:45:15,899 - DEBUG - [KZSUIRFX] calling vllm model
+2025-01-05 15:45:15,906 - DEBUG - [NRX4W73C] calling vllm model
+2025-01-05 15:45:15,912 - DEBUG - [O1ZBSFKE] calling vllm model
+2025-01-05 15:45:15,918 - DEBUG - [UN1Z5M9J] calling vllm model
+2025-01-05 15:45:15,925 - DEBUG - [TZHX69S0] calling vllm model
+2025-01-05 15:45:15,931 - DEBUG - [FTV626Q1] calling vllm model
+2025-01-05 15:45:15,937 - DEBUG - [JCQI1III] calling vllm model
+2025-01-05 15:45:15,944 - DEBUG - [YKBTTBGF] calling vllm model
+2025-01-05 15:45:15,950 - DEBUG - [MUCQCMLP] calling vllm model
+2025-01-05 15:45:15,956 - DEBUG - [JUKPAFBF] calling vllm model
+2025-01-05 15:45:15,962 - DEBUG - [E1T5I7RF] calling vllm model
+2025-01-05 15:45:15,969 - DEBUG - [CY6P1W7W] calling vllm model
+2025-01-05 15:45:15,975 - DEBUG - [SHF08J7T] calling vllm model
+2025-01-05 15:45:15,981 - DEBUG - [EGVFF4S8] calling vllm model
+2025-01-05 15:45:15,988 - DEBUG - [SRHZSSAA] calling vllm model
+2025-01-05 15:45:15,994 - DEBUG - [INWBOM0Y] calling vllm model
+2025-01-05 15:45:16,000 - DEBUG - [PCJ2JS4W] calling vllm model
+2025-01-05 15:45:16,007 - DEBUG - [WMN4NQ4O] calling vllm model
+2025-01-05 15:45:16,013 - DEBUG - [LUK0GQTX] calling vllm model
+2025-01-05 15:45:16,020 - DEBUG - [O6MX5KY7] calling vllm model
+2025-01-05 15:45:16,026 - DEBUG - [9346SC2U] calling vllm model
+2025-01-05 15:45:16,032 - DEBUG - [1VXVZNQX] calling vllm model
+2025-01-05 15:45:16,039 - DEBUG - [A7KWKQF4] calling vllm model
+2025-01-05 15:45:16,045 - DEBUG - [REGZESPB] calling vllm model
+2025-01-05 15:45:16,051 - DEBUG - [71U9AZWD] calling vllm model
+2025-01-05 15:45:16,058 - DEBUG - [6WKJGIZK] calling vllm model
+2025-01-05 15:45:16,064 - DEBUG - [TC95MQKV] calling vllm model
+2025-01-05 15:45:16,070 - DEBUG - [6UNOQ4H1] calling vllm model
+2025-01-05 15:45:16,077 - DEBUG - [I957ZJFR] calling vllm model
+2025-01-05 15:45:16,083 - DEBUG - [CSE5VHC9] calling vllm model
+2025-01-05 15:45:16,089 - DEBUG - [HTS2C2FD] calling vllm model
+2025-01-05 15:45:16,096 - DEBUG - [OA1R1SPB] calling vllm model
+2025-01-05 15:45:16,103 - DEBUG - [GDFZ3LLS] calling vllm model
+2025-01-05 15:45:16,109 - DEBUG - [CYVAOBJM] calling vllm model
+2025-01-05 15:45:16,115 - DEBUG - [LRXVTBQ8] calling vllm model
+2025-01-05 15:45:16,122 - DEBUG - [3R7CTGZ5] calling vllm model
+2025-01-05 15:45:16,128 - DEBUG - [UKXTRCKX] calling vllm model
+2025-01-05 15:45:16,135 - DEBUG - [HXP4JFMV] calling vllm model
+2025-01-05 15:45:16,141 - DEBUG - [UPC7HL9X] calling vllm model
+2025-01-05 15:45:16,147 - DEBUG - [MCM9GYWE] calling vllm model
+2025-01-05 15:45:16,154 - DEBUG - [579YSE0P] calling vllm model
+2025-01-05 15:45:16,160 - DEBUG - [M6OS8E7N] calling vllm model
+2025-01-05 15:45:16,166 - DEBUG - [9DFO1BUO] calling vllm model
+2025-01-05 15:45:16,173 - DEBUG - [ALLG7SRW] calling vllm model
+2025-01-05 15:45:16,179 - DEBUG - [U0WUYDT7] calling vllm model
+2025-01-05 15:45:16,185 - DEBUG - [E037IETI] calling vllm model
+2025-01-05 15:45:16,192 - DEBUG - [APUW601C] calling vllm model
+2025-01-05 15:45:16,198 - DEBUG - [A7VQ54PS] calling vllm model
+2025-01-05 15:45:45,778 - DEBUG - [28PUQV9P] took 240139.64, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=6397 output_tokens=975, cost_cents=3.3816
+2025-01-05 15:45:45,778 - DEBUG - [O0QBHZL4] calling vllm model
+2025-01-05 15:45:45,785 - DEBUG - [9KBCNKDE] calling vllm model
+2025-01-05 15:45:45,791 - DEBUG - [R448LFSZ] calling vllm model
+2025-01-05 15:45:45,798 - DEBUG - [BE19XOYD] calling vllm model
+2025-01-05 15:45:45,804 - DEBUG - [XK7DZURG] calling vllm model
+2025-01-05 15:45:45,811 - DEBUG - [VDCKSE2H] calling vllm model
+2025-01-05 15:45:45,817 - DEBUG - [RC3BNJRM] calling vllm model
+2025-01-05 15:45:45,824 - DEBUG - [46EU1V1L] calling vllm model
+2025-01-05 15:45:45,830 - DEBUG - [904X0IGI] calling vllm model
+2025-01-05 15:45:45,837 - DEBUG - [KL8TKNRJ] calling vllm model
+2025-01-05 15:45:45,843 - DEBUG - [GNO6FUHZ] calling vllm model
+2025-01-05 15:45:45,850 - DEBUG - [4V1972S4] calling vllm model
+2025-01-05 15:45:45,856 - DEBUG - [UD7B46D1] calling vllm model
+2025-01-05 15:45:45,862 - DEBUG - [8X1UQPNO] calling vllm model
+2025-01-05 15:45:45,869 - DEBUG - [4NS98AWZ] calling vllm model
+2025-01-05 15:45:45,875 - DEBUG - [DY5PYK2S] calling vllm model
+2025-01-05 15:45:45,882 - DEBUG - [5DIBE80S] calling vllm model
+2025-01-05 15:45:45,888 - DEBUG - [18Q1QTOT] calling vllm model
+2025-01-05 15:45:45,894 - DEBUG - [21J5S79C] calling vllm model
+2025-01-05 15:45:45,900 - DEBUG - [GHL247PH] calling vllm model
+2025-01-05 15:45:45,907 - DEBUG - [1US9DAS2] calling vllm model
+2025-01-05 15:45:45,913 - DEBUG - [AC630FFY] calling vllm model
+2025-01-05 15:45:45,919 - DEBUG - [0ZCZCXQW] calling vllm model
+2025-01-05 15:45:45,926 - DEBUG - [LIDOANA6] calling vllm model
+2025-01-05 15:45:45,932 - DEBUG - [4EPYTAMZ] calling vllm model
+2025-01-05 15:45:45,938 - DEBUG - [6ADN6TSA] calling vllm model
+2025-01-05 15:45:45,945 - DEBUG - [ZPF6KSI0] calling vllm model
+2025-01-05 15:45:45,951 - DEBUG - [QZERY3SA] calling vllm model
+2025-01-05 15:45:45,957 - DEBUG - [72X92JHU] calling vllm model
+2025-01-05 15:45:45,964 - DEBUG - [HRR3RV3Z] calling vllm model
+2025-01-05 15:45:45,970 - DEBUG - [UL466PUK] calling vllm model
+2025-01-05 15:45:45,977 - DEBUG - [BGTHJPN3] calling vllm model
+2025-01-05 15:45:45,983 - DEBUG - [HSD5JC9U] calling vllm model
+2025-01-05 15:45:45,989 - DEBUG - [W05IXBIM] calling vllm model
+2025-01-05 15:45:45,996 - DEBUG - [57ATANPC] calling vllm model
+2025-01-05 15:45:46,002 - DEBUG - [BMVSYOVE] calling vllm model
+2025-01-05 15:45:46,009 - DEBUG - [T66G3LPQ] calling vllm model
+2025-01-05 15:45:46,015 - DEBUG - [W2HD9IC8] calling vllm model
+2025-01-05 15:45:46,021 - DEBUG - [KZIW3X4J] calling vllm model
+2025-01-05 15:45:46,028 - DEBUG - [2D4R6W3C] calling vllm model
+2025-01-05 15:45:46,034 - DEBUG - [KOCB6G5C] calling vllm model
+2025-01-05 15:45:46,040 - DEBUG - [STFIY12J] calling vllm model
+2025-01-05 15:45:46,047 - DEBUG - [9A3KV94R] calling vllm model
+2025-01-05 15:45:46,053 - DEBUG - [DMCSJT9W] calling vllm model
+2025-01-05 15:45:46,059 - DEBUG - [ZH6GX5E3] calling vllm model
+2025-01-05 15:45:46,066 - DEBUG - [KWLAQCAI] calling vllm model
+2025-01-05 15:45:46,072 - DEBUG - [5HQ44O76] calling vllm model
+2025-01-05 15:45:46,079 - DEBUG - [Z13T6YN0] calling vllm model
+2025-01-05 15:45:46,085 - DEBUG - [1KEL7UUW] calling vllm model
+2025-01-05 15:45:51,504 - DEBUG - [S9CDJK5L] took 245274.33, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=20899 output_tokens=707, cost_cents=7.3302
+2025-01-05 15:45:51,504 - DEBUG - [5J1VKZKT] calling vllm model
+2025-01-05 15:45:51,511 - DEBUG - [25BT3SHJ] calling vllm model
+2025-01-05 15:45:51,518 - DEBUG - [ISZIL6EN] calling vllm model
+2025-01-05 15:45:51,524 - DEBUG - [BID739JL] calling vllm model
+2025-01-05 15:45:51,531 - DEBUG - [NONBMAIZ] calling vllm model
+2025-01-05 15:45:51,537 - DEBUG - [482ZP7RW] calling vllm model
+2025-01-05 15:45:51,544 - DEBUG - [4D4ZEN79] calling vllm model
+2025-01-05 15:45:51,550 - DEBUG - [3VX6009T] calling vllm model
+2025-01-05 15:45:51,557 - DEBUG - [MYZML7I1] calling vllm model
+2025-01-05 15:45:51,563 - DEBUG - [KLOMD04Z] calling vllm model
+2025-01-05 15:45:51,570 - DEBUG - [KPQG7KBL] calling vllm model
+2025-01-05 15:45:51,576 - DEBUG - [HL2KQPWU] calling vllm model
+2025-01-05 15:45:51,583 - DEBUG - [1XPN8DIS] calling vllm model
+2025-01-05 15:45:51,590 - DEBUG - [4HR1GWUC] calling vllm model
+2025-01-05 15:45:51,596 - DEBUG - [6RUJH0DO] calling vllm model
+2025-01-05 15:45:51,603 - DEBUG - [S9E8V1YA] calling vllm model
+2025-01-05 15:45:51,609 - DEBUG - [MQB2KM1T] calling vllm model
+2025-01-05 15:45:51,616 - DEBUG - [Y1RWQK78] calling vllm model
+2025-01-05 15:45:51,623 - DEBUG - [U5DKHIVY] calling vllm model
+2025-01-05 15:45:51,629 - DEBUG - [IY1D4YG9] calling vllm model
+2025-01-05 15:45:51,636 - DEBUG - [6U7IGZ2W] calling vllm model
+2025-01-05 15:45:51,642 - DEBUG - [YIRYVZ7L] calling vllm model
+2025-01-05 15:45:51,649 - DEBUG - [7ASNC9GW] calling vllm model
+2025-01-05 15:45:51,655 - DEBUG - [HU3FBZP4] calling vllm model
+2025-01-05 15:45:51,662 - DEBUG - [957SI3G0] calling vllm model
+2025-01-05 15:45:51,669 - DEBUG - [H1QJ1SCA] calling vllm model
+2025-01-05 15:45:51,675 - DEBUG - [1DDZ2VG6] calling vllm model
+2025-01-05 15:45:51,682 - DEBUG - [VAIN6R0S] calling vllm model
+2025-01-05 15:45:51,688 - DEBUG - [JE4SQ5KL] calling vllm model
+2025-01-05 15:45:51,695 - DEBUG - [8LF8BMSX] calling vllm model
+2025-01-05 15:45:51,701 - DEBUG - [A8GYLPQ3] calling vllm model
+2025-01-05 15:45:51,708 - DEBUG - [5IHO4Z52] calling vllm model
+2025-01-05 15:45:51,714 - DEBUG - [7REQ1HG9] calling vllm model
+2025-01-05 15:45:51,721 - DEBUG - [SHY0RKUE] calling vllm model
+2025-01-05 15:45:51,728 - DEBUG - [FCAUVXNH] calling vllm model
+2025-01-05 15:45:51,734 - DEBUG - [QENE0U8U] calling vllm model
+2025-01-05 15:45:51,741 - DEBUG - [5X7EUCB5] calling vllm model
+2025-01-05 15:45:51,747 - DEBUG - [EORL7V3C] calling vllm model
+2025-01-05 15:45:51,754 - DEBUG - [3YSQB4SM] calling vllm model
+2025-01-05 15:45:51,761 - DEBUG - [YBBXJTXT] calling vllm model
+2025-01-05 15:45:51,767 - DEBUG - [EWEGWOTY] calling vllm model
+2025-01-05 15:45:51,774 - DEBUG - [KIG7GS7V] calling vllm model
+2025-01-05 15:45:51,784 - DEBUG - [SXNA6D5H] calling vllm model
+2025-01-05 15:45:51,791 - DEBUG - [XYCF0F0P] calling vllm model
+2025-01-05 15:45:51,797 - DEBUG - [ZGIOIQQ2] calling vllm model
+2025-01-05 15:45:51,804 - DEBUG - [MNSUSSOF] calling vllm model
+2025-01-05 15:45:51,810 - DEBUG - [9P27QK47] calling vllm model
+2025-01-05 15:45:51,817 - DEBUG - [YQOG19UI] calling vllm model
+2025-01-05 15:45:51,823 - DEBUG - [QIBI74X0] calling vllm model
+2025-01-05 15:45:53,643 - DEBUG - [PMY4P7WC] took 248943.61, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=13902 output_tokens=1130, cost_cents=5.8656
+2025-01-05 15:45:53,643 - DEBUG - [NM0ZQ4SN] calling vllm model
+2025-01-05 15:45:53,650 - DEBUG - [WBLHUSSY] calling vllm model
+2025-01-05 15:45:53,656 - DEBUG - [FN8D6Q8C] calling vllm model
+2025-01-05 15:45:53,663 - DEBUG - [6RKDZDTJ] calling vllm model
+2025-01-05 15:45:53,669 - DEBUG - [QM59FNB9] calling vllm model
+2025-01-05 15:45:53,676 - DEBUG - [TYCDQM03] calling vllm model
+2025-01-05 15:45:53,682 - DEBUG - [XTDEGZKE] calling vllm model
+2025-01-05 15:45:53,689 - DEBUG - [PXIXOXKK] calling vllm model
+2025-01-05 15:45:53,695 - DEBUG - [NR79WPUM] calling vllm model
+2025-01-05 15:45:53,701 - DEBUG - [XHMQ3FNW] calling vllm model
+2025-01-05 15:45:53,708 - DEBUG - [GGHL1D6T] calling vllm model
+2025-01-05 15:45:53,714 - DEBUG - [SICLER9X] calling vllm model
+2025-01-05 15:45:53,720 - DEBUG - [Z4OHS3ZR] calling vllm model
+2025-01-05 15:45:53,727 - DEBUG - [2WAGJB8H] calling vllm model
+2025-01-05 15:45:53,733 - DEBUG - [Z63EF00B] calling vllm model
+2025-01-05 15:45:53,740 - DEBUG - [F5QY7J5F] calling vllm model
+2025-01-05 15:45:53,746 - DEBUG - [JP37B7NF] calling vllm model
+2025-01-05 15:45:53,753 - DEBUG - [M9RA9RET] calling vllm model
+2025-01-05 15:45:53,759 - DEBUG - [V3Z8QVOF] calling vllm model
+2025-01-05 15:45:53,766 - DEBUG - [AXTPOJW5] calling vllm model
+2025-01-05 15:45:53,772 - DEBUG - [WBCJJJ4N] calling vllm model
+2025-01-05 15:45:53,779 - DEBUG - [YT7780VL] calling vllm model
+2025-01-05 15:45:53,785 - DEBUG - [A2ASM3OV] calling vllm model
+2025-01-05 15:45:53,792 - DEBUG - [AB1LVWCL] calling vllm model
+2025-01-05 15:45:53,798 - DEBUG - [ZRWW8MMP] calling vllm model
+2025-01-05 15:45:53,805 - DEBUG - [F95HFPY2] calling vllm model
+2025-01-05 15:45:53,811 - DEBUG - [PGPVV3ER] calling vllm model
+2025-01-05 15:45:53,818 - DEBUG - [5QBT8M9O] calling vllm model
+2025-01-05 15:45:53,824 - DEBUG - [LLOYD6AO] calling vllm model
+2025-01-05 15:45:53,831 - DEBUG - [ATHHUBV5] calling vllm model
+2025-01-05 15:45:53,838 - DEBUG - [D0A0I4HP] calling vllm model
+2025-01-05 15:45:53,844 - DEBUG - [83GHDLFG] calling vllm model
+2025-01-05 15:45:53,850 - DEBUG - [C9G9EWXN] calling vllm model
+2025-01-05 15:45:53,857 - DEBUG - [XJ2Q81H8] calling vllm model
+2025-01-05 15:45:53,863 - DEBUG - [5PTCW5AD] calling vllm model
+2025-01-05 15:45:53,870 - DEBUG - [UV8XNM4Q] calling vllm model
+2025-01-05 15:45:53,877 - DEBUG - [MROYGLFG] calling vllm model
+2025-01-05 15:45:53,883 - DEBUG - [0HZ4R8ZD] calling vllm model
+2025-01-05 15:45:53,890 - DEBUG - [AWM503PK] calling vllm model
+2025-01-05 15:45:53,896 - DEBUG - [E9WVMGTW] calling vllm model
+2025-01-05 15:45:53,903 - DEBUG - [2Z39Q8HP] calling vllm model
+2025-01-05 15:45:53,909 - DEBUG - [N27E4Q6M] calling vllm model
+2025-01-05 15:45:53,916 - DEBUG - [55FXQ191] calling vllm model
+2025-01-05 15:45:53,922 - DEBUG - [3IT3OGT5] calling vllm model
+2025-01-05 15:45:53,929 - DEBUG - [9P7SMMXF] calling vllm model
+2025-01-05 15:45:53,935 - DEBUG - [1JO1ZPC3] calling vllm model
+2025-01-05 15:45:53,942 - DEBUG - [7E51H73P] calling vllm model
+2025-01-05 15:45:53,948 - DEBUG - [JYTSCF1S] calling vllm model
+2025-01-05 15:45:53,954 - DEBUG - [EETGS3G0] calling vllm model
+2025-01-05 15:46:05,582 - DEBUG - [5H30FIP0] took 260074.01, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=18346 output_tokens=1088, cost_cents=7.1358
+2025-01-05 15:46:05,583 - DEBUG - [697MU83T] calling vllm model
+2025-01-05 15:46:05,590 - DEBUG - [GPHYHGNW] calling vllm model
+2025-01-05 15:46:05,596 - DEBUG - [SKVEY5O5] calling vllm model
+2025-01-05 15:46:05,603 - DEBUG - [S5KKZCX8] calling vllm model
+2025-01-05 15:46:05,609 - DEBUG - [VUKTQT27] calling vllm model
+2025-01-05 15:46:05,616 - DEBUG - [CN727UDY] calling vllm model
+2025-01-05 15:46:05,622 - DEBUG - [N3LP8N5N] calling vllm model
+2025-01-05 15:46:05,628 - DEBUG - [BF6GR7FU] calling vllm model
+2025-01-05 15:46:05,635 - DEBUG - [NYTR5BBP] calling vllm model
+2025-01-05 15:46:05,641 - DEBUG - [0FLUZXCO] calling vllm model
+2025-01-05 15:46:05,648 - DEBUG - [KU145KVW] calling vllm model
+2025-01-05 15:46:05,655 - DEBUG - [0THM6E5J] calling vllm model
+2025-01-05 15:46:05,661 - DEBUG - [T3W3DAPN] calling vllm model
+2025-01-05 15:46:05,667 - DEBUG - [JUX4BNA0] calling vllm model
+2025-01-05 15:46:05,674 - DEBUG - [V2HLRPP0] calling vllm model
+2025-01-05 15:46:05,680 - DEBUG - [OVLBVBS4] calling vllm model
+2025-01-05 15:46:05,687 - DEBUG - [O3EVAYYO] calling vllm model
+2025-01-05 15:46:05,693 - DEBUG - [JWJDHI24] calling vllm model
+2025-01-05 15:46:05,700 - DEBUG - [STK5VAJO] calling vllm model
+2025-01-05 15:46:05,706 - DEBUG - [ONFU00CT] calling vllm model
+2025-01-05 15:46:05,713 - DEBUG - [QQUBK608] calling vllm model
+2025-01-05 15:46:05,719 - DEBUG - [ZE3ZQGJN] calling vllm model
+2025-01-05 15:46:05,726 - DEBUG - [5VHW7G4R] calling vllm model
+2025-01-05 15:46:05,732 - DEBUG - [NNFM1A3V] calling vllm model
+2025-01-05 15:46:05,739 - DEBUG - [GO0H7LCN] calling vllm model
+2025-01-05 15:46:05,745 - DEBUG - [9UBR1OFJ] calling vllm model
+2025-01-05 15:46:05,752 - DEBUG - [Q1DRUEKP] calling vllm model
+2025-01-05 15:46:05,758 - DEBUG - [73ZVPI9N] calling vllm model
+2025-01-05 15:46:05,765 - DEBUG - [NP5DX36V] calling vllm model
+2025-01-05 15:46:05,771 - DEBUG - [P7QYZ97J] calling vllm model
+2025-01-05 15:46:05,778 - DEBUG - [U27NIXP8] calling vllm model
+2025-01-05 15:46:05,784 - DEBUG - [TEOPVSIE] calling vllm model
+2025-01-05 15:46:05,791 - DEBUG - [IVOR6D1F] calling vllm model
+2025-01-05 15:46:05,797 - DEBUG - [Q9DHWBVK] calling vllm model
+2025-01-05 15:46:05,804 - DEBUG - [NQJVGWKN] calling vllm model
+2025-01-05 15:46:05,810 - DEBUG - [5K3I7QUJ] calling vllm model
+2025-01-05 15:46:05,817 - DEBUG - [2ORD02FK] calling vllm model
+2025-01-05 15:46:05,823 - DEBUG - [MJDJUZLM] calling vllm model
+2025-01-05 15:46:05,830 - DEBUG - [TMKEJSJP] calling vllm model
+2025-01-05 15:46:05,837 - DEBUG - [UW9ZOLVG] calling vllm model
+2025-01-05 15:46:05,843 - DEBUG - [WAJCF6QK] calling vllm model
+2025-01-05 15:46:05,850 - DEBUG - [QE7PEK0H] calling vllm model
+2025-01-05 15:46:05,856 - DEBUG - [BKBZNFAW] calling vllm model
+2025-01-05 15:46:05,863 - DEBUG - [BX3RPJ4S] calling vllm model
+2025-01-05 15:46:05,869 - DEBUG - [0JFZO359] calling vllm model
+2025-01-05 15:46:05,876 - DEBUG - [6JYJEFJW] calling vllm model
+2025-01-05 15:46:05,882 - DEBUG - [EWXEKM6Q] calling vllm model
+2025-01-05 15:46:05,889 - DEBUG - [K01UG0CA] calling vllm model
+2025-01-05 15:46:05,895 - DEBUG - [30J8BGV9] calling vllm model
+2025-01-05 15:46:23,778 - DEBUG - [COBA1E1M] took 166556.90, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=766, cost_cents=6.4641
+2025-01-05 15:46:31,019 - DEBUG - [K0F6N6SW] took 285044.55, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=10669 output_tokens=1244, cost_cents=5.0667
+2025-01-05 15:46:31,019 - DEBUG - [19M3966Y] calling vllm model
+2025-01-05 15:46:31,027 - DEBUG - [LQFU0N6Y] calling vllm model
+2025-01-05 15:46:31,033 - DEBUG - [IU21SYSN] calling vllm model
+2025-01-05 15:46:31,040 - DEBUG - [BRFVDY0R] calling vllm model
+2025-01-05 15:46:31,046 - DEBUG - [N5IWYSV6] calling vllm model
+2025-01-05 15:46:31,053 - DEBUG - [HBA8UZG7] calling vllm model
+2025-01-05 15:46:31,060 - DEBUG - [XP2CXW5G] calling vllm model
+2025-01-05 15:46:31,067 - DEBUG - [5UHP0AGG] calling vllm model
+2025-01-05 15:46:31,073 - DEBUG - [GKYO01OZ] calling vllm model
+2025-01-05 15:46:31,079 - DEBUG - [CPECD1DG] calling vllm model
+2025-01-05 15:46:31,086 - DEBUG - [4LEOHKNN] calling vllm model
+2025-01-05 15:46:31,092 - DEBUG - [GQT7BH2G] calling vllm model
+2025-01-05 15:46:31,099 - DEBUG - [GKOS5GM6] calling vllm model
+2025-01-05 15:46:31,106 - DEBUG - [69M7XJVR] calling vllm model
+2025-01-05 15:46:31,112 - DEBUG - [QO8LDQ18] calling vllm model
+2025-01-05 15:46:31,119 - DEBUG - [IQKOIMKP] calling vllm model
+2025-01-05 15:46:31,125 - DEBUG - [3DHJ8G4J] calling vllm model
+2025-01-05 15:46:31,131 - DEBUG - [KB13FZB6] calling vllm model
+2025-01-05 15:46:31,138 - DEBUG - [WB14O38Q] calling vllm model
+2025-01-05 15:46:31,144 - DEBUG - [61APPCGN] calling vllm model
+2025-01-05 15:46:31,151 - DEBUG - [BP6GA8CA] calling vllm model
+2025-01-05 15:46:31,157 - DEBUG - [3APPPYS8] calling vllm model
+2025-01-05 15:46:31,164 - DEBUG - [XFSOVFE1] calling vllm model
+2025-01-05 15:46:31,170 - DEBUG - [20DO7GO9] calling vllm model
+2025-01-05 15:46:31,177 - DEBUG - [N6JTL2AM] calling vllm model
+2025-01-05 15:46:31,183 - DEBUG - [VGZIA6MZ] calling vllm model
+2025-01-05 15:46:31,190 - DEBUG - [22ONCS9G] calling vllm model
+2025-01-05 15:46:31,196 - DEBUG - [M6D5UC0K] calling vllm model
+2025-01-05 15:46:31,203 - DEBUG - [HRB7DEQR] calling vllm model
+2025-01-05 15:46:31,209 - DEBUG - [5C45YONN] calling vllm model
+2025-01-05 15:46:31,216 - DEBUG - [5TPTN4X4] calling vllm model
+2025-01-05 15:46:31,222 - DEBUG - [IM6X58DY] calling vllm model
+2025-01-05 15:46:31,229 - DEBUG - [J5C8JGZ4] calling vllm model
+2025-01-05 15:46:31,236 - DEBUG - [NWIV1EGA] calling vllm model
+2025-01-05 15:46:31,242 - DEBUG - [GVKG2WS7] calling vllm model
+2025-01-05 15:46:31,249 - DEBUG - [6TT0EIET] calling vllm model
+2025-01-05 15:46:31,255 - DEBUG - [FF8P4IDS] calling vllm model
+2025-01-05 15:46:31,262 - DEBUG - [ES1AKYR6] calling vllm model
+2025-01-05 15:46:31,268 - DEBUG - [W8CB1WWW] calling vllm model
+2025-01-05 15:46:31,275 - DEBUG - [P2D11IPP] calling vllm model
+2025-01-05 15:46:31,281 - DEBUG - [BROFXDVG] calling vllm model
+2025-01-05 15:46:31,288 - DEBUG - [7VOE4LVB] calling vllm model
+2025-01-05 15:46:31,295 - DEBUG - [8R8IEH1A] calling vllm model
+2025-01-05 15:46:31,301 - DEBUG - [4G4JCQN0] calling vllm model
+2025-01-05 15:46:31,307 - DEBUG - [0B9XFVCN] calling vllm model
+2025-01-05 15:46:31,314 - DEBUG - [7KDBQGM8] calling vllm model
+2025-01-05 15:46:31,320 - DEBUG - [4AH35A1O] calling vllm model
+2025-01-05 15:46:31,327 - DEBUG - [H560R7YR] calling vllm model
+2025-01-05 15:46:31,333 - DEBUG - [FCIC11KI] calling vllm model
+2025-01-05 15:46:31,958 - DEBUG - [RVH6GZY7] took 174730.39, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=777, cost_cents=6.4806
+2025-01-05 15:46:31,959 - DEBUG - [XG06NJNN] took 174704.93, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=529, cost_cents=6.1086
+2025-01-05 15:46:33,711 - DEBUG - [SMNBKXIT] took 176476.65, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=751, cost_cents=6.4416
+2025-01-05 15:46:42,932 - DEBUG - [Z2VJLN46] took 185684.53, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=622, cost_cents=6.2481
+2025-01-05 15:46:50,021 - DEBUG - [E4FA0WUG] took 192761.07, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=587, cost_cents=6.1956
+2025-01-05 15:47:08,503 - DEBUG - [DXBPZPDR] took 211223.14, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=623, cost_cents=6.2496
+2025-01-05 15:47:14,208 - DEBUG - [9OOSFZ0R] took 216967.08, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=855, cost_cents=6.5976
+2025-01-05 15:47:15,300 - DEBUG - [V0D9HJB7] took 218001.33, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=502, cost_cents=6.0681
+2025-01-05 15:47:28,283 - DEBUG - [T3WDINFZ] took 230990.01, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=653, cost_cents=6.2946
+2025-01-05 15:47:36,082 - DEBUG - [EUHSY38Q] took 238795.63, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=643, cost_cents=6.2796
+2025-01-05 15:47:39,893 - DEBUG - [5GNLVLQ8] took 242626.90, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=747, cost_cents=6.4356
+2025-01-05 15:47:51,610 - DEBUG - [ZYTFIEGG] took 254298.25, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=621, cost_cents=6.2466
+2025-01-05 15:47:54,247 - DEBUG - [UUODPO6U] took 256941.40, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=672, cost_cents=6.3231
+2025-01-05 15:47:56,457 - DEBUG - [NADMFDU7] took 259183.64, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=909, cost_cents=6.6786
+2025-01-05 15:47:56,879 - DEBUG - [EORPGNOA] took 259553.99, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=417, cost_cents=5.9406
+2025-01-05 15:48:17,597 - DEBUG - [CHXYMCJJ] took 280253.14, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=416, cost_cents=5.9391
+2025-01-05 15:48:29,634 - DEBUG - [138NBV4Q] took 292296.02, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=540, cost_cents=6.1251
+2025-01-05 15:48:41,003 - DEBUG - [QKKMGYSV] took 303651.87, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=574, cost_cents=6.1761
+2025-01-05 15:48:54,101 - DEBUG - [2S6H5SLT] took 316782.37, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=894, cost_cents=6.6561
+2025-01-05 15:48:57,927 - DEBUG - [8XFGI5YY] took 320563.65, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=632, cost_cents=6.2631
+2025-01-05 15:49:03,694 - DEBUG - [PPVIWJ89] took 326362.26, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=862, cost_cents=6.6081
+2025-01-05 15:49:13,701 - DEBUG - [WLHHS2OT] took 336331.16, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=676, cost_cents=6.3291
+2025-01-05 15:49:23,564 - DEBUG - [AR5508ZC] took 346207.19, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=808, cost_cents=6.5271
+2025-01-05 15:49:34,250 - DEBUG - [GU8U3690] took 356841.02, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=605, cost_cents=6.2226
+2025-01-05 15:49:42,372 - DEBUG - [TQJERQTI] took 364949.74, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=586, cost_cents=6.1941
+2025-01-05 15:49:42,609 - DEBUG - [YRO23PG4] took 365219.31, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=777, cost_cents=6.4806
+2025-01-05 15:49:53,290 - DEBUG - [BURQFWMI] took 375887.90, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=750, cost_cents=6.4401
+2025-01-05 15:50:01,697 - DEBUG - [XSJB6XX8] took 384300.82, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=827, cost_cents=6.5556
+2025-01-05 15:50:09,494 - DEBUG - [VTP9KL9K] took 392116.97, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=984, cost_cents=6.7911
+2025-01-05 15:50:21,469 - DEBUG - [AKTICG64] took 404052.95, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=861, cost_cents=6.6066
+2025-01-05 15:50:27,831 - DEBUG - [067ARWPI] took 410395.65, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=673, cost_cents=6.3246
+2025-01-05 15:50:31,067 - DEBUG - [A3CMGE0N] took 413612.66, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=488, cost_cents=6.0471
+2025-01-05 15:50:34,112 - DEBUG - [C0V28AB6] took 416670.62, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=574, cost_cents=6.1761
+2025-01-05 15:50:40,713 - DEBUG - [H25OODLV] took 423284.56, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=843, cost_cents=6.5796
+2025-01-05 15:50:51,566 - DEBUG - [PSI2FFTY] took 434099.36, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=504, cost_cents=6.0711
+2025-01-05 15:50:56,309 - DEBUG - [47T2T89O] took 438848.03, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=584, cost_cents=6.1911
+2025-01-05 15:51:10,345 - DEBUG - [12PGNMIQ] took 452896.82, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=731, cost_cents=6.4116
+2025-01-05 15:51:26,402 - DEBUG - [VZKY70ML] took 468909.31, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=537, cost_cents=6.1206
+2025-01-05 15:51:40,022 - DEBUG - [YBJX8TTE] took 482535.36, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=701, cost_cents=6.3666
+2025-01-05 15:51:43,565 - DEBUG - [G6E4X8WF] took 486181.95, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=1604, cost_cents=7.7211
+2025-01-05 15:51:44,465 - DEBUG - [6G6DE1AT] took 486959.20, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=620, cost_cents=6.2451
+2025-01-05 15:51:52,618 - DEBUG - [GZFUQSLX] took 495137.97, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=806, cost_cents=6.5241
+2025-01-05 15:52:00,598 - DEBUG - [L5PVVYWM] took 503124.31, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=901, cost_cents=6.6666
+2025-01-05 15:52:06,568 - DEBUG - [X4B2VWYI] took 509049.66, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=606, cost_cents=6.2241
+2025-01-05 15:52:07,714 - DEBUG - [E03CL2DS] took 510189.13, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=577, cost_cents=6.1806
+2025-01-05 15:52:21,268 - DEBUG - [Q5FN4GX6] took 523755.93, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=721, cost_cents=6.3966
+2025-01-05 15:52:25,348 - DEBUG - [CY8JK300] took 513640.49, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=8027 output_tokens=607, cost_cents=3.3186
+2025-01-05 15:52:29,395 - DEBUG - [XIN4ZW7U] took 517541.04, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=8027 output_tokens=499, cost_cents=3.1566
+2025-01-05 15:52:35,677 - DEBUG - [K1QP7D7J] took 523995.77, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=8027 output_tokens=712, cost_cents=3.4761
+2025-01-05 15:52:40,149 - DEBUG - [B5C87J2B] took 528435.88, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=8027 output_tokens=655, cost_cents=3.3906
+2025-01-05 15:52:40,150 - DEBUG - [GMDOZXEF] took 542650.64, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17717 output_tokens=955, cost_cents=6.7476
+2025-01-05 15:52:40,150 - DEBUG - Got the n_messages
+2025-01-05 15:52:42,233 - DEBUG - [28e73c20] grids took 2.0826942920684814 secs
+2025-01-05 15:52:42,238 - DEBUG - startgin eval attempts
+2025-01-05 15:52:42,238 - DEBUG - eval the attempts
+2025-01-05 15:52:42,238 - DEBUG - eval
+**{'challenge_id': '28e73c20', 'total_runs': 50, 'total_correct': 0, 'avg_train_accuracy': 0.0, 'avg_test_accuracy': 0.0, 'total_cost': 317.49, 'prompt_config': RootPromptConfig(base_prompt=<Prompt.REASONING: 'REASONING'>, use_ascii=True, use_array=True, use_image=True, use_examples=True, use_diffs=True, use_images=True, returns_python=True), 'llm_config': LLMConfig(model=<Model.qwen2_5_72b_instruct: 'Qwen/Qwen2.5-72B-Instruct-GPTQ-Int4'>, temperature=0.95), 'time_took_ms': 658587.11}**
+
+2025-01-05 15:52:42,238 - DEBUG - [28e73c20] eval took 0.0007519721984863281 secs
+2025-01-05 15:52:42,238 - DEBUG - try for perfect attemtps
+2025-01-05 15:52:42,238 - DEBUG - run fixes
+2025-01-05 15:52:42,242 - DEBUG - [28e73c20] running fix node with 50 total attempts.
+2025-01-05 15:52:42,245 - DEBUG - [28e73c20] Processing fix attempts:   0%|          | 0/5 [00:00<?, ?it/s]
+2025-01-05 15:52:42,255 - DEBUG - Creating vllm client done 
+2025-01-05 15:52:42,255 - DEBUG - [IUS2XTQ1] calling vllm model
+2025-01-05 15:52:42,271 - DEBUG - Creating vllm client done 
+2025-01-05 15:52:42,271 - DEBUG - [B6CX5KAF] calling vllm model
+2025-01-05 15:52:42,287 - DEBUG - Creating vllm client done 
+2025-01-05 15:52:42,287 - DEBUG - [P5VYE1XE] calling vllm model
+2025-01-05 15:52:42,303 - DEBUG - Creating vllm client done 
+2025-01-05 15:52:42,303 - DEBUG - [0HMYY2HE] calling vllm model
+2025-01-05 15:52:42,319 - DEBUG - Creating vllm client done 
+2025-01-05 15:52:42,319 - DEBUG - [T5VD34DG] calling vllm model
+2025-01-05 15:52:44,055 - DEBUG - [F0WU3VSS] took 532354.54, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=8027 output_tokens=723, cost_cents=3.4926
+2025-01-05 15:52:51,109 - DEBUG - [YM3UVGB2] took 539414.28, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=8027 output_tokens=728, cost_cents=3.5001
+2025-01-05 15:52:57,023 - DEBUG - [U1MYWNQK] took 545296.78, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=8027 output_tokens=712, cost_cents=3.4761

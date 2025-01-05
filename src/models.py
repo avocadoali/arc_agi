@@ -446,7 +446,7 @@ class Attempt(BaseModel):
         llm_responses = [m[0] for m in next_messages]
         grid_lists = None
         
-        logfire.debug(f"[{challenge.id}] all llm responses: {llm_responses}")
+        # logfire.debug(f"[{challenge.id}] all llm responses: {llm_responses}")
 
         if USE_GRID_URL and os.environ.get("GRID_URL"):
             try:
@@ -512,7 +512,7 @@ class Attempt(BaseModel):
                 attempts.append(attempt)
 
         
-        logfire.debug(f"[{challenge.id}] attempts are: {attempts}")
+        # logfire.debug(f"[{challenge.id}] attempts are: {attempts}")
 
         return attempts
 
