@@ -14,7 +14,7 @@ else:
     print("printing logs")
     PRINT_LOGS = True
 
-
+log_name = os.getenv("LOG_NAME")
 
 
 class LogfireDummy:
@@ -28,7 +28,7 @@ class LogfireDummy:
         self.start_date = self.start_time.strftime("%Y-%m-%d")
 
         os.makedirs(f"logs/{self.start_date}", exist_ok=True)
-        self.file_handler = logging.FileHandler(f"logs/{self.start_date}/{datetime.now().strftime('%H-%M-%S.%f')}.log")
+        self.file_handler = logging.FileHandler(f"logs/{self.start_date}/{log_name}.log")
         self.file_handler.setLevel(logging.DEBUG)
         formatter = logging.Formatter(
             "%(asctime)s - %(levelname)s - %(message)s"

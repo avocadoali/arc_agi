@@ -467,3 +467,13 @@ FINAL: took 72.93 secs to run 1 challenges
 LOGGER: eval solutions
 total count 0 correct count 0
 (sc_venv_template) [nguyen31@jwb0181 arc_agi]$ 
+
+
+
+
+
+
+ssh -L 8081:172.17.8.29:8081 username@v.vectorinstitute.ai -N
+
+nguyen31@jwb0072i.juwels
+

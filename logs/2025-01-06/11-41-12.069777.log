@@ -1,0 +1,49 @@
+2025-01-06 11:41:13,374 - DEBUG - run from json
+2025-01-06 11:41:13,375 - DEBUG - [1736160073.3756022] starting run from json
+2025-01-06 11:41:13,482 - DEBUG - process challenges w limit
+2025-01-06 11:41:13,483 - DEBUG - [017c7c7b] running root node with 5 attempts.
+2025-01-06 11:41:13,483 - DEBUG - strarting attempt run
+2025-01-06 11:41:15,153 - DEBUG - Creating vllm client done 
+2025-01-06 11:41:15,153 - DEBUG - [C4FPLBEB] calling vllm model
+2025-01-06 11:41:15,166 - DEBUG - [025d127b] running root node with 5 attempts.
+2025-01-06 11:41:15,166 - DEBUG - strarting attempt run
+2025-01-06 11:41:15,320 - DEBUG - Creating vllm client done 
+2025-01-06 11:41:15,320 - DEBUG - [FGRPJVK5] calling vllm model
+2025-01-06 11:41:15,326 - DEBUG - [045e512c] running root node with 5 attempts.
+2025-01-06 11:41:15,326 - DEBUG - strarting attempt run
+2025-01-06 11:41:15,640 - DEBUG - Creating vllm client done 
+2025-01-06 11:41:15,641 - DEBUG - [BGBMRMJZ] calling vllm model
+2025-01-06 11:41:15,647 - DEBUG - [0520fde7] running root node with 5 attempts.
+2025-01-06 11:41:15,647 - DEBUG - strarting attempt run
+2025-01-06 11:41:15,765 - DEBUG - Creating vllm client done 
+2025-01-06 11:41:15,765 - DEBUG - [S6FTOHLR] calling vllm model
+2025-01-06 11:41:15,771 - DEBUG - [05269061] running root node with 5 attempts.
+2025-01-06 11:41:15,771 - DEBUG - strarting attempt run
+2025-01-06 11:41:15,913 - DEBUG - Creating vllm client done 
+2025-01-06 11:41:15,913 - DEBUG - [S77GMC71] calling vllm model
+2025-01-06 11:41:58,693 - DEBUG - [C4FPLBEB] took 43539.46, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=6177 output_tokens=550, cost_cents=2.6781
+2025-01-06 11:41:58,693 - DEBUG - [E6UGK61D] calling vllm model
+2025-01-06 11:41:58,700 - DEBUG - [IU6HZA94] calling vllm model
+2025-01-06 11:41:58,706 - DEBUG - [C8GWNRYQ] calling vllm model
+2025-01-06 11:41:58,713 - DEBUG - [EK4W1E0V] calling vllm model
+2025-01-06 11:42:15,063 - DEBUG - [S6FTOHLR] took 59297.33, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=5997 output_tokens=787, cost_cents=2.9796
+2025-01-06 11:42:15,063 - DEBUG - [8458G7YF] calling vllm model
+2025-01-06 11:42:15,069 - DEBUG - [3E6JEQIX] calling vllm model
+2025-01-06 11:42:15,076 - DEBUG - [KS4XGDJ8] calling vllm model
+2025-01-06 11:42:15,082 - DEBUG - [80WUMBQV] calling vllm model
+2025-01-06 11:42:19,275 - DEBUG - [S77GMC71] took 63361.87, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=9805 output_tokens=705, cost_cents=3.999
+2025-01-06 11:42:19,275 - DEBUG - [92569H8V] calling vllm model
+2025-01-06 11:42:19,281 - DEBUG - [TTDOOJH6] calling vllm model
+2025-01-06 11:42:19,288 - DEBUG - [HUDN9WPC] calling vllm model
+2025-01-06 11:42:19,294 - DEBUG - [ETBY2YKP] calling vllm model
+2025-01-06 11:42:43,531 - DEBUG - [BGBMRMJZ] took 87890.29, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=28071 output_tokens=922, cost_cents=9.8043
+2025-01-06 11:42:43,531 - DEBUG - [D32FXE9X] calling vllm model
+2025-01-06 11:42:43,538 - DEBUG - [CFI0U77J] calling vllm model
+2025-01-06 11:42:43,544 - DEBUG - [NVBTOWBR] calling vllm model
+2025-01-06 11:42:43,550 - DEBUG - [9M9SFB8T] calling vllm model
+2025-01-06 11:43:27,093 - DEBUG - [IU6HZA94] took 88392.89, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=6177 output_tokens=622, cost_cents=2.7861
+2025-01-06 11:43:38,154 - DEBUG - [FGRPJVK5] took 142834.49, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=10620 output_tokens=1325, cost_cents=5.1735
+2025-01-06 11:43:38,154 - DEBUG - [3VDIFT19] calling vllm model
+2025-01-06 11:43:38,161 - DEBUG - [VUAHPQFK] calling vllm model
+2025-01-06 11:43:38,167 - DEBUG - [BGI9LVJH] calling vllm model
+2025-01-06 11:43:38,173 - DEBUG - [2N0W5KGD] calling vllm model

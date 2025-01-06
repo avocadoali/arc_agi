@@ -181,19 +181,24 @@ async def run() -> None:
     attempts_solutions_path = "test_data/training_solutions.json"
     logfire.debug('run from json')
     
-
+    # tmp data should have a timestamp in the name
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    log_name = f"deep_run_1_{timestamp}"
+    tmp_solutions_dir_path = f"test_data_mine/{log_name}/"
+    tmp_solutions_dir_path = Path(tmp_solutions_dir_path)
+    tmp_solutions_dir_path.mkdir(exist_ok=True)
 
     await run_from_json(
         challenges_path=challenges_path,
         solutions_path=attempts_solutions_path,
         truth_solutions_path=truth_solutions_path,
-        temp_solutions_dir_path="test_data_mine/tmp_solutions/",
+        temp_solutions_dir_path=tmp_solutions_dir_path,
         tree=experiments.sonnet_writeup_deep,
         # tree=experiments.sonnet_writeup_shallow,
         # tree=experiments.sonnet_writeup_med,
         # tree=experiments.sonnet_pooling_example,
-        limit=20,
-        offset=50,
+        limit=5,
+        offset=2,
         # limit=1,
         # offset=1,
         max_concurrent=20,
@@ -232,4 +237,6 @@ async def main() -> None:
 
 
 if __name__ == "__main__":
+    # init logfire
+
     asyncio.run(main())

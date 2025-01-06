@@ -1,0 +1,52 @@
+2025-01-06 12:11:40,168 - DEBUG - run from json
+2025-01-06 12:11:40,169 - DEBUG - [1736161900.169951] starting run from json
+2025-01-06 12:11:40,277 - DEBUG - process challenges w limit
+2025-01-06 12:11:40,277 - DEBUG - [017c7c7b] running root node with 5 attempts.
+2025-01-06 12:11:40,277 - DEBUG - strarting attempt run
+2025-01-06 12:11:41,986 - DEBUG - Creating vllm client done 
+2025-01-06 12:11:41,986 - DEBUG - [RR3L428O] calling vllm model
+2025-01-06 12:11:52,111 - DEBUG - [RR3L428O] took 10125.44, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=6177 output_tokens=613, cost_cents=2.7726
+2025-01-06 12:11:52,112 - DEBUG - [NR9ASZCH] calling vllm model
+2025-01-06 12:11:52,119 - DEBUG - [C9GCFE9E] calling vllm model
+2025-01-06 12:11:52,125 - DEBUG - [W9L7DYFS] calling vllm model
+2025-01-06 12:11:52,132 - DEBUG - [QTVD26JK] calling vllm model
+2025-01-06 12:12:04,593 - DEBUG - [C9GCFE9E] took 12473.90, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=6177 output_tokens=527, cost_cents=2.6436
+2025-01-06 12:12:06,223 - DEBUG - [W9L7DYFS] took 14097.39, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=6177 output_tokens=599, cost_cents=2.7516
+2025-01-06 12:12:11,934 - DEBUG - [NR9ASZCH] took 19821.94, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=6177 output_tokens=934, cost_cents=3.2541
+2025-01-06 12:12:12,030 - DEBUG - [QTVD26JK] took 19897.81, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=6177 output_tokens=903, cost_cents=3.2076
+2025-01-06 12:12:12,030 - DEBUG - Got the n_messages
+2025-01-06 12:12:12,357 - DEBUG - [017c7c7b] grids took 0.32683873176574707 secs
+2025-01-06 12:12:12,357 - DEBUG - startgin eval attempts
+2025-01-06 12:12:12,357 - DEBUG - eval the attempts
+2025-01-06 12:12:12,358 - DEBUG - eval
+**{'challenge_id': '017c7c7b', 'total_runs': 5, 'total_correct': 0, 'avg_train_accuracy': 0.13333333333333333, 'avg_test_accuracy': 0.2, 'total_cost': 14.6295, 'prompt_config': RootPromptConfig(base_prompt=<Prompt.REASONING: 'REASONING'>, use_ascii=True, use_array=True, use_image=True, use_examples=True, use_diffs=True, use_images=True, returns_python=True), 'llm_config': LLMConfig(model=<Model.qwen2_5_72b_instruct: 'Qwen/Qwen2.5-72B-Instruct-GPTQ-Int4'>, temperature=0.95), 'time_took_ms': 32080.01}**
+
+2025-01-06 12:12:12,358 - DEBUG - [017c7c7b] eval took 0.0003681182861328125 secs
+2025-01-06 12:12:12,358 - DEBUG - try for perfect attemtps
+2025-01-06 12:12:12,358 - DEBUG - run fixes
+2025-01-06 12:12:12,358 - DEBUG - [017c7c7b] running fix node with 1 total attempts.
+2025-01-06 12:12:12,360 - DEBUG - [017c7c7b] Processing fix attempts:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-01-06 12:12:12,487 - DEBUG - Creating vllm client done 
+2025-01-06 12:12:12,487 - DEBUG - [R1VFEHSF] calling vllm model
+2025-01-06 12:12:51,703 - DEBUG - [R1VFEHSF] took 39215.68, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=10488 output_tokens=826, cost_cents=4.3854
+2025-01-06 12:12:51,703 - DEBUG - Got the n_messages
+2025-01-06 12:12:51,902 - DEBUG - [017c7c7b] grids took 0.1981043815612793 secs
+2025-01-06 12:12:51,902 - DEBUG - [017c7c7b] Processing fix attempts: 100%|##########| 1/1 [00:39<00:00, 39.54s/it]
+2025-01-06 12:12:51,902 - DEBUG - 
+2025-01-06 12:12:51,902 - DEBUG - [017c7c7b] Processing fix attempts: 100%|##########| 1/1 [00:39<00:00, 39.54s/it]
+2025-01-06 12:12:51,902 - DEBUG - 
+
+2025-01-06 12:12:51,902 - DEBUG - eval the attempts
+2025-01-06 12:12:51,902 - DEBUG - eval
+**{'challenge_id': '017c7c7b', 'total_runs': 1, 'total_correct': 0, 'avg_train_accuracy': 0.0, 'avg_test_accuracy': 0.0, 'total_cost': 4.3854, 'prompt_config': FixPromptConfig(base_prompt=<Prompt.REASONING: 'REASONING'>, use_ascii=True, use_array=True, use_image=True, use_fix_reasoning_tags=True, use_fix_fail_line=True, use_typical_issue_text=True, include_diffs=True, returns_python=True), 'llm_config': LLMConfig(model=<Model.qwen2_5_72b_instruct: 'Qwen/Qwen2.5-72B-Instruct-GPTQ-Int4'>, temperature=0.95), 'time_took_ms': 39544.42}**
+
+2025-01-06 12:12:51,903 - DEBUG - [017c7c7b] eval took 0.0007259845733642578 secs
+2025-01-06 12:12:51,903 - DEBUG - ALL ATTEMPTS LEN: 1
+2025-01-06 12:12:51,903 - DEBUG - checkt attempts again
+2025-01-06 12:12:51,903 - DEBUG - [017c7c7b] DONE: n attempts: 6, total cost cents: 19.0149
+2025-01-06 12:12:51,904 - DEBUG - [017c7c7b] solution
+**{'challenge_id': '017c7c7b', 'challenge': Challenge(id='017c7c7b', train=[Example(input=[[0, 1, 0], [1, 1, 0], [0, 1, 0], [0, 1, 1], [0, 1, 0], [1, 1, 0]], output=[[0, 2, 0], [2, 2, 0], [0, 2, 0], [0, 2, 2], [0, 2, 0], [2, 2, 0], [0, 2, 0], [0, 2, 2], [0, 2, 0]]), Example(input=[[0, 1, 0], [1, 0, 1], [0, 1, 0], [1, 0, 1], [0, 1, 0], [1, 0, 1]], output=[[0, 2, 0], [2, 0, 2], [0, 2, 0], [2, 0, 2], [0, 2, 0], [2, 0, 2], [0, 2, 0], [2, 0, 2], [0, 2, 0]]), Example(input=[[0, 1, 0], [1, 1, 0], [0, 1, 0], [0, 1, 0], [1, 1, 0], [0, 1, 0]], output=[[0, 2, 0], [2, 2, 0], [0, 2, 0], [0, 2, 0], [2, 2, 0], [0, 2, 0], [0, 2, 0], [2, 2, 0], [0, 2, 0]])], test=[Example(input=[[1, 1, 1], [0, 1, 0], [0, 1, 0], [1, 1, 1], [0, 1, 0], [0, 1, 0]], output=[[2, 2, 2], [0, 2, 0], [0, 2, 0], [2, 2, 2], [0, 2, 0], [0, 2, 0], [2, 2, 2], [0, 2, 0], [0, 2, 0]])]), 'solution_d': [ChallengeSolution(attempt_1=[[2, 2, 2], [0, 2, 0], [0, 2, 0], [2, 2, 2], [0, 2, 0], [0, 2, 0], [2, 2, 2], [0, 2, 0], [0, 2, 0]], attempt_2=[[2, 2, 2], [2, 2, 2], [2, 2, 2], [0, 2, 0], [0, 2, 0], [2, 2, 2], [0, 2, 0], [0, 2, 0], [2, 2, 2]])]}**
+
+2025-01-06 12:12:51,907 - DEBUG - [017c7c7b] took 71.63 secs to solve and write
+2025-01-06 12:12:51,908 - DEBUG - FINAL: took 71.74 secs to run 1 challenges
+2025-01-06 12:12:51,908 - DEBUG - eval solutions

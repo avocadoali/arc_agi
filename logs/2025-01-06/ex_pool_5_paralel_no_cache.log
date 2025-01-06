@@ -1,0 +1,282 @@
+2025-01-06 11:51:35,661 - DEBUG - run from json
+2025-01-06 11:51:35,663 - DEBUG - [1736160695.6629796] starting run from json
+2025-01-06 11:51:35,773 - DEBUG - process challenges w limit
+2025-01-06 11:51:35,773 - DEBUG - [017c7c7b] running root node with 5 attempts.
+2025-01-06 11:51:35,773 - DEBUG - strarting attempt run
+2025-01-06 11:51:39,380 - DEBUG - Creating vllm client done 
+2025-01-06 11:51:39,380 - DEBUG - [OB4DFK5A] calling vllm model
+2025-01-06 11:51:39,395 - DEBUG - [025d127b] running root node with 5 attempts.
+2025-01-06 11:51:39,395 - DEBUG - strarting attempt run
+2025-01-06 11:51:39,549 - DEBUG - Creating vllm client done 
+2025-01-06 11:51:39,550 - DEBUG - [K2KUGM9G] calling vllm model
+2025-01-06 11:51:39,556 - DEBUG - [045e512c] running root node with 5 attempts.
+2025-01-06 11:51:39,556 - DEBUG - strarting attempt run
+2025-01-06 11:51:39,871 - DEBUG - Creating vllm client done 
+2025-01-06 11:51:39,871 - DEBUG - [LME20O3S] calling vllm model
+2025-01-06 11:51:39,878 - DEBUG - [0520fde7] running root node with 5 attempts.
+2025-01-06 11:51:39,878 - DEBUG - strarting attempt run
+2025-01-06 11:51:39,996 - DEBUG - Creating vllm client done 
+2025-01-06 11:51:39,996 - DEBUG - [C2JFWJ6H] calling vllm model
+2025-01-06 11:51:40,002 - DEBUG - [05269061] running root node with 5 attempts.
+2025-01-06 11:51:40,002 - DEBUG - strarting attempt run
+2025-01-06 11:51:40,146 - DEBUG - Creating vllm client done 
+2025-01-06 11:51:40,146 - DEBUG - [KM4GHNI2] calling vllm model
+2025-01-06 11:52:25,144 - DEBUG - [OB4DFK5A] took 45763.65, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=6177 output_tokens=563, cost_cents=2.6976
+2025-01-06 11:52:25,144 - DEBUG - [U2VW5SDV] calling vllm model
+2025-01-06 11:52:25,151 - DEBUG - [PS7G8MNZ] calling vllm model
+2025-01-06 11:52:25,157 - DEBUG - [2I042WBA] calling vllm model
+2025-01-06 11:52:25,164 - DEBUG - [G7TL98U2] calling vllm model
+2025-01-06 11:52:25,779 - DEBUG - [C2JFWJ6H] took 45783.25, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=5997 output_tokens=621, cost_cents=2.7306
+2025-01-06 11:52:25,779 - DEBUG - [V2FOV6QL] calling vllm model
+2025-01-06 11:52:25,786 - DEBUG - [SDA8DVQ1] calling vllm model
+2025-01-06 11:52:25,792 - DEBUG - [M8HBZDWH] calling vllm model
+2025-01-06 11:52:25,799 - DEBUG - [A5P2EMPO] calling vllm model
+2025-01-06 11:52:42,541 - DEBUG - [KM4GHNI2] took 62394.38, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=9805 output_tokens=692, cost_cents=3.9795
+2025-01-06 11:52:42,541 - DEBUG - [U2GVDCM8] calling vllm model
+2025-01-06 11:52:42,548 - DEBUG - [JWI8ESFC] calling vllm model
+2025-01-06 11:52:42,555 - DEBUG - [Q9MUF2LJ] calling vllm model
+2025-01-06 11:52:42,561 - DEBUG - [OVB8K0XU] calling vllm model
+2025-01-06 11:53:08,629 - DEBUG - [LME20O3S] took 88757.49, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=28071 output_tokens=914, cost_cents=9.7923
+2025-01-06 11:53:08,629 - DEBUG - [OMRZNXEM] calling vllm model
+2025-01-06 11:53:08,636 - DEBUG - [8HUDOPA3] calling vllm model
+2025-01-06 11:53:08,643 - DEBUG - [WYIPH55W] calling vllm model
+2025-01-06 11:53:08,649 - DEBUG - [6B9S4S2Q] calling vllm model
+2025-01-06 11:53:33,478 - DEBUG - [K2KUGM9G] took 113928.20, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=10620 output_tokens=1124, cost_cents=4.872
+2025-01-06 11:53:33,478 - DEBUG - [JHY4WTMQ] calling vllm model
+2025-01-06 11:53:33,485 - DEBUG - [M8GS9VJ1] calling vllm model
+2025-01-06 11:53:33,491 - DEBUG - [MF4LID7V] calling vllm model
+2025-01-06 11:53:33,498 - DEBUG - [PJ4BONQV] calling vllm model
+2025-01-06 11:53:55,986 - DEBUG - [2I042WBA] took 90828.88, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=6177 output_tokens=608, cost_cents=2.7651
+2025-01-06 11:54:10,152 - DEBUG - [U2GVDCM8] took 87610.54, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=9805 output_tokens=573, cost_cents=3.801
+2025-01-06 11:54:15,058 - DEBUG - [OVB8K0XU] took 92496.81, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=9805 output_tokens=566, cost_cents=3.7905
+2025-01-06 11:54:18,413 - DEBUG - [Q9MUF2LJ] took 95858.78, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=9805 output_tokens=637, cost_cents=3.897
+2025-01-06 11:54:20,491 - DEBUG - [JWI8ESFC] took 97942.57, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=9805 output_tokens=692, cost_cents=3.9795
+2025-01-06 11:54:20,491 - DEBUG - Got the n_messages
+2025-01-06 11:54:20,890 - DEBUG - [05269061] grids took 0.39944887161254883 secs
+2025-01-06 11:54:20,891 - DEBUG - startgin eval attempts
+2025-01-06 11:54:20,891 - DEBUG - eval the attempts
+2025-01-06 11:54:20,891 - DEBUG - eval
+**{'challenge_id': '05269061', 'total_runs': 5, 'total_correct': 0, 'avg_train_accuracy': 0.06666666666666667, 'avg_test_accuracy': 0.0, 'total_cost': 19.4475, 'prompt_config': RootPromptConfig(base_prompt=<Prompt.REASONING: 'REASONING'>, use_ascii=True, use_array=True, use_image=True, use_examples=True, use_diffs=True, use_images=True, returns_python=True), 'llm_config': LLMConfig(model=<Model.qwen2_5_72b_instruct: 'Qwen/Qwen2.5-72B-Instruct-GPTQ-Int4'>, temperature=0.95), 'time_took_ms': 160888.7}**
+
+2025-01-06 11:54:20,891 - DEBUG - [05269061] eval took 0.0002872943878173828 secs
+2025-01-06 11:54:20,891 - DEBUG - try for perfect attemtps
+2025-01-06 11:54:20,891 - DEBUG - run fixes
+2025-01-06 11:54:20,891 - DEBUG - [05269061] running fix node with 1 total attempts.
+2025-01-06 11:54:20,894 - DEBUG - [05269061] Processing fix attempts:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-01-06 11:54:21,042 - DEBUG - Creating vllm client done 
+2025-01-06 11:54:21,042 - DEBUG - [UMJHPC12] calling vllm model
+2025-01-06 11:54:27,852 - DEBUG - [M8HBZDWH] took 122059.28, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=5997 output_tokens=817, cost_cents=3.0246
+2025-01-06 11:54:29,179 - DEBUG - [G7TL98U2] took 124014.74, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=6177 output_tokens=875, cost_cents=3.1656
+2025-01-06 11:54:31,955 - DEBUG - [SDA8DVQ1] took 126168.56, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=5997 output_tokens=898, cost_cents=3.1461
+2025-01-06 11:54:36,572 - DEBUG - [PS7G8MNZ] took 131420.90, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=6177 output_tokens=1016, cost_cents=3.3771
+2025-01-06 11:54:46,434 - DEBUG - [6B9S4S2Q] took 97784.88, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=28071 output_tokens=717, cost_cents=9.4968
+2025-01-06 11:54:46,538 - DEBUG - [U2VW5SDV] took 141394.14, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=6177 output_tokens=1226, cost_cents=3.6921
+2025-01-06 11:54:46,539 - DEBUG - [A5P2EMPO] took 140740.05, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=5997 output_tokens=1142, cost_cents=3.5121
+2025-01-06 11:54:46,539 - DEBUG - Got the n_messages
+2025-01-06 11:54:46,845 - DEBUG - ERROR RUNNING PYTHON: Error executing transform: index 9 is out of bounds for axis 0 with size 9RESULTS[]T <class 'list'>
+
+2025-01-06 11:54:46,856 - DEBUG - ERROR RUNNING PYTHON: Error executing transform: index 9 is out of bounds for axis 0 with size 9RESULTS[]T <class 'list'>
+
+2025-01-06 11:54:46,856 - DEBUG - FAILED LLM RESPONSE: 'NoneType' object has no attribute 'transform_results'
+2025-01-06 11:54:46,856 - DEBUG - FAILED LLM RESPONSE: 'NoneType' object has no attribute 'transform_results'
+2025-01-06 11:54:46,856 - DEBUG - [017c7c7b] grids took 0.3169426918029785 secs
+2025-01-06 11:54:46,856 - DEBUG - startgin eval attempts
+2025-01-06 11:54:46,856 - DEBUG - eval the attempts
+2025-01-06 11:54:46,856 - DEBUG - eval
+**{'challenge_id': '017c7c7b', 'total_runs': 3, 'total_correct': 0, 'avg_train_accuracy': 0.0, 'avg_test_accuracy': 0.0, 'total_cost': 8.8398, 'prompt_config': RootPromptConfig(base_prompt=<Prompt.REASONING: 'REASONING'>, use_ascii=True, use_array=True, use_image=True, use_examples=True, use_diffs=True, use_images=True, returns_python=True), 'llm_config': LLMConfig(model=<Model.qwen2_5_72b_instruct: 'Qwen/Qwen2.5-72B-Instruct-GPTQ-Int4'>, temperature=0.95), 'time_took_ms': 191082.95}**
+
+2025-01-06 11:54:46,856 - DEBUG - [017c7c7b] eval took 0.0003132820129394531 secs
+2025-01-06 11:54:46,857 - DEBUG - try for perfect attemtps
+2025-01-06 11:54:46,857 - DEBUG - run fixes
+2025-01-06 11:54:46,857 - DEBUG - [017c7c7b] running fix node with 1 total attempts.
+2025-01-06 11:54:46,857 - DEBUG - 
+
+2025-01-06 11:54:46,857 - DEBUG - [017c7c7b] Processing fix attempts:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-01-06 11:54:46,857 - DEBUG - [A
+2025-01-06 11:54:46,861 - DEBUG - Error with is correct: operands could not be broadcast together with shapes (9,3) (6,3) 
+2025-01-06 11:54:46,861 - DEBUG - Error with is correct: operands could not be broadcast together with shapes (9,3) (6,3) 
+2025-01-06 11:54:46,861 - DEBUG - Error with is correct: operands could not be broadcast together with shapes (9,3) (6,3) 
+2025-01-06 11:54:46,982 - DEBUG - Creating vllm client done 
+2025-01-06 11:54:46,982 - DEBUG - [62CFEQQC] calling vllm model
+2025-01-06 11:54:47,282 - DEBUG - [V2FOV6QL] took 141502.33, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=5997 output_tokens=1189, cost_cents=3.5826
+2025-01-06 11:54:47,282 - DEBUG - Got the n_messages
+2025-01-06 11:54:47,617 - DEBUG - ERROR RUNNING PYTHON: Traceback (most recent call last):
+  File "/tmp/tmp78eil7hw.py", line 32, in <module>
+    output_grid = transform(input_grid)
+  File "/tmp/tmp78eil7hw.py", line 21, in transform
+    output_grid[subgrid == 1] = 2
+IndexError: boolean index did not match indexed array along axis 0; size of axis is 3 but size of corresponding boolean axis is 2
+
+2025-01-06 11:54:47,617 - DEBUG - FAILED LLM RESPONSE: 'NoneType' object has no attribute 'transform_results'
+2025-01-06 11:54:47,617 - DEBUG - [0520fde7] grids took 0.3351328372955322 secs
+2025-01-06 11:54:47,617 - DEBUG - startgin eval attempts
+2025-01-06 11:54:47,617 - DEBUG - eval the attempts
+2025-01-06 11:54:47,618 - DEBUG - eval
+**{'challenge_id': '0520fde7', 'total_runs': 4, 'total_correct': 0, 'avg_train_accuracy': 0.0, 'avg_test_accuracy': 0.0, 'total_cost': 12.4839, 'prompt_config': RootPromptConfig(base_prompt=<Prompt.REASONING: 'REASONING'>, use_ascii=True, use_array=True, use_image=True, use_examples=True, use_diffs=True, use_images=True, returns_python=True), 'llm_config': LLMConfig(model=<Model.qwen2_5_72b_instruct: 'Qwen/Qwen2.5-72B-Instruct-GPTQ-Int4'>, temperature=0.95), 'time_took_ms': 187739.35}**
+
+2025-01-06 11:54:47,618 - DEBUG - [0520fde7] eval took 0.000301361083984375 secs
+2025-01-06 11:54:47,618 - DEBUG - try for perfect attemtps
+2025-01-06 11:54:47,618 - DEBUG - run fixes
+2025-01-06 11:54:47,618 - DEBUG - [0520fde7] running fix node with 1 total attempts.
+2025-01-06 11:54:47,618 - DEBUG - 
+
+
+2025-01-06 11:54:47,618 - DEBUG - [0520fde7] Processing fix attempts:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-01-06 11:54:47,618 - DEBUG - [A[A
+2025-01-06 11:54:47,739 - DEBUG - Creating vllm client done 
+2025-01-06 11:54:47,739 - DEBUG - [2JOU2E50] calling vllm model
+2025-01-06 11:54:55,981 - DEBUG - [OMRZNXEM] took 107352.20, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=28071 output_tokens=858, cost_cents=9.7083
+2025-01-06 11:54:59,324 - DEBUG - [PJ4BONQV] took 85825.82, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=10620 output_tokens=675, cost_cents=4.1985
+2025-01-06 11:55:00,128 - DEBUG - [JHY4WTMQ] took 86649.59, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=10620 output_tokens=758, cost_cents=4.323
+2025-01-06 11:55:03,496 - DEBUG - [M8GS9VJ1] took 90010.79, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=10620 output_tokens=790, cost_cents=4.371
+2025-01-06 11:55:03,948 - DEBUG - [8HUDOPA3] took 115312.08, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=28071 output_tokens=920, cost_cents=9.8013
+2025-01-06 11:55:07,693 - DEBUG - [UMJHPC12] took 46650.94, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=15296 output_tokens=692, cost_cents=5.6268
+2025-01-06 11:55:07,693 - DEBUG - Got the n_messages
+2025-01-06 11:55:07,895 - DEBUG - [05269061] grids took 0.2013072967529297 secs
+2025-01-06 11:55:07,896 - DEBUG - [05269061] Processing fix attempts: 100%|##########| 1/1 [00:47<00:00, 47.00s/it]
+2025-01-06 11:55:07,896 - DEBUG - 
+2025-01-06 11:55:07,896 - DEBUG - [05269061] Processing fix attempts: 100%|##########| 1/1 [00:47<00:00, 47.00s/it]
+2025-01-06 11:55:07,896 - DEBUG - 
+
+2025-01-06 11:55:07,896 - DEBUG - eval the attempts
+2025-01-06 11:55:07,896 - DEBUG - eval
+**{'challenge_id': '05269061', 'total_runs': 1, 'total_correct': 0, 'avg_train_accuracy': 0.3333333333333333, 'avg_test_accuracy': 0.0, 'total_cost': 5.6268, 'prompt_config': FixPromptConfig(base_prompt=<Prompt.REASONING: 'REASONING'>, use_ascii=True, use_array=True, use_image=True, use_fix_reasoning_tags=True, use_fix_fail_line=True, use_typical_issue_text=True, include_diffs=True, returns_python=True), 'llm_config': LLMConfig(model=<Model.qwen2_5_72b_instruct: 'Qwen/Qwen2.5-72B-Instruct-GPTQ-Int4'>, temperature=0.95), 'time_took_ms': 47004.61}**
+
+2025-01-06 11:55:07,896 - DEBUG - [05269061] eval took 0.00020623207092285156 secs
+2025-01-06 11:55:07,896 - DEBUG - ALL ATTEMPTS LEN: 1
+2025-01-06 11:55:07,896 - DEBUG - checkt attempts again
+2025-01-06 11:55:07,896 - DEBUG - [05269061] DONE: n attempts: 6, total cost cents: 25.0743
+2025-01-06 11:55:07,897 - DEBUG - [05269061] solution
+**{'challenge_id': '05269061', 'challenge': Challenge(id='05269061', train=[Example(input=[[2, 8, 3, 0, 0, 0, 0], [8, 3, 0, 0, 0, 0, 0], [3, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0]], output=[[2, 8, 3, 2, 8, 3, 2], [8, 3, 2, 8, 3, 2, 8], [3, 2, 8, 3, 2, 8, 3], [2, 8, 3, 2, 8, 3, 2], [8, 3, 2, 8, 3, 2, 8], [3, 2, 8, 3, 2, 8, 3], [2, 8, 3, 2, 8, 3, 2]]), Example(input=[[0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 1], [0, 0, 0, 0, 0, 1, 2], [0, 0, 0, 0, 1, 2, 4], [0, 0, 0, 1, 2, 4, 0], [0, 0, 1, 2, 4, 0, 0]], output=[[2, 4, 1, 2, 4, 1, 2], [4, 1, 2, 4, 1, 2, 4], [1, 2, 4, 1, 2, 4, 1], [2, 4, 1, 2, 4, 1, 2], [4, 1, 2, 4, 1, 2, 4], [1, 2, 4, 1, 2, 4, 1], [2, 4, 1, 2, 4, 1, 2]]), Example(input=[[0, 0, 0, 0, 8, 3, 0], [0, 0, 0, 8, 3, 0, 0], [0, 0, 8, 3, 0, 0, 0], [0, 8, 3, 0, 0, 0, 4], [8, 3, 0, 0, 0, 4, 0], [3, 0, 0, 0, 4, 0, 0], [0, 0, 0, 4, 0, 0, 0]], output=[[4, 8, 3, 4, 8, 3, 4], [8, 3, 4, 8, 3, 4, 8], [3, 4, 8, 3, 4, 8, 3], [4, 8, 3, 4, 8, 3, 4], [8, 3, 4, 8, 3, 4, 8], [3, 4, 8, 3, 4, 8, 3], [4, 8, 3, 4, 8, 3, 4]])], test=[Example(input=[[0, 1, 0, 0, 0, 0, 2], [1, 0, 0, 0, 0, 2, 0], [0, 0, 0, 0, 2, 0, 0], [0, 0, 0, 2, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0], [0, 2, 0, 0, 0, 0, 4], [2, 0, 0, 0, 0, 4, 0]], output=[[2, 1, 4, 2, 1, 4, 2], [1, 4, 2, 1, 4, 2, 1], [4, 2, 1, 4, 2, 1, 4], [2, 1, 4, 2, 1, 4, 2], [1, 4, 2, 1, 4, 2, 1], [4, 2, 1, 4, 2, 1, 4], [2, 1, 4, 2, 1, 4, 2]])]), 'solution_d': [ChallengeSolution(attempt_1=[[1, 1, 1, 1, 2, 1, 2], [1, 1, 1, 2, 1, 2, 2], [1, 1, 2, 1, 2, 2, 1], [1, 2, 1, 2, 2, 1, 1], [2, 1, 2, 2, 1, 1, 2], [1, 2, 2, 1, 1, 2, 4], [2, 2, 1, 1, 2, 4, 1]], attempt_2=[[1, 1, 4, 1, 2, 4, 2], [1, 4, 1, 2, 4, 2, 2], [4, 1, 2, 4, 2, 2, 4], [1, 2, 4, 2, 2, 4, 1], [2, 4, 2, 2, 4, 1, 2], [4, 2, 2, 4, 1, 2, 4], [2, 2, 4, 1, 2, 4, 1]])]}**
+
+2025-01-06 11:55:07,902 - DEBUG - [05269061] took 207.90 secs to solve and write
+2025-01-06 11:55:13,640 - DEBUG - [62CFEQQC] took 26657.71, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=10102 output_tokens=444, cost_cents=3.6966
+2025-01-06 11:55:13,640 - DEBUG - Got the n_messages
+2025-01-06 11:55:13,843 - DEBUG - [017c7c7b] grids took 0.20331406593322754 secs
+2025-01-06 11:55:13,844 - DEBUG - 
+
+2025-01-06 11:55:13,844 - DEBUG - [017c7c7b] Processing fix attempts: 100%|##########| 1/1 [00:26<00:00, 26.99s/it]
+2025-01-06 11:55:13,844 - DEBUG - [A
+2025-01-06 11:55:13,844 - DEBUG - 
+2025-01-06 11:55:13,844 - DEBUG - [017c7c7b] Processing fix attempts: 100%|##########| 1/1 [00:26<00:00, 26.99s/it]
+2025-01-06 11:55:13,844 - DEBUG - 
+
+2025-01-06 11:55:13,844 - DEBUG - eval the attempts
+2025-01-06 11:55:13,844 - DEBUG - eval
+**{'challenge_id': '017c7c7b', 'total_runs': 1, 'total_correct': 0, 'avg_train_accuracy': 0.3333333333333333, 'avg_test_accuracy': 1.0, 'total_cost': 3.6966, 'prompt_config': FixPromptConfig(base_prompt=<Prompt.REASONING: 'REASONING'>, use_ascii=True, use_array=True, use_image=True, use_fix_reasoning_tags=True, use_fix_fail_line=True, use_typical_issue_text=True, include_diffs=True, returns_python=True), 'llm_config': LLMConfig(model=<Model.qwen2_5_72b_instruct: 'Qwen/Qwen2.5-72B-Instruct-GPTQ-Int4'>, temperature=0.95), 'time_took_ms': 26987.48}**
+
+2025-01-06 11:55:13,844 - DEBUG - [017c7c7b] eval took 0.00021076202392578125 secs
+2025-01-06 11:55:13,844 - DEBUG - ALL ATTEMPTS LEN: 1
+2025-01-06 11:55:13,845 - DEBUG - checkt attempts again
+2025-01-06 11:55:13,845 - DEBUG - [017c7c7b] DONE: n attempts: 4, total cost cents: 12.5364
+2025-01-06 11:55:13,845 - DEBUG - [017c7c7b] solution
+**{'challenge_id': '017c7c7b', 'challenge': Challenge(id='017c7c7b', train=[Example(input=[[0, 1, 0], [1, 1, 0], [0, 1, 0], [0, 1, 1], [0, 1, 0], [1, 1, 0]], output=[[0, 2, 0], [2, 2, 0], [0, 2, 0], [0, 2, 2], [0, 2, 0], [2, 2, 0], [0, 2, 0], [0, 2, 2], [0, 2, 0]]), Example(input=[[0, 1, 0], [1, 0, 1], [0, 1, 0], [1, 0, 1], [0, 1, 0], [1, 0, 1]], output=[[0, 2, 0], [2, 0, 2], [0, 2, 0], [2, 0, 2], [0, 2, 0], [2, 0, 2], [0, 2, 0], [2, 0, 2], [0, 2, 0]]), Example(input=[[0, 1, 0], [1, 1, 0], [0, 1, 0], [0, 1, 0], [1, 1, 0], [0, 1, 0]], output=[[0, 2, 0], [2, 2, 0], [0, 2, 0], [0, 2, 0], [2, 2, 0], [0, 2, 0], [0, 2, 0], [2, 2, 0], [0, 2, 0]])], test=[Example(input=[[1, 1, 1], [0, 1, 0], [0, 1, 0], [1, 1, 1], [0, 1, 0], [0, 1, 0]], output=[[2, 2, 2], [0, 2, 0], [0, 2, 0], [2, 2, 2], [0, 2, 0], [0, 2, 0], [2, 2, 2], [0, 2, 0], [0, 2, 0]])]), 'solution_d': [ChallengeSolution(attempt_1=[[2, 2, 2], [0, 2, 0], [0, 2, 0], [2, 2, 2], [0, 2, 0], [0, 2, 0], [2, 2, 2], [0, 2, 0], [0, 2, 0]], attempt_2=[[1, 1, 1], [2, 1, 2], [2, 1, 2], [1, 1, 1], [2, 1, 2], [2, 1, 2], [1, 1, 1], [2, 1, 2], [2, 1, 2]])]}**
+
+2025-01-06 11:55:13,847 - DEBUG - [017c7c7b] took 218.07 secs to solve and write
+2025-01-06 11:55:17,455 - DEBUG - [MF4LID7V] took 103963.89, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=10620 output_tokens=1124, cost_cents=4.872
+2025-01-06 11:55:17,455 - DEBUG - Got the n_messages
+2025-01-06 11:55:17,799 - DEBUG - ERROR RUNNING PYTHON: Error executing transform: zero-size array to reduction operation minimum which has no identityRESULTS[]T <class 'list'>
+
+2025-01-06 11:55:17,811 - DEBUG - FAILED LLM RESPONSE: 'NoneType' object has no attribute 'transform_results'
+2025-01-06 11:55:17,812 - DEBUG - [025d127b] grids took 0.35606861114501953 secs
+2025-01-06 11:55:17,812 - DEBUG - startgin eval attempts
+2025-01-06 11:55:17,812 - DEBUG - eval the attempts
+2025-01-06 11:55:17,812 - DEBUG - eval
+**{'challenge_id': '025d127b', 'total_runs': 4, 'total_correct': 0, 'avg_train_accuracy': 0.0, 'avg_test_accuracy': 0.0, 'total_cost': 17.7645, 'prompt_config': RootPromptConfig(base_prompt=<Prompt.REASONING: 'REASONING'>, use_ascii=True, use_array=True, use_image=True, use_examples=True, use_diffs=True, use_images=True, returns_python=True), 'llm_config': LLMConfig(model=<Model.qwen2_5_72b_instruct: 'Qwen/Qwen2.5-72B-Instruct-GPTQ-Int4'>, temperature=0.95), 'time_took_ms': 218416.6}**
+
+2025-01-06 11:55:17,812 - DEBUG - [025d127b] eval took 0.0002779960632324219 secs
+2025-01-06 11:55:17,812 - DEBUG - try for perfect attemtps
+2025-01-06 11:55:17,812 - DEBUG - run fixes
+2025-01-06 11:55:17,812 - DEBUG - [025d127b] running fix node with 1 total attempts.
+2025-01-06 11:55:17,813 - DEBUG - [025d127b] Processing fix attempts:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-01-06 11:55:17,977 - DEBUG - Creating vllm client done 
+2025-01-06 11:55:17,978 - DEBUG - [0FM7ICTP] calling vllm model
+2025-01-06 11:55:30,902 - DEBUG - [2JOU2E50] took 43163.35, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=9827 output_tokens=704, cost_cents=4.0041
+2025-01-06 11:55:30,903 - DEBUG - Got the n_messages
+2025-01-06 11:55:31,103 - DEBUG - [0520fde7] grids took 0.20062708854675293 secs
+2025-01-06 11:55:31,104 - DEBUG - 
+
+
+2025-01-06 11:55:31,104 - DEBUG - [0520fde7] Processing fix attempts: 100%|##########| 1/1 [00:43<00:00, 43.49s/it]
+2025-01-06 11:55:31,104 - DEBUG - [A[A
+2025-01-06 11:55:31,104 - DEBUG - 
+2025-01-06 11:55:31,104 - DEBUG - [0520fde7] Processing fix attempts: 100%|##########| 1/1 [00:43<00:00, 43.49s/it]
+2025-01-06 11:55:31,104 - DEBUG - 
+
+2025-01-06 11:55:31,104 - DEBUG - eval the attempts
+2025-01-06 11:55:31,104 - DEBUG - eval
+**{'challenge_id': '0520fde7', 'total_runs': 1, 'total_correct': 0, 'avg_train_accuracy': 0.0, 'avg_test_accuracy': 0.0, 'total_cost': 4.0041, 'prompt_config': FixPromptConfig(base_prompt=<Prompt.REASONING: 'REASONING'>, use_ascii=True, use_array=True, use_image=True, use_fix_reasoning_tags=True, use_fix_fail_line=True, use_typical_issue_text=True, include_diffs=True, returns_python=True), 'llm_config': LLMConfig(model=<Model.qwen2_5_72b_instruct: 'Qwen/Qwen2.5-72B-Instruct-GPTQ-Int4'>, temperature=0.95), 'time_took_ms': 43486.3}**
+
+2025-01-06 11:55:31,104 - DEBUG - [0520fde7] eval took 0.00020432472229003906 secs
+2025-01-06 11:55:31,104 - DEBUG - ALL ATTEMPTS LEN: 1
+2025-01-06 11:55:31,104 - DEBUG - checkt attempts again
+2025-01-06 11:55:31,104 - DEBUG - [0520fde7] DONE: n attempts: 5, total cost cents: 16.488
+2025-01-06 11:55:31,105 - DEBUG - [0520fde7] solution
+**{'challenge_id': '0520fde7', 'challenge': Challenge(id='0520fde7', train=[Example(input=[[1, 0, 0, 5, 0, 1, 0], [0, 1, 0, 5, 1, 1, 1], [1, 0, 0, 5, 0, 0, 0]], output=[[0, 0, 0], [0, 2, 0], [0, 0, 0]]), Example(input=[[1, 1, 0, 5, 0, 1, 0], [0, 0, 1, 5, 1, 1, 1], [1, 1, 0, 5, 0, 1, 0]], output=[[0, 2, 0], [0, 0, 2], [0, 2, 0]]), Example(input=[[0, 0, 1, 5, 0, 0, 0], [1, 1, 0, 5, 1, 0, 1], [0, 1, 1, 5, 1, 0, 1]], output=[[0, 0, 0], [2, 0, 0], [0, 0, 2]])], test=[Example(input=[[1, 0, 1, 5, 1, 0, 1], [0, 1, 0, 5, 1, 0, 1], [1, 0, 1, 5, 0, 1, 0]], output=[[2, 0, 2], [0, 0, 0], [0, 0, 0]])]), 'solution_d': [ChallengeSolution(attempt_1=[[2, 0, 2], [0, 0, 2], [2, 0, 0]], attempt_2=[[2, 5, 2], [0, 0, 2], [2, 5, 0]])]}**
+
+2025-01-06 11:55:31,107 - DEBUG - [0520fde7] took 231.23 secs to solve and write
+2025-01-06 11:56:01,636 - DEBUG - [0FM7ICTP] took 43658.83, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=17327 output_tokens=832, cost_cents=6.4461
+2025-01-06 11:56:01,637 - DEBUG - Got the n_messages
+2025-01-06 11:56:01,907 - DEBUG - [025d127b] grids took 0.2699112892150879 secs
+2025-01-06 11:56:01,907 - DEBUG - [025d127b] Processing fix attempts: 100%|##########| 1/1 [00:44<00:00, 44.09s/it]
+2025-01-06 11:56:01,907 - DEBUG - 
+2025-01-06 11:56:01,907 - DEBUG - [025d127b] Processing fix attempts: 100%|##########| 1/1 [00:44<00:00, 44.09s/it]
+2025-01-06 11:56:01,907 - DEBUG - 
+
+2025-01-06 11:56:01,907 - DEBUG - eval the attempts
+2025-01-06 11:56:01,907 - DEBUG - eval
+**{'challenge_id': '025d127b', 'total_runs': 1, 'total_correct': 0, 'avg_train_accuracy': 0.0, 'avg_test_accuracy': 0.0, 'total_cost': 6.4461, 'prompt_config': FixPromptConfig(base_prompt=<Prompt.REASONING: 'REASONING'>, use_ascii=True, use_array=True, use_image=True, use_fix_reasoning_tags=True, use_fix_fail_line=True, use_typical_issue_text=True, include_diffs=True, returns_python=True), 'llm_config': LLMConfig(model=<Model.qwen2_5_72b_instruct: 'Qwen/Qwen2.5-72B-Instruct-GPTQ-Int4'>, temperature=0.95), 'time_took_ms': 44095.0}**
+
+2025-01-06 11:56:01,908 - DEBUG - [025d127b] eval took 0.0001990795135498047 secs
+2025-01-06 11:56:01,908 - DEBUG - ALL ATTEMPTS LEN: 1
+2025-01-06 11:56:01,908 - DEBUG - checkt attempts again
+2025-01-06 11:56:01,908 - DEBUG - [025d127b] DONE: n attempts: 5, total cost cents: 24.210600000000003
+2025-01-06 11:56:01,908 - DEBUG - [025d127b] solution
+**{'challenge_id': '025d127b', 'challenge': Challenge(id='025d127b', train=[Example(input=[[0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 6, 6, 6, 0, 0, 0, 0, 0], [0, 6, 0, 0, 6, 0, 0, 0, 0], [0, 0, 6, 0, 0, 6, 0, 0, 0], [0, 0, 0, 6, 0, 0, 6, 0, 0], [0, 0, 0, 0, 6, 6, 6, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 2, 2, 0, 0, 0, 0], [0, 0, 2, 0, 0, 2, 0, 0, 0], [0, 0, 0, 2, 2, 2, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0]], output=[[0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 6, 6, 6, 0, 0, 0, 0], [0, 0, 6, 0, 0, 6, 0, 0, 0], [0, 0, 0, 6, 0, 0, 6, 0, 0], [0, 0, 0, 0, 6, 0, 6, 0, 0], [0, 0, 0, 0, 6, 6, 6, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 2, 2, 2, 0, 0, 0], [0, 0, 0, 2, 0, 2, 0, 0, 0], [0, 0, 0, 2, 2, 2, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0]]), Example(input=[[0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 8, 8, 8, 8, 8, 0, 0, 0], [0, 8, 0, 0, 0, 0, 8, 0, 0], [0, 0, 8, 0, 0, 0, 0, 8, 0], [0, 0, 0, 8, 0, 0, 0, 0, 8], [0, 0, 0, 0, 8, 8, 8, 8, 8], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0]], output=[[0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 8, 8, 8, 8, 8, 0, 0], [0, 0, 8, 0, 0, 0, 0, 8, 0], [0, 0, 0, 8, 0, 0, 0, 0, 8], [0, 0, 0, 0, 8, 0, 0, 0, 8], [0, 0, 0, 0, 8, 8, 8, 8, 8], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0]])], test=[Example(input=[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 4, 4, 4, 4, 4, 4, 0, 0, 0], [0, 4, 0, 0, 0, 0, 0, 4, 0, 0], [0, 0, 4, 0, 0, 0, 0, 0, 4, 0], [0, 0, 0, 4, 0, 0, 0, 0, 0, 4], [0, 0, 0, 0, 4, 4, 4, 4, 4, 4], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], output=[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 4, 4, 4, 4, 4, 4, 0, 0], [0, 0, 4, 0, 0, 0, 0, 0, 4, 0], [0, 0, 0, 4, 0, 0, 0, 0, 0, 4], [0, 0, 0, 0, 4, 0, 0, 0, 0, 4], [0, 0, 0, 0, 4, 4, 4, 4, 4, 4], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]])]), 'solution_d': [ChallengeSolution(attempt_1=[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 4, 4, 4, 4, 4, 0, 0, 0], [0, 4, 0, 0, 0, 0, 0, 4, 0, 0], [0, 0, 4, 0, 0, 0, 0, 0, 4, 0], [0, 0, 0, 4, 0, 0, 0, 0, 0, 4], [0, 0, 0, 0, 4, 4, 4, 4, 4, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], attempt_2=[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 4, 4, 4, 4, 4, 4, 0, 0, 0], [0, 4, 0, 0, 0, 0, 0, 4, 0, 0], [0, 0, 4, 0, 0, 0, 0, 0, 4, 0], [0, 4, 0, 4, 0, 0, 0, 0, 0, 0], [0, 4, 0, 0, 4, 4, 4, 4, 4, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]])]}**
+
+2025-01-06 11:56:01,910 - DEBUG - [025d127b] took 262.52 secs to solve and write
+2025-01-06 11:56:13,032 - DEBUG - [WYIPH55W] took 184389.42, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=28071 output_tokens=2290, cost_cents=11.8563
+2025-01-06 11:56:13,032 - DEBUG - Got the n_messages
+2025-01-06 11:56:13,369 - DEBUG - ERROR RUNNING PYTHON: Traceback (most recent call last):
+  File "/tmp/tmpwyrcwc9s.py", line 84, in <module>
+    output_grid = transform(grid)
+  File "/tmp/tmpwyrcwc9s.py", line 44, in transform
+    for row in range(rows):
+NameError: name 'rows' is not defined. Did you mean: 'row'?
+
+2025-01-06 11:56:13,392 - DEBUG - FAILED LLM RESPONSE: 'NoneType' object has no attribute 'transform_results'
+2025-01-06 11:56:13,392 - DEBUG - [045e512c] grids took 0.3594379425048828 secs
+2025-01-06 11:56:13,392 - DEBUG - startgin eval attempts
+2025-01-06 11:56:13,392 - DEBUG - eval the attempts
+2025-01-06 11:56:13,392 - DEBUG - eval
+**{'challenge_id': '045e512c', 'total_runs': 4, 'total_correct': 0, 'avg_train_accuracy': 0.0, 'avg_test_accuracy': 0.0, 'total_cost': 38.7987, 'prompt_config': RootPromptConfig(base_prompt=<Prompt.REASONING: 'REASONING'>, use_ascii=True, use_array=True, use_image=True, use_examples=True, use_diffs=True, use_images=True, returns_python=True), 'llm_config': LLMConfig(model=<Model.qwen2_5_72b_instruct: 'Qwen/Qwen2.5-72B-Instruct-GPTQ-Int4'>, temperature=0.95), 'time_took_ms': 273836.1}**
+
+2025-01-06 11:56:13,393 - DEBUG - [045e512c] eval took 0.0002961158752441406 secs
+2025-01-06 11:56:13,393 - DEBUG - try for perfect attemtps
+2025-01-06 11:56:13,393 - DEBUG - run fixes
+2025-01-06 11:56:13,393 - DEBUG - [045e512c] running fix node with 1 total attempts.
+2025-01-06 11:56:13,394 - DEBUG - [045e512c] Processing fix attempts:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-01-06 11:56:13,716 - DEBUG - Creating vllm client done 
+2025-01-06 11:56:13,716 - DEBUG - [PV9GNB6B] calling vllm model
+2025-01-06 11:57:18,301 - DEBUG - [PV9GNB6B] took 64584.85, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=57766 output_tokens=845, cost_cents=18.5973
+2025-01-06 11:57:18,301 - DEBUG - Got the n_messages
+2025-01-06 11:57:18,586 - DEBUG - [045e512c] grids took 0.2843916416168213 secs
+2025-01-06 11:57:18,586 - DEBUG - [045e512c] Processing fix attempts: 100%|##########| 1/1 [01:05<00:00, 65.19s/it]
+2025-01-06 11:57:18,586 - DEBUG - 
+2025-01-06 11:57:18,586 - DEBUG - [045e512c] Processing fix attempts: 100%|##########| 1/1 [01:05<00:00, 65.19s/it]
+2025-01-06 11:57:18,586 - DEBUG - 
+
+2025-01-06 11:57:18,587 - DEBUG - eval the attempts
+2025-01-06 11:57:18,587 - DEBUG - eval
+**{'challenge_id': '045e512c', 'total_runs': 1, 'total_correct': 0, 'avg_train_accuracy': 0.0, 'avg_test_accuracy': 0.0, 'total_cost': 18.5973, 'prompt_config': FixPromptConfig(base_prompt=<Prompt.REASONING: 'REASONING'>, use_ascii=True, use_array=True, use_image=True, use_fix_reasoning_tags=True, use_fix_fail_line=True, use_typical_issue_text=True, include_diffs=True, returns_python=True), 'llm_config': LLMConfig(model=<Model.qwen2_5_72b_instruct: 'Qwen/Qwen2.5-72B-Instruct-GPTQ-Int4'>, temperature=0.95), 'time_took_ms': 65193.19}**
+
+2025-01-06 11:57:18,587 - DEBUG - [045e512c] eval took 0.00018596649169921875 secs
+2025-01-06 11:57:18,587 - DEBUG - ALL ATTEMPTS LEN: 1
+2025-01-06 11:57:18,587 - DEBUG - checkt attempts again
+2025-01-06 11:57:18,587 - DEBUG - [045e512c] DONE: n attempts: 5, total cost cents: 57.396
+2025-01-06 11:57:18,588 - DEBUG - [045e512c] solution
+**{'challenge_id': '045e512c', 'challenge': Challenge(id='045e512c', train=[Example(input=[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 8, 8, 8, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 8, 0, 8, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 8, 8, 8, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], output=[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 8, 8, 8, 0, 3, 3, 3, 0, 3, 3, 3, 0, 3, 3, 3], [0, 0, 0, 0, 0, 0, 8, 0, 8, 0, 3, 0, 3, 0, 3, 0, 3, 0, 3, 0, 3], [0, 0, 0, 0, 0, 0, 8, 8, 8, 0, 3, 3, 3, 0, 3, 3, 3, 0, 3, 3, 3], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]), Example(input=[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 1, 1, 1, 0, 4, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], output=[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 0, 4, 0, 0, 0, 4], [2, 2, 0, 2, 2, 2, 0, 2, 2, 2, 0, 1, 1, 1, 0, 4, 4, 4, 0, 4, 4], [2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 0, 4, 0, 0, 0, 4], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]), Example(input=[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 5, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], output=[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 6, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 6, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 5, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]])], test=[Example(input=[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 8, 8, 8, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 8, 0, 8, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 8, 0, 8, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], output=[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 4, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 4, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 8, 8, 8, 0, 2, 2, 2, 0, 2, 2, 2, 0, 2, 2, 2], [0, 0, 0, 0, 0, 0, 8, 0, 8, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2], [0, 0, 0, 0, 0, 0, 8, 0, 8, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 3, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 3, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 3, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 3, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 3, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]])]), 'solution_d': [ChallengeSolution(attempt_1=[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 8, 8, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 8, 0, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 3, 3, 3, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], attempt_2=[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 8, 8, 8, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 8, 0, 8, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 8, 0, 8, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 3, 3, 3, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]])]}**
+
+2025-01-06 11:57:18,590 - DEBUG - [045e512c] took 339.03 secs to solve and write
+2025-01-06 11:57:18,591 - DEBUG - FINAL: took 342.93 secs to run 5 challenges
+2025-01-06 11:57:18,591 - DEBUG - eval solutions

@@ -1,0 +1,53 @@
+2025-01-06 11:38:45,293 - DEBUG - run from json
+2025-01-06 11:38:45,294 - DEBUG - [1736159925.2948086] starting run from json
+2025-01-06 11:38:45,401 - DEBUG - process challenges w limit
+2025-01-06 11:38:45,401 - DEBUG - [017c7c7b] running root node with 5 attempts.
+2025-01-06 11:38:45,401 - DEBUG - strarting attempt run
+2025-01-06 11:38:46,591 - DEBUG - Creating vllm client done 
+2025-01-06 11:38:46,591 - DEBUG - [V7SID0DM] calling vllm model
+2025-01-06 11:39:21,151 - DEBUG - [V7SID0DM] took 34560.50, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=6177 output_tokens=673, cost_cents=2.8626
+2025-01-06 11:39:21,152 - DEBUG - [CYFAAEJY] calling vllm model
+2025-01-06 11:39:21,159 - DEBUG - [GKHLPW3R] calling vllm model
+2025-01-06 11:39:21,165 - DEBUG - [LI03J0HM] calling vllm model
+2025-01-06 11:39:21,172 - DEBUG - [OZDJEP8H] calling vllm model
+2025-01-06 11:39:49,943 - DEBUG - [CYFAAEJY] took 28791.24, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=6177 output_tokens=490, cost_cents=2.5881
+2025-01-06 11:39:50,409 - DEBUG - [GKHLPW3R] took 29250.84, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=6177 output_tokens=488, cost_cents=2.5851
+2025-01-06 11:39:51,911 - DEBUG - [LI03J0HM] took 30746.36, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=6177 output_tokens=509, cost_cents=2.6166
+2025-01-06 11:39:59,454 - DEBUG - [OZDJEP8H] took 38282.69, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=6177 output_tokens=600, cost_cents=2.7531
+2025-01-06 11:39:59,454 - DEBUG - Got the n_messages
+2025-01-06 11:39:59,809 - DEBUG - [017c7c7b] grids took 0.3541722297668457 secs
+2025-01-06 11:39:59,809 - DEBUG - startgin eval attempts
+2025-01-06 11:39:59,809 - DEBUG - eval the attempts
+2025-01-06 11:39:59,809 - DEBUG - eval
+**{'challenge_id': '017c7c7b', 'total_runs': 5, 'total_correct': 0, 'avg_train_accuracy': 0.0, 'avg_test_accuracy': 0.0, 'total_cost': 13.4055, 'prompt_config': RootPromptConfig(base_prompt=<Prompt.REASONING: 'REASONING'>, use_ascii=True, use_array=True, use_image=True, use_examples=True, use_diffs=True, use_images=True, returns_python=True), 'llm_config': LLMConfig(model=<Model.qwen2_5_72b_instruct: 'Qwen/Qwen2.5-72B-Instruct-GPTQ-Int4'>, temperature=0.95), 'time_took_ms': 74407.66}**
+
+2025-01-06 11:39:59,809 - DEBUG - [017c7c7b] eval took 0.00028967857360839844 secs
+2025-01-06 11:39:59,809 - DEBUG - try for perfect attemtps
+2025-01-06 11:39:59,809 - DEBUG - run fixes
+2025-01-06 11:39:59,810 - DEBUG - [017c7c7b] running fix node with 1 total attempts.
+2025-01-06 11:39:59,811 - DEBUG - [017c7c7b] Processing fix attempts:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-01-06 11:39:59,941 - DEBUG - Creating vllm client done 
+2025-01-06 11:39:59,941 - DEBUG - [AF2MEWMU] calling vllm model
+2025-01-06 11:41:06,572 - DEBUG - [AF2MEWMU] took 66630.53, cache_creation_input_tokens=0 cache_read_input_tokens=0 input_tokens=10027 output_tokens=1422, cost_cents=5.1411
+2025-01-06 11:41:06,572 - DEBUG - Got the n_messages
+2025-01-06 11:41:06,802 - DEBUG - ERROR RUNNING PYTHON: Error executing transform: Expanded grid must be 9 by 3RESULTS[]T <class 'list'>
+
+2025-01-06 11:41:06,802 - DEBUG - FAILED LLM RESPONSE: 'NoneType' object has no attribute 'transform_results'
+2025-01-06 11:41:06,803 - DEBUG - [017c7c7b] grids took 0.23022150993347168 secs
+2025-01-06 11:41:06,803 - DEBUG - [017c7c7b] Processing fix attempts: 100%|##########| 1/1 [01:06<00:00, 66.99s/it]
+2025-01-06 11:41:06,803 - DEBUG - 
+2025-01-06 11:41:06,803 - DEBUG - [017c7c7b] Processing fix attempts: 100%|##########| 1/1 [01:06<00:00, 66.99s/it]
+2025-01-06 11:41:06,803 - DEBUG - 
+
+2025-01-06 11:41:06,803 - DEBUG - eval the attempts
+2025-01-06 11:41:06,803 - DEBUG - no attempts
+2025-01-06 11:41:06,803 - DEBUG - [017c7c7b] eval took 8.416175842285156e-05 secs
+2025-01-06 11:41:06,803 - DEBUG - ALL ATTEMPTS LEN: 0
+2025-01-06 11:41:06,803 - DEBUG - checkt attempts again
+2025-01-06 11:41:06,804 - DEBUG - [017c7c7b] DONE: n attempts: 5, total cost cents: 13.4055
+2025-01-06 11:41:06,804 - DEBUG - [017c7c7b] solution
+**{'challenge_id': '017c7c7b', 'challenge': Challenge(id='017c7c7b', train=[Example(input=[[0, 1, 0], [1, 1, 0], [0, 1, 0], [0, 1, 1], [0, 1, 0], [1, 1, 0]], output=[[0, 2, 0], [2, 2, 0], [0, 2, 0], [0, 2, 2], [0, 2, 0], [2, 2, 0], [0, 2, 0], [0, 2, 2], [0, 2, 0]]), Example(input=[[0, 1, 0], [1, 0, 1], [0, 1, 0], [1, 0, 1], [0, 1, 0], [1, 0, 1]], output=[[0, 2, 0], [2, 0, 2], [0, 2, 0], [2, 0, 2], [0, 2, 0], [2, 0, 2], [0, 2, 0], [2, 0, 2], [0, 2, 0]]), Example(input=[[0, 1, 0], [1, 1, 0], [0, 1, 0], [0, 1, 0], [1, 1, 0], [0, 1, 0]], output=[[0, 2, 0], [2, 2, 0], [0, 2, 0], [0, 2, 0], [2, 2, 0], [0, 2, 0], [0, 2, 0], [2, 2, 0], [0, 2, 0]])], test=[Example(input=[[1, 1, 1], [0, 1, 0], [0, 1, 0], [1, 1, 1], [0, 1, 0], [0, 1, 0]], output=[[2, 2, 2], [0, 2, 0], [0, 2, 0], [2, 2, 2], [0, 2, 0], [0, 2, 0], [2, 2, 2], [0, 2, 0], [0, 2, 0]])]), 'solution_d': [ChallengeSolution(attempt_1=[[1, 1, 1], [1, 1, 1], [0, 1, 0], [0, 1, 0], [0, 1, 0], [0, 1, 0], [1, 1, 1], [1, 1, 1], [0, 1, 0]], attempt_2=[[1, 1, 1], [2, 1, 2], [2, 1, 2], [1, 1, 1], [2, 1, 2], [2, 1, 2], [1, 1, 1], [2, 1, 2], [2, 1, 2]])]}**
+
+2025-01-06 11:41:06,806 - DEBUG - [017c7c7b] took 141.40 secs to solve and write
+2025-01-06 11:41:06,807 - DEBUG - FINAL: took 141.51 secs to run 1 challenges
+2025-01-06 11:41:06,807 - DEBUG - eval solutions
